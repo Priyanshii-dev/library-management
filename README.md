@@ -29,7 +29,6 @@ A modern, role-based library management system built with FastAPI, PostgreSQL, a
 ### Technical Features
 - ✅ PostgreSQL database
 - ✅ pgAdmin for database management
-- ✅ Docker & Docker Compose support
 - ✅ Async/await operations
 - ✅ Comprehensive error handling
 - ✅ API documentation (Swagger UI)
@@ -68,8 +67,6 @@ library_system/
 │   │   ├── otp_service.py           # OTP generation & verification
 │   │   └── email_service.py         # Email sending
 │   └── main.py                      # Application entry point
-├── docker-compose.yml               # Docker Compose configuration
-├── Dockerfile                       # Docker image
 ├── requirements.txt                 # Python dependencies
 ├── .env.example                     # Environment variables template
 └── README.md                        # This file
@@ -78,38 +75,12 @@ library_system/
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Docker & Docker Compose (recommended)
 - Python 3.11+
-- PostgreSQL 12+ (if not using Docker)
+- PostgreSQL 12+
+- pgAdmin 4
 
-### Option 1: Using Docker (Recommended)
 
-1. **Clone and setup:**
-```bash
-# Copy environment file
-cp .env.example .env
-
-# Update .env with your settings if needed
-nano .env
-```
-
-2. **Start services:**
-```bash
-docker-compose up -d
-```
-
-This will start:
-- PostgreSQL on `localhost:5432`
-- pgAdmin on `localhost:5050`
-- FastAPI app on `localhost:8000`
-
-3. **Access the system:**
-- API Documentation: http://localhost:8000/docs
-- pgAdmin: http://localhost:5050
-  - Email: `admin@library.com`
-  - Password: `admin`
-
-### Option 2: Local Development
+### Local Development
 
 1. **Create virtual environment:**
 ```bash
@@ -128,7 +99,12 @@ cp .env.example .env
 # Edit .env and set DATABASE_URL to your PostgreSQL connection
 ```
 
-4. **Run application:**
+4. **Run migrations:**
+
+```bash
+alembic upgrade head
+
+5. **Run application:**
 ```bash
 uvicorn app.main:app --reload
 ```
@@ -370,11 +346,11 @@ APP_ENV=development
 DEBUG=True
 
 # Database
-DB_HOST=postgres
+DB_HOST=localhost
 DB_PORT=5432
-DB_USER=library_user
-DB_PASSWORD=library_password
-DB_NAME=library_db
+DB_USER=hello
+DB_USER=postgres
+DB_PASSWORD=your_password
 
 # Security
 SECRET_KEY=your-super-secret-key-min-32-chars
@@ -414,7 +390,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173
 2. **General Tab:**
    - Name: `PostgreSQL`
 3. **Connection Tab:**
-   - Hostname: `postgres` (or your DB host)
+   - Hostname: `loaclhost` (or your DB host)
    - Port: `5432`
    - Username: `library_user`
    - Password: `library_password`
@@ -439,24 +415,6 @@ ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173
 8. **Search Books** → GET /api/v1/books/search?q=test
 
 ## 🛠️ Development
-
-### Makefile Commands
-```bash
-# Build and start containers
-docker-compose up -d
-
-# Stop containers
-docker-compose down
-
-# View logs
-docker-compose logs -f app
-
-# Access app container
-docker-compose exec app bash
-
-# Run database migrations (if using Alembic)
-docker-compose exec app alembic upgrade head
-```
 
 ### Database Migrations (Alembic)
 
@@ -501,21 +459,21 @@ Or use the API with a script to create the first admin.
 
 ### Database Connection Error
 ```
-Fix: Ensure PostgreSQL container is running
-docker-compose ps
-docker-compose logs postgres
+- Ensure PostgreSQL service is running.
+- Verify database credentials in `.env`.
+- Check if the database exists.
 ```
 
 ### OTP Not Received
 ```
-Fix: Check console logs (OTP is logged in development)
-docker-compose logs app | grep "OTP"
+- Check terminal logs.
+- Verify SMTP credentials.
+- Ensure email settings are configured correctly.
 ```
 
 ### Port Already in Use
 ```
-Fix: Change ports in docker-compose.yml or stop conflicting services
-docker-compose down
+- stop conflicting services
 ```
 
 ## 📚 Resources
@@ -535,4 +493,4 @@ For issues or questions, please create an issue in the repository.
 
 ---
 
-**Made with ❤️ for the library community**
+**Made with ❤️ by Priyanshii**

@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field, field_validator
 from typing import Optional
 from datetime import datetime
 
@@ -19,6 +19,7 @@ class UserUpdate(BaseModel):
     last_name: Optional[str] = None
     phone: Optional[str] = None
     email: Optional[EmailStr] = None
+    user_logo: Optional[str] = None  
 
 
 class UserOut(BaseModel):
@@ -29,11 +30,20 @@ class UserOut(BaseModel):
     phone: Optional[str] = None
     role: str
     status: str
+    user_logo: Optional[str] = None
     created_at: datetime
     updated_at: datetime
 
     class Config:
         from_attributes = True
+
+    @field_validator('user_logo', mode='before')
+    @classmethod
+    def convert_bytes_to_base64(cls, v):
+        if isinstance(v, bytes):
+            import base64
+            return base64.b64encode(v).decode('utf-8')
+        return v
 
 
 class UserListOut(BaseModel):
@@ -63,8 +73,17 @@ class UserDetailResponse(BaseModel):
     phone: Optional[str] = None
     role: str
     status: str
+    user_logo: Optional[str] = None 
     created_at: datetime
     updated_at: datetime
 
     class Config:
         from_attributes = True
+
+    @field_validator('user_logo', mode='before')
+    @classmethod
+    def convert_bytes_to_base64(cls, v):
+        if isinstance(v, bytes):
+            import base64
+            return base64.b64encode(v).decode('utf-8')
+        return v

@@ -1,5 +1,6 @@
 import logging
 import smtplib
+import asyncio
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from app.core.config import settings
@@ -12,17 +13,8 @@ class EmailService:
 
     @staticmethod
     async def send_otp_email(email: str, otp_code: str, username: str) -> bool:
-        """
-        Send OTP email to the user.
         
-        Args:
-            email: User's email address
-            otp_code: The OTP code to send
-            username: User's username for personalization
-            
-        Returns:
-            True if email sent successfully, False otherwise
-        """
+        # Send OTP email to the user.
         try:
             subject = "Library Management System - Email Verification"
             
@@ -64,15 +56,10 @@ class EmailService:
             Library Management System
             """
             
-            # For now, we'll just log the email instead of actually sending it
-            # In production, implement actual SMTP sending
-            logger.info(f"OTP email would be sent to {email}")
-            logger.info(f"OTP Code: {otp_code}")
+            logger.info(f"Sending OTP email to {email} (Code: {otp_code})")
             
-            # Uncomment below for actual SMTP sending
-            # await EmailService._send_smtp(email, subject, text_body, html_body)
-            
-            return True
+            # Call actual SMTP sending
+            return await EmailService._send_smtp(email, subject, text_body, html_body)
             
         except Exception as e:
             logger.error(f"Failed to send OTP email to {email}: {str(e)}")
@@ -81,18 +68,8 @@ class EmailService:
     @staticmethod
     async def send_approval_email(email: str, username: str, is_approved: bool, 
                                   rejection_reason: str | None = None) -> bool:
-        """
-        Send approval/rejection email to the user.
-        
-        Args:
-            email: User's email address
-            username: User's username
-            is_approved: Whether the user is approved
-            rejection_reason: Reason for rejection if applicable
-            
-        Returns:
-            True if email sent successfully, False otherwise
-        """
+       
+        # Send approval/rejection email
         try:
             if is_approved:
                 subject = "Library Management System - Account Approved"
@@ -121,21 +98,28 @@ class EmailService:
             </html>
             """
             
-            logger.info(f"Approval email would be sent to {email}")
-            return True
+            text_body = f"""
+            Account Status
+            
+            Hi {username},
+            
+            {status_msg}
+            
+            {action_msg}
+            
+            Library Management System
+            """
+            
+            logger.info(f"Sending status update email to {email} (Approved: {is_approved})")
+            return await EmailService._send_smtp(email, subject, text_body, html_body)
             
         except Exception as e:
             logger.error(f"Failed to send approval email to {email}: {str(e)}")
             return False
 
     @staticmethod
-    async def _send_smtp(to_email: str, subject: str, text_body: str, 
-                        html_body: str) -> bool:
-        """
-        Send email via SMTP (actual implementation).
-        
-        This is a placeholder. Implement based on your email provider.
-        """
+    def _send_smtp_blocking(to_email: str, subject: str, text_body: str, html_body: str) -> bool:
+        """Synchronous/blocking SMTP sending function run in a separate thread."""
         try:
             msg = MIMEMultipart("alternative")
             msg["Subject"] = subject
@@ -148,13 +132,33 @@ class EmailService:
             msg.attach(part1)
             msg.attach(part2)
             
-            # Implement your SMTP logic here
-            # with smtplib.SMTP(settings.SMTP_SERVER, settings.SMTP_PORT) as server:
-            #     server.starttls()
-            #     server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
-            #     server.sendmail(settings.SMTP_FROM_EMAIL, to_email, msg.as_string())
+            # Select connection type based on port
+            if settings.SMTP_PORT == 465:
+                server = smtplib.SMTP_SSL(settings.SMTP_SERVER, settings.SMTP_PORT, timeout=10)
+            else:
+                server = smtplib.SMTP(settings.SMTP_SERVER, settings.SMTP_PORT, timeout=10)
+                # Call starttls for port 587 (or similar TLS ports)
+                if settings.SMTP_PORT == 587:
+                    server.starttls()
             
+            with server:
+                if settings.SMTP_USER and settings.SMTP_PASSWORD:
+                    server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
+                server.sendmail(settings.SMTP_FROM_EMAIL, to_email, msg.as_string())
+            
+            logger.info(f"Email sent successfully to {to_email}")
             return True
         except Exception as e:
-            logger.error(f"SMTP Error: {str(e)}")
+            logger.error(f"SMTP Error while sending to {to_email}: {str(e)}")
             return False
+
+    @staticmethod
+    async def _send_smtp(to_email: str, subject: str, text_body: str, html_body: str) -> bool:
+        """Send email via SMTP (non-blocking async wrapper)."""
+        return await asyncio.to_thread(
+            EmailService._send_smtp_blocking,
+            to_email,
+            subject,
+            text_body,
+            html_body
+        )

@@ -25,12 +25,10 @@ logging.basicConfig(
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: create tables (use Alembic instead in real prod)
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    # async with engine.begin() as conn:
+    #     await conn.run_sync(Base.metadata.create_all)
     logger.info(" Database tables ready.")
     yield
-    # Shutdown
     await engine.dispose()
     logger.info(" Database connections closed.")
 

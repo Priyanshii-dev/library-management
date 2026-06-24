@@ -144,8 +144,9 @@ class AuthService:
         access_token = create_access_token({"sub": str(user.id)})
         refresh_token = create_refresh_token({"sub": str(user.id)})
 
-        # Store refresh token
+        # Store refresh and access token
         user.refresh_token = refresh_token
+        user.access_token = access_token
         await self.db.commit()
 
         return TokenResponse(
@@ -188,8 +189,9 @@ class AuthService:
         access_token = create_access_token({"sub": str(user.id)})
         new_refresh_token = create_refresh_token({"sub": str(user.id)})
 
-        # Update refresh token
+        # Update refresh and access token
         user.refresh_token = new_refresh_token
+        user.access_token = access_token
         await self.db.commit()
 
         return TokenResponse(
@@ -201,8 +203,9 @@ class AuthService:
         )
 
     async def logout(self, user: User) -> None:
-        """Logout user by clearing refresh token."""
+        """Logout user by clearing refresh token and access token."""
         user.refresh_token = None
+        user.access_token = None
         await self.db.commit()
 
     async def request_otp_resend(self, email: str) -> dict:

@@ -1,6 +1,6 @@
 import enum
 from datetime import datetime, timezone
-from sqlalchemy import Boolean, DateTime, Enum, Integer, String, Text
+from sqlalchemy import Boolean, DateTime, Enum, Integer, String, Text, LargeBinary
 from sqlalchemy.orm import Mapped, mapped_column
 from app.db.session import Base
 
@@ -29,8 +29,14 @@ class User(Base):
     
     # Security (hashed password stored in password column)
     password: Mapped[str] = mapped_column(String(255), nullable=False)
-    refresh_token: Mapped[str | None] = mapped_column(String(512), nullable=True)
+    from sqlalchemy import Text
+
+    refresh_token: Mapped[str | None] = mapped_column(Text, nullable=True)
+    access_token:  Mapped[str | None] = mapped_column(Text, nullable=True)
     
+    # User Logo (stored in binary format)
+    user_logo: Mapped[bytes | None] = mapped_column(LargeBinary, nullable=True)
+    address: Mapped[str | None] = mapped_column(String(255), nullable=True)
     # OTP Verification
     otp_code: Mapped[str | None] = mapped_column(String(6), nullable=True)
     otp_created_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)

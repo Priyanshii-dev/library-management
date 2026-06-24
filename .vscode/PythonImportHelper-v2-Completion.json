@@ -16,6 +16,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -56,7 +72,95 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -72,7 +176,63 @@
         "documentation": {}
     },
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
         "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
         "importPath": "alembic",
         "description": "alembic",
         "isExtraImport": true,
@@ -137,46 +297,6 @@
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Enum",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -209,7 +329,7 @@
         "documentation": {}
     },
     {
-        "label": "select",
+        "label": "LargeBinary",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -218,22 +338,6 @@
     },
     {
         "label": "select",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "or_",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -257,11 +361,11 @@
         "documentation": {}
     },
     {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -305,22 +409,6 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.db.session",
-        "description": "app.db.session",
-        "isExtraImport": true,
-        "detail": "app.db.session",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.db.session",
-        "description": "app.db.session",
-        "isExtraImport": true,
-        "detail": "app.db.session",
-        "documentation": {}
-    },
-    {
         "label": "Base",
         "importPath": "app.db.session",
         "description": "app.db.session",
@@ -345,6 +433,23 @@
         "documentation": {}
     },
     {
+        "label": "app.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.models",
+        "description": "app.models",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "app.core.config",
         "description": "app.core.config",
@@ -457,38 +562,6 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Query",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -514,22 +587,6 @@
     },
     {
         "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -609,35 +666,19 @@
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordRequestForm",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
         "isExtraImport": true,
-        "detail": "fastapi.security",
+        "detail": "fastapi.encoders",
         "documentation": {}
     },
     {
-        "label": "HTTPBearer",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
         "isExtraImport": true,
-        "detail": "fastapi.security",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPAuthorizationCredentials",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
-        "isExtraImport": true,
-        "detail": "fastapi.security",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncSession",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
+        "detail": "fastapi.encoders",
         "documentation": {}
     },
     {
@@ -705,31 +746,7 @@
         "documentation": {}
     },
     {
-        "label": "AsyncSession",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
-        "documentation": {}
-    },
-    {
         "label": "get_current_user",
-        "importPath": "app.api.v1.dependencies",
-        "description": "app.api.v1.dependencies",
-        "isExtraImport": true,
-        "detail": "app.api.v1.dependencies",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "app.api.v1.dependencies",
-        "description": "app.api.v1.dependencies",
-        "isExtraImport": true,
-        "detail": "app.api.v1.dependencies",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_admin",
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
         "isExtraImport": true,
@@ -785,6 +802,14 @@
         "documentation": {}
     },
     {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "importPath": "app.models.user",
         "description": "app.models.user",
@@ -801,7 +826,23 @@
         "documentation": {}
     },
     {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
         "importPath": "app.models.user",
         "description": "app.models.user",
         "isExtraImport": true,
@@ -841,7 +882,7 @@
         "documentation": {}
     },
     {
-        "label": "ApprovalStatusResponse",
+        "label": "LoginRequest",
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
         "isExtraImport": true,
@@ -890,22 +931,6 @@
     },
     {
         "label": "UserDetailResponse",
-        "importPath": "app.schemas.user",
-        "description": "app.schemas.user",
-        "isExtraImport": true,
-        "detail": "app.schemas.user",
-        "documentation": {}
-    },
-    {
-        "label": "UserListOut",
-        "importPath": "app.schemas.user",
-        "description": "app.schemas.user",
-        "isExtraImport": true,
-        "detail": "app.schemas.user",
-        "documentation": {}
-    },
-    {
-        "label": "UserApprovalRequest",
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
         "isExtraImport": true,
@@ -961,59 +986,19 @@
         "documentation": {}
     },
     {
-        "label": "BookCreate",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
         "isExtraImport": true,
-        "detail": "app.schemas.book",
+        "detail": "app.utils.response",
         "documentation": {}
     },
     {
-        "label": "BookOut",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
         "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookUpdate",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookCreate",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookUpdate",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookOut",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookService",
-        "importPath": "app.services.book_service",
-        "description": "app.services.book_service",
-        "isExtraImport": true,
-        "detail": "app.services.book_service",
+        "detail": "app.utils.response",
         "documentation": {}
     },
     {
@@ -1022,6 +1007,22 @@
         "description": "app.services.user_service",
         "isExtraImport": true,
         "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
         "documentation": {}
     },
     {
@@ -1078,14 +1079,6 @@
         "description": "app.api.v1.routes.auth",
         "isExtraImport": true,
         "detail": "app.api.v1.routes.auth",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "importPath": "app.api.v1.routes.books",
-        "description": "app.api.v1.routes.books",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.books",
         "documentation": {}
     },
     {
@@ -1154,30 +1147,6 @@
     },
     {
         "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1305,30 +1274,6 @@
         "documentation": {}
     },
     {
-        "label": "Mapped",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "mapped_column",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "selectinload",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "enum",
         "kind": 6,
         "isExtraImport": true,
@@ -1370,22 +1315,6 @@
         "documentation": {}
     },
     {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
         "label": "EmailStr",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -1395,6 +1324,14 @@
     },
     {
         "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -1435,20 +1372,21 @@
         "documentation": {}
     },
     {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
         "label": "smtplib",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "smtplib",
         "description": "smtplib",
         "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -1486,6 +1424,22 @@
         "documentation": {}
     },
     {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "asynccontextmanager",
         "importPath": "contextlib",
         "description": "contextlib",
@@ -1499,14 +1453,6 @@
         "description": "fastapi.middleware.cors",
         "isExtraImport": true,
         "detail": "fastapi.middleware.cors",
-        "documentation": {}
-    },
-    {
-        "label": "JSONResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
-        "isExtraImport": true,
-        "detail": "fastapi.responses",
         "documentation": {}
     },
     {
@@ -1534,37 +1480,87 @@
         "documentation": {}
     },
     {
-        "label": "user",
-        "importPath": "app.models",
-        "description": "app.models",
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
         "isExtraImport": true,
-        "detail": "app.models",
+        "detail": "sqlalchemy.dialects",
         "documentation": {}
     },
     {
-        "label": "book",
-        "importPath": "app.models",
-        "description": "app.models",
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
         "isExtraImport": true,
-        "detail": "app.models",
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "ENUM",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
         "documentation": {}
     },
     {
         "label": "upgrade",
         "kind": 2,
-        "importPath": "alembic.versions.6051d6cdb446_initial_migration",
-        "description": "alembic.versions.6051d6cdb446_initial_migration",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_table('users')\n    op.drop_index(op.f('ix_books_author'), table_name='books')\n    op.drop_index(op.f('ix_books_category'), table_name='books')\n    op.drop_index(op.f('ix_books_id'), table_name='books')",
-        "detail": "alembic.versions.6051d6cdb446_initial_migration",
+        "importPath": "alembic.versions.7cf562f06416_add_address_field",
+        "description": "alembic.versions.7cf562f06416_add_address_field",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('address', sa.String(length=255), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'address')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7cf562f06416_add_address_field",
         "documentation": {}
     },
     {
         "label": "downgrade",
         "kind": 2,
-        "importPath": "alembic.versions.6051d6cdb446_initial_migration",
-        "description": "alembic.versions.6051d6cdb446_initial_migration",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('books',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('title', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('author', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('isbn', sa.VARCHAR(length=20), autoincrement=False, nullable=False),\n    sa.Column('description', sa.TEXT(), autoincrement=False, nullable=True),\n    sa.Column('category', sa.VARCHAR(length=100), autoincrement=False, nullable=True),",
-        "detail": "alembic.versions.6051d6cdb446_initial_migration",
+        "importPath": "alembic.versions.7cf562f06416_add_address_field",
+        "description": "alembic.versions.7cf562f06416_add_address_field",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'address')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7cf562f06416_add_address_field",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.dc048a131005_initial_migration",
+        "description": "alembic.versions.dc048a131005_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('first_name', sa.String(length=100), nullable=False),\n    sa.Column('last_name', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=255), nullable=False),\n    sa.Column('phone', sa.String(length=20), nullable=True),\n    sa.Column('password', sa.String(length=255), nullable=False),",
+        "detail": "alembic.versions.dc048a131005_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.dc048a131005_initial_migration",
+        "description": "alembic.versions.dc048a131005_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.dc048a131005_initial_migration",
         "documentation": {}
     },
     {
@@ -1608,17 +1604,8 @@
         "kind": 5,
         "importPath": "app.api.v1.routes.auth",
         "description": "app.api.v1.routes.auth",
-        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])\n@router.post(\"/register\", response_model=UserOut, status_code=status.HTTP_201_CREATED)\nasync def register(\n    data: RegistrationRequest,\n    db: AsyncSession = Depends(get_db),\n):\n    \"\"\"\n    Register a new user account.\n    User will receive an OTP via email for verification.\n    Account will be pending admin approval.",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])\n@router.post(\"/register\", status_code=status.HTTP_201_CREATED)\nasync def register(\n    data: RegistrationRequest,\n    db: AsyncSession = Depends(get_db),\n):\n    \"\"\"\n    Register a new user account.\n    User will receive an OTP via email for verification.\n    \"\"\"",
         "detail": "app.api.v1.routes.auth",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "app.api.v1.routes.books",
-        "description": "app.api.v1.routes.books",
-        "peekOfCode": "router = APIRouter(prefix=\"/books\", tags=[\"Books\"])\n@router.get(\"/\", response_model=list[BookOut])\nasync def list_books(\n    skip: int = Query(0, ge=0),\n    limit: int = Query(20, ge=1, le=100),\n    db: AsyncSession = Depends(get_db),\n    _=Depends(get_current_user),\n):\n    \"\"\"\n    List all available books.",
-        "detail": "app.api.v1.routes.books",
         "documentation": {}
     },
     {
@@ -1626,7 +1613,7 @@
         "kind": 5,
         "importPath": "app.api.v1.routes.users",
         "description": "app.api.v1.routes.users",
-        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n@router.get(\"/profile/me\", response_model=UserDetailResponse)\nasync def get_my_profile(\n    current_user: User = Depends(get_current_user),\n):\n    \"\"\"\n    Get current user's profile details.\n    \"\"\"\n    return current_user\n@router.patch(\"/profile/me\", response_model=UserDetailResponse)",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n@router.get(\"/profile/me\")\nasync def get_my_profile(\n    current_user: User = Depends(get_current_user),\n):\n    \"\"\"\n    Get current user's profile details.\n    \"\"\"\n    user_out = UserDetailResponse.model_validate(current_user)\n    return api_response(",
         "detail": "app.api.v1.routes.users",
         "documentation": {}
     },
@@ -1635,7 +1622,7 @@
         "kind": 5,
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
-        "peekOfCode": "security = HTTPBearer()\nasync def get_current_user(\n    credentials: HTTPAuthCredentials = Depends(security),\n    db: AsyncSession = Depends(get_db),\n) -> User:\n    \"\"\"\n    Get the current authenticated user.\n    \"\"\"\n    try:\n        token = credentials.credentials",
+        "peekOfCode": "security = HTTPBearer()\nasync def get_current_user(\n    credentials: HTTPAuthorizationCredentials = Depends(security),\n    db: AsyncSession = Depends(get_db),\n) -> User:\n    \"\"\"\n    Get the current authenticated user.\n    Only allows users with Approved status.\n    \"\"\"\n    try:",
         "detail": "app.api.v1.dependencies",
         "documentation": {}
     },
@@ -1644,7 +1631,7 @@
         "kind": 5,
         "importPath": "app.api.v1.router",
         "description": "app.api.v1.router",
-        "peekOfCode": "api_router = APIRouter()\n# Include all routers\napi_router.include_router(auth_router)\napi_router.include_router(books_router)\napi_router.include_router(users_router)",
+        "peekOfCode": "api_router = APIRouter()\n# Include all routers\napi_router.include_router(auth_router)\napi_router.include_router(users_router)",
         "detail": "app.api.v1.router",
         "documentation": {}
     },
@@ -1680,16 +1667,7 @@
         "kind": 6,
         "importPath": "app.core.exceptions",
         "description": "app.core.exceptions",
-        "peekOfCode": "class UserNotFound(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_404_NOT_FOUND,\n            detail=\"User not found\",\n        )\nclass BookNotFound(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_404_NOT_FOUND,",
-        "detail": "app.core.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "BookNotFound",
-        "kind": 6,
-        "importPath": "app.core.exceptions",
-        "description": "app.core.exceptions",
-        "peekOfCode": "class BookNotFound(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_404_NOT_FOUND,\n            detail=\"Book not found\",\n        )\nclass InvalidCredentials(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_401_UNAUTHORIZED,",
+        "peekOfCode": "class UserNotFound(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_404_NOT_FOUND,\n            detail=\"User not found\",\n        )\nclass InvalidCredentials(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_401_UNAUTHORIZED,",
         "detail": "app.core.exceptions",
         "documentation": {}
     },
@@ -1820,20 +1798,20 @@
         "documentation": {}
     },
     {
-        "label": "Book",
-        "kind": 6,
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "peekOfCode": "class Book(Base):\n    __tablename__ = \"books\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    title: Mapped[str] = mapped_column(String(255), nullable=False, index=True)\n    author: Mapped[str] = mapped_column(String(255), nullable=False, index=True)\n    isbn: Mapped[str] = mapped_column(String(20), unique=True, nullable=False, index=True)\n    description: Mapped[str | None] = mapped_column(Text, nullable=True)\n    category: Mapped[str | None] = mapped_column(String(100), nullable=True, index=True)\n    publisher: Mapped[str | None] = mapped_column(String(255), nullable=True)\n    publication_year: Mapped[int | None] = mapped_column(Integer, nullable=True)",
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
         "label": "UserRole",
         "kind": 6,
         "importPath": "app.models.user",
         "description": "app.models.user",
-        "peekOfCode": "class UserRole(str, enum.Enum):\n    ADMIN = \"admin\"\n    USER = \"user\"\nclass User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    # Basic Info\n    username: Mapped[str] = mapped_column(String(50), unique=True, index=True, nullable=False)\n    email: Mapped[str] = mapped_column(String(255), unique=True, index=True, nullable=False)\n    full_name: Mapped[str] = mapped_column(String(255), nullable=False)",
+        "peekOfCode": "class UserRole(str, enum.Enum):\n    ADMIN = \"Admin\"\n    USER = \"User\"\nclass UserStatus(str, enum.Enum):\n    PENDING = \"Pending\"\n    APPROVED = \"Approved\"\n    REJECTED = \"Rejected\"\nclass User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)",
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "kind": 6,
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "peekOfCode": "class UserStatus(str, enum.Enum):\n    PENDING = \"Pending\"\n    APPROVED = \"Approved\"\n    REJECTED = \"Rejected\"\nclass User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    # Basic Info\n    first_name: Mapped[str] = mapped_column(String(100), nullable=False)\n    last_name: Mapped[str] = mapped_column(String(100), nullable=False)",
         "detail": "app.models.user",
         "documentation": {}
     },
@@ -1842,7 +1820,7 @@
         "kind": 6,
         "importPath": "app.models.user",
         "description": "app.models.user",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    # Basic Info\n    username: Mapped[str] = mapped_column(String(50), unique=True, index=True, nullable=False)\n    email: Mapped[str] = mapped_column(String(255), unique=True, index=True, nullable=False)\n    full_name: Mapped[str] = mapped_column(String(255), nullable=False)\n    phone: Mapped[str | None] = mapped_column(String(20), nullable=True)\n    bio: Mapped[str | None] = mapped_column(Text, nullable=True)\n    # Security",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    # Basic Info\n    first_name: Mapped[str] = mapped_column(String(100), nullable=False)\n    last_name: Mapped[str] = mapped_column(String(100), nullable=False)\n    email: Mapped[str] = mapped_column(String(255), unique=True, index=True, nullable=False)\n    phone: Mapped[str | None] = mapped_column(String(20), nullable=True)\n    # Security (hashed password stored in password column)\n    password: Mapped[str] = mapped_column(String(255), nullable=False)",
         "detail": "app.models.user",
         "documentation": {}
     },
@@ -1851,7 +1829,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"admin\" or \"user\"\n    user_id: int\n    username: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1860,7 +1838,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    username: str = Field(..., min_length=3)\n    password: str = Field(..., min_length=6)",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1869,7 +1847,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    username: str = Field(..., min_length=3)\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)",
+        "peekOfCode": "class OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1878,7 +1856,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    username: str = Field(..., min_length=3)\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)\n    email: EmailStr\n    password: str = Field(..., min_length=6)",
+        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1887,7 +1865,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    username: str = Field(..., min_length=3)\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)\n    email: EmailStr\n    password: str = Field(..., min_length=6)\n    full_name: str = Field(..., min_length=2)\n    phone: Optional[str] = None\nclass ApprovalStatusResponse(BaseModel):",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass ApprovalStatusResponse(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1896,7 +1874,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RegistrationRequest(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)\n    email: EmailStr\n    password: str = Field(..., min_length=6)\n    full_name: str = Field(..., min_length=2)\n    phone: Optional[str] = None\nclass ApprovalStatusResponse(BaseModel):\n    is_approved: bool\n    message: str\n    approval_reason: Optional[str] = None",
+        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1905,53 +1883,8 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class ApprovalStatusResponse(BaseModel):\n    is_approved: bool\n    message: str\n    approval_reason: Optional[str] = None",
+        "peekOfCode": "class ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
         "detail": "app.schemas.auth",
-        "documentation": {}
-    },
-    {
-        "label": "BookBase",
-        "kind": 6,
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "peekOfCode": "class BookBase(BaseModel):\n    title: str = Field(..., min_length=1)\n    author: str = Field(..., min_length=1)\n    isbn: str = Field(..., min_length=10, max_length=20)\n    description: Optional[str] = None\n    category: Optional[str] = None\n    publisher: Optional[str] = None\n    publication_year: Optional[int] = None\n    pages: Optional[int] = None\nclass BookCreate(BookBase):",
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookCreate",
-        "kind": 6,
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "peekOfCode": "class BookCreate(BookBase):\n    total_copies: int = Field(default=1, ge=1)\n    available_copies: int = Field(default=1, ge=0)\nclass BookUpdate(BaseModel):\n    title: Optional[str] = None\n    author: Optional[str] = None\n    isbn: Optional[str] = None\n    description: Optional[str] = None\n    category: Optional[str] = None\n    publisher: Optional[str] = None",
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookUpdate",
-        "kind": 6,
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "peekOfCode": "class BookUpdate(BaseModel):\n    title: Optional[str] = None\n    author: Optional[str] = None\n    isbn: Optional[str] = None\n    description: Optional[str] = None\n    category: Optional[str] = None\n    publisher: Optional[str] = None\n    publication_year: Optional[int] = None\n    pages: Optional[int] = None\n    total_copies: Optional[int] = None",
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookOut",
-        "kind": 6,
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "peekOfCode": "class BookOut(BaseModel):\n    id: int\n    title: str\n    author: str\n    isbn: str\n    description: Optional[str] = None\n    category: Optional[str] = None\n    publisher: Optional[str] = None\n    publication_year: Optional[int] = None\n    pages: Optional[int] = None",
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookSearchResponse",
-        "kind": 6,
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "peekOfCode": "class BookSearchResponse(BaseModel):\n    id: int\n    title: str\n    author: str\n    isbn: str\n    category: Optional[str] = None\n    is_available: bool\n    available_copies: int\n    class Config:\n        from_attributes = True",
-        "detail": "app.schemas.book",
         "documentation": {}
     },
     {
@@ -1959,7 +1892,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: EmailStr\n    full_name: str\n    phone: Optional[str] = None\n    bio: Optional[str] = None\nclass UserCreate(UserBase):\n    password: str = Field(..., min_length=6)\nclass UserUpdate(BaseModel):\n    full_name: Optional[str] = None",
+        "peekOfCode": "class UserBase(BaseModel):\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\nclass UserCreate(UserBase):\n    password: str = Field(..., min_length=6)\nclass UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -1968,7 +1901,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserCreate(UserBase):\n    password: str = Field(..., min_length=6)\nclass UserUpdate(BaseModel):\n    full_name: Optional[str] = None\n    phone: Optional[str] = None\n    bio: Optional[str] = None\n    email: Optional[EmailStr] = None\nclass UserOut(BaseModel):\n    id: int\n    username: str",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str = Field(..., min_length=6)\nclass UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    phone: Optional[str] = None\n    email: Optional[EmailStr] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -1977,7 +1910,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserUpdate(BaseModel):\n    full_name: Optional[str] = None\n    phone: Optional[str] = None\n    bio: Optional[str] = None\n    email: Optional[EmailStr] = None\nclass UserOut(BaseModel):\n    id: int\n    username: str\n    email: str\n    full_name: str",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    phone: Optional[str] = None\n    email: Optional[EmailStr] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -1986,7 +1919,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserOut(BaseModel):\n    id: int\n    username: str\n    email: str\n    full_name: str\n    phone: Optional[str] = None\n    bio: Optional[str] = None\n    role: str\n    is_approved: bool\n    is_active: bool",
+        "peekOfCode": "class UserOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    user_logo: Optional[str] = None\n    created_at: datetime",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -1995,7 +1928,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserListOut(BaseModel):\n    id: int\n    username: str\n    email: str\n    full_name: str\n    role: str\n    is_approved: bool\n    is_active: bool\n    created_at: datetime\n    class Config:",
+        "peekOfCode": "class UserListOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    created_at: datetime\n    class Config:",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -2004,7 +1937,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserApprovalRequest(BaseModel):\n    user_id: int\n    is_approved: bool\n    rejection_reason: Optional[str] = None\nclass UserDetailResponse(BaseModel):\n    id: int\n    username: str\n    email: str\n    full_name: str\n    phone: Optional[str] = None",
+        "peekOfCode": "class UserApprovalRequest(BaseModel):\n    user_id: int\n    status: str  # \"Approved\" or \"Rejected\"\nclass UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -2013,7 +1946,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserDetailResponse(BaseModel):\n    id: int\n    username: str\n    email: str\n    full_name: str\n    phone: Optional[str] = None\n    bio: Optional[str] = None\n    role: str\n    is_approved: bool\n    is_active: bool",
+        "peekOfCode": "class UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    user_logo: Optional[str] = None \n    created_at: datetime",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -2022,7 +1955,7 @@
         "kind": 6,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "class AuthService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"\n        Register a new user with OTP verification.\n        User will be created but not approved until admin approves.\n        \"\"\"\n        # Check if username or email already exists\n        stmt = select(User).where(",
+        "peekOfCode": "class AuthService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"\n        Register a new user with OTP verification.\n        User will be created but not approved until email verified and admin approves.\n        \"\"\"\n        # Check if email already exists\n        stmt = select(User).where(User.email == data.email)",
         "detail": "app.services.auth_service",
         "documentation": {}
     },
@@ -2031,26 +1964,8 @@
         "kind": 5,
         "importPath": "app.services.auth_service",
         "description": "app.services.auth_service",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AuthService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"\n        Register a new user with OTP verification.\n        User will be created but not approved until admin approves.\n        \"\"\"\n        # Check if username or email already exists",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AuthService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"\n        Register a new user with OTP verification.\n        User will be created but not approved until email verified and admin approves.\n        \"\"\"\n        # Check if email already exists",
         "detail": "app.services.auth_service",
-        "documentation": {}
-    },
-    {
-        "label": "BookService",
-        "kind": 6,
-        "importPath": "app.services.book_service",
-        "description": "app.services.book_service",
-        "peekOfCode": "class BookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_books(self, skip: int = 0, limit: int = 20) -> list[BookOut]:\n        \"\"\"List all active books.\"\"\"\n        stmt = (\n            select(Book)\n            .where(Book.is_active == True)\n            .offset(skip)\n            .limit(limit)",
-        "detail": "app.services.book_service",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "app.services.book_service",
-        "description": "app.services.book_service",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass BookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_books(self, skip: int = 0, limit: int = 20) -> list[BookOut]:\n        \"\"\"List all active books.\"\"\"\n        stmt = (\n            select(Book)\n            .where(Book.is_active == True)\n            .offset(skip)",
-        "detail": "app.services.book_service",
         "documentation": {}
     },
     {
@@ -2058,7 +1973,7 @@
         "kind": 6,
         "importPath": "app.services.email_service",
         "description": "app.services.email_service",
-        "peekOfCode": "class EmailService:\n    \"\"\"Service for sending emails.\"\"\"\n    @staticmethod\n    async def send_otp_email(email: str, otp_code: str, username: str) -> bool:\n        \"\"\"\n        Send OTP email to the user.\n        Args:\n            email: User's email address\n            otp_code: The OTP code to send\n            username: User's username for personalization",
+        "peekOfCode": "class EmailService:\n    \"\"\"Service for sending emails.\"\"\"\n    @staticmethod\n    async def send_otp_email(email: str, otp_code: str, username: str) -> bool:\n        # Send OTP email to the user.\n        try:\n            subject = \"Library Management System - Email Verification\"\n            html_body = f\"\"\"\n            <html>\n                <body style=\"font-family: Arial, sans-serif;\">",
         "detail": "app.services.email_service",
         "documentation": {}
     },
@@ -2067,7 +1982,7 @@
         "kind": 5,
         "importPath": "app.services.email_service",
         "description": "app.services.email_service",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass EmailService:\n    \"\"\"Service for sending emails.\"\"\"\n    @staticmethod\n    async def send_otp_email(email: str, otp_code: str, username: str) -> bool:\n        \"\"\"\n        Send OTP email to the user.\n        Args:\n            email: User's email address\n            otp_code: The OTP code to send",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass EmailService:\n    \"\"\"Service for sending emails.\"\"\"\n    @staticmethod\n    async def send_otp_email(email: str, otp_code: str, username: str) -> bool:\n        # Send OTP email to the user.\n        try:\n            subject = \"Library Management System - Email Verification\"\n            html_body = f\"\"\"\n            <html>",
         "detail": "app.services.email_service",
         "documentation": {}
     },
@@ -2099,6 +2014,15 @@
         "documentation": {}
     },
     {
+        "label": "api_response",
+        "kind": 2,
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "peekOfCode": "def api_response(\n    data=None,\n    message=None,\n    status_code=200,\n    meta=None\n):\n    response = {\n        \"error\": False,\n        \"message\": message,\n        \"statusCode\": status_code,",
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
         "label": "create_app",
         "kind": 2,
         "importPath": "app.main",
@@ -2112,7 +2036,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n# Configure logging\nlogging.basicConfig(\n    level=logging.INFO,\n    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'\n)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # Startup: create tables (use Alembic instead in real prod)\n    async with engine.begin() as conn:",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Configure logging\nlogging.basicConfig(\n    level=logging.INFO,\n    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'\n)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # async with engine.begin() as conn:\n    #     await conn.run_sync(Base.metadata.create_all)",
         "detail": "app.main",
         "documentation": {}
     },
@@ -2123,6 +2047,114 @@
         "description": "app.main",
         "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\n        \"app.main:app\",\n        host=\"0.0.0.0\",\n        port=8000,\n        reload=True,\n        log_level=\"info\",\n    )",
         "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "old_migrations.07f4b9129d8a_migration",
+        "description": "old_migrations.07f4b9129d8a_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    userrole = ENUM(",
+        "detail": "old_migrations.07f4b9129d8a_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "old_migrations.07f4b9129d8a_migration",
+        "description": "old_migrations.07f4b9129d8a_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    userrole = ENUM(\n        'ADMIN',\n        'USER',\n        name='userrole',\n        create_type=False\n    )\n    userstatus = ENUM(\n        'PENDING',",
+        "detail": "old_migrations.07f4b9129d8a_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "old_migrations.2a7b8bbf19a5_initial_migration",
+        "description": "old_migrations.2a7b8bbf19a5_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_table('users')\n    op.drop_index(op.f('ix_books_author'), table_name='books')\n    op.drop_index(op.f('ix_books_category'), table_name='books')\n    op.drop_index(op.f('ix_books_id'), table_name='books')",
+        "detail": "old_migrations.2a7b8bbf19a5_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "old_migrations.2a7b8bbf19a5_initial_migration",
+        "description": "old_migrations.2a7b8bbf19a5_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('books',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('title', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('author', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('isbn', sa.VARCHAR(length=20), autoincrement=False, nullable=False),\n    sa.Column('description', sa.TEXT(), autoincrement=False, nullable=True),\n    sa.Column('category', sa.VARCHAR(length=100), autoincrement=False, nullable=True),",
+        "detail": "old_migrations.2a7b8bbf19a5_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "old_migrations.6051d6cdb446_initial_migration",
+        "description": "old_migrations.6051d6cdb446_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_table('users')\n    op.drop_index(op.f('ix_books_author'), table_name='books')\n    op.drop_index(op.f('ix_books_category'), table_name='books')\n    op.drop_index(op.f('ix_books_id'), table_name='books')",
+        "detail": "old_migrations.6051d6cdb446_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "old_migrations.6051d6cdb446_initial_migration",
+        "description": "old_migrations.6051d6cdb446_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('books',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('title', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('author', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('isbn', sa.VARCHAR(length=20), autoincrement=False, nullable=False),\n    sa.Column('description', sa.TEXT(), autoincrement=False, nullable=True),\n    sa.Column('category', sa.VARCHAR(length=100), autoincrement=False, nullable=True),",
+        "detail": "old_migrations.6051d6cdb446_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "old_migrations.73478ff771ab_added_logo_coulmn",
+        "description": "old_migrations.73478ff771ab_added_logo_coulmn",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "old_migrations.73478ff771ab_added_logo_coulmn",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "old_migrations.73478ff771ab_added_logo_coulmn",
+        "description": "old_migrations.73478ff771ab_added_logo_coulmn",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('first_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('last_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('email', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('phone', sa.VARCHAR(length=20), autoincrement=False, nullable=True),\n    sa.Column('password', sa.VARCHAR(length=255), autoincrement=False, nullable=False),",
+        "detail": "old_migrations.73478ff771ab_added_logo_coulmn",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "old_migrations.88cfe6cee905_added_logo_coulmn",
+        "description": "old_migrations.88cfe6cee905_added_logo_coulmn",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "old_migrations.88cfe6cee905_added_logo_coulmn",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "old_migrations.88cfe6cee905_added_logo_coulmn",
+        "description": "old_migrations.88cfe6cee905_added_logo_coulmn",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('first_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('last_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('email', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('phone', sa.VARCHAR(length=20), autoincrement=False, nullable=True),\n    sa.Column('password', sa.VARCHAR(length=255), autoincrement=False, nullable=False),",
+        "detail": "old_migrations.88cfe6cee905_added_logo_coulmn",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "old_migrations.fe6e3988efb0_add_logo_column",
+        "description": "old_migrations.fe6e3988efb0_add_logo_column",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
+        "detail": "old_migrations.fe6e3988efb0_add_logo_column",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "old_migrations.fe6e3988efb0_add_logo_column",
+        "description": "old_migrations.fe6e3988efb0_add_logo_column",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
+        "detail": "old_migrations.fe6e3988efb0_add_logo_column",
         "documentation": {}
     },
     {

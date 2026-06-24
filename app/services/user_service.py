@@ -67,6 +67,21 @@ class UserService:
             user.last_name = data.last_name
         if data.phone:
             user.phone = data.phone
+        if data.user_logo is not None:
+            if data.user_logo == "":
+                user.user_logo = None
+            else:
+                import base64
+                try:
+                    logo_str = data.user_logo
+                    if "," in logo_str:
+                        logo_str = logo_str.split(",")[1]
+                    user.user_logo = base64.b64decode(logo_str)
+                except Exception as e:
+                    raise HTTPException(
+                        status_code=status.HTTP_400_BAD_REQUEST,
+                        detail=f"Invalid base64 string for user_logo: {str(e)}"
+                    )
 
         await self.db.commit()
         await self.db.refresh(user)

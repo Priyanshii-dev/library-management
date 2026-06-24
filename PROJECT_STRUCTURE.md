@@ -34,7 +34,7 @@ library_system_updated/
 │   ├── models/
 │   │   ├── __init__.py
 │   │   ├── user.py                      # User model (with OTP fields, approval workflow)
-│   │   └── book.py                      # Book model (without loan references)
+│   │   └── book.py                      # Book model (with book fields)
 │   │
 │   ├── schemas/
 │   │   ├── __init__.py
@@ -50,8 +50,6 @@ library_system_updated/
 │       ├── otp_service.py               # OTP generation and verification
 │       └── email_service.py             # Email sending (OTP, approval notifications)
 │
-├── docker-compose.yml                   # Docker Compose for PostgreSQL, pgAdmin, App
-├── Dockerfile                           # Docker image for FastAPI app
 ├── requirements.txt                     # Python dependencies
 ├── gunicorn.conf.py                     # Gunicorn configuration for production
 ├── .env.example                         # Environment variables template
@@ -111,8 +109,6 @@ library_system_updated/
 
 | File | Purpose |
 |------|---------|
-| `docker-compose.yml` | PostgreSQL, pgAdmin, FastAPI containers |
-| `Dockerfile` | Python 3.11 image, dependencies, app setup |
 | `gunicorn.conf.py` | Production ASGI server configuration |
 | `.env.example` | Environment variables template (copy to .env) |
 | `requirements.txt` | Python package dependencies |
@@ -128,14 +124,6 @@ library_system_updated/
 ---
 
 ## 🔄 Key Changes from v1 to v2
-
-### ❌ Removed
-- `app/models/loan.py` - Loan model completely removed
-- `app/services/loan_service.py` - Loan service removed
-- `app/repositories/loan_repository.py` - Loan repository removed
-- `app/schemas/loan.py` - Loan schemas removed
-- `app/api/v1/routes/loans.py` - Loan routes removed
-- All loan-related code and logic
 
 ### ✅ Added
 - **User Model Enhancements:**
@@ -165,7 +153,7 @@ library_system_updated/
 
 ### 🔄 Modified
 - **User Role Enum:** Changed from `ADMIN, MEMBER` → `ADMIN, USER`
-- **Book Model:** Removed loan relationships, added category and publisher fields
+- **Book Model:** added category and publisher fields
 - **Auth Flow:** Now requires email verification + admin approval
 - **Login Response:** Now includes `user_role` field (admin or user)
 - **Database:** PostgreSQL instead of default (can still use SQLite locally)
@@ -309,7 +297,6 @@ DELETE /api/v1/users/admin/{id}
 ## 🚀 Deployment Ready
 
 This project includes:
-- ✅ Docker containerization
 - ✅ PostgreSQL database
 - ✅ pgAdmin for database management
 - ✅ Environment-based configuration

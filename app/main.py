@@ -1,6 +1,6 @@
 import logging
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, Request, status
+from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
@@ -62,7 +62,28 @@ def create_app() -> FastAPI:
         ]
         return JSONResponse(
             status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            content={"detail": "Validation error.", "errors": errors},
+            content={
+                "error": True,
+                "message": "Validation error.",
+                "statusCode": status.HTTP_422_UNPROCESSABLE_ENTITY,
+                "messageCode": "VALIDATION_ERROR",
+                
+                "data": errors,
+            },
+        )
+
+    @app.exception_handler(HTTPException)
+    async def http_exception_handler(request: Request, exc: HTTPException):
+        logger.warning(f"HTTP exception: {exc.detail}")
+        return JSONResponse(
+            status_code=exc.status_code,
+            content={
+                "error": True,
+                "message": exc.detail if isinstance(exc.detail, str) else "HTTP error occurred.",
+                "statusCode": exc.status_code,
+                "messageCode": "BAD_REQUEST" if exc.status_code == status.HTTP_400_BAD_REQUEST else "HTTP_ERROR",
+                "data": [],
+            },
         )
 
     @app.exception_handler(SQLAlchemyError)
@@ -70,15 +91,28 @@ def create_app() -> FastAPI:
         logger.error(f"Database error: {exc}", exc_info=True)
         return JSONResponse(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            content={"detail": "A database error occurred. Please try again."},
+            content={
+                "error": True,
+                "message": "A database error occurred. Please try again.",
+                "statusCode": status.HTTP_500_INTERNAL_SERVER_ERROR,
+                "messageCode": "DB_ERROR",
+                "data": [],
+            },
         )
 
     @app.exception_handler(Exception)
     async def unhandled_error_handler(request: Request, exc: Exception):
         logger.error(f"Unhandled error: {exc}", exc_info=True)
+
         return JSONResponse(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            content={"detail": "An unexpected error occurred."},
+            content={
+                "error": True,
+                "message": "An unexpected error occurred.",
+                "statusCode": status.HTTP_500_INTERNAL_SERVER_ERROR,
+                "messageCode": "INTERNAL_SERVER_ERROR",
+                "data": [],
+            },
         )
 
     # ── Routes ────────────────────────────────────────────────────────────────

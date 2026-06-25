@@ -26,7 +26,7 @@ class OTPVerifyRequest(BaseModel):
 
 class LoginRequest(BaseModel):
     email: EmailStr
-    password: str = Field(..., min_length=6)
+    password: str = Field(..., min_length=6, max_length=72)
 
 
 class RegistrationRequest(BaseModel):
@@ -34,7 +34,7 @@ class RegistrationRequest(BaseModel):
     last_name: str = Field(..., min_length=1, max_length=100)
     phone: str = Field(..., min_length=1, max_length=20)
     email: EmailStr
-    password: str = Field(..., min_length=6)
+    password: str = Field(..., min_length=6, max_length=72)
 
 
 class ApprovalStatusResponse(BaseModel):

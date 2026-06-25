@@ -56,7 +56,7 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
+        "label": "AsyncGenerator",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -72,95 +72,7 @@
         "documentation": {}
     },
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -185,54 +97,6 @@
     },
     {
         "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
         "importPath": "alembic",
         "description": "alembic",
         "isExtraImport": true,
@@ -345,6 +209,54 @@
         "documentation": {}
     },
     {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -361,7 +273,71 @@
         "documentation": {}
     },
     {
-        "label": "func",
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -378,6 +354,118 @@
     },
     {
         "label": "Base",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.db.session",
         "description": "app.db.session",
         "isExtraImport": true,
@@ -498,7 +586,15 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -522,7 +618,63 @@
         "documentation": {}
     },
     {
-        "label": "HTTPException",
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -570,6 +722,166 @@
         "documentation": {}
     },
     {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -587,6 +899,222 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -650,6 +1178,14 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -679,6 +1215,190 @@
         "description": "fastapi.encoders",
         "isExtraImport": true,
         "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -746,15 +1466,127 @@
         "documentation": {}
     },
     {
-        "label": "get_current_user",
-        "importPath": "app.api.v1.dependencies",
-        "description": "app.api.v1.dependencies",
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
-        "detail": "app.api.v1.dependencies",
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
-        "label": "get_current_user",
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
         "isExtraImport": true,
@@ -770,6 +1602,166 @@
         "documentation": {}
     },
     {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "importPath": "app.models.user",
         "description": "app.models.user",
@@ -818,7 +1810,47 @@
         "documentation": {}
     },
     {
-        "label": "UserRole",
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
         "importPath": "app.models.user",
         "description": "app.models.user",
         "isExtraImport": true,
@@ -850,7 +1882,407 @@
         "documentation": {}
     },
     {
-        "label": "TokenResponse",
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "ApproveUserService",
+        "importPath": "app.services.admin.approve_user",
+        "description": "app.services.admin.approve_user",
+        "isExtraImport": true,
+        "detail": "app.services.admin.approve_user",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "AdminDashboardService",
+        "importPath": "app.services.admin.admin_dashboard",
+        "description": "app.services.admin.admin_dashboard",
+        "isExtraImport": true,
+        "detail": "app.services.admin.admin_dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteUserService",
+        "importPath": "app.services.admin.delete_user",
+        "description": "app.services.admin.delete_user",
+        "isExtraImport": true,
+        "detail": "app.services.admin.delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "PendingApprovalsService",
+        "importPath": "app.services.admin.pending_approvals",
+        "description": "app.services.admin.pending_approvals",
+        "isExtraImport": true,
+        "detail": "app.services.admin.pending_approvals",
+        "documentation": {}
+    },
+    {
+        "label": "RejectUserService",
+        "importPath": "app.services.admin.reject_user",
+        "description": "app.services.admin.reject_user",
+        "isExtraImport": true,
+        "detail": "app.services.admin.reject_user",
+        "documentation": {}
+    },
+    {
+        "label": "SearchUserService",
+        "importPath": "app.services.admin.search_user",
+        "description": "app.services.admin.search_user",
+        "isExtraImport": true,
+        "detail": "app.services.admin.search_user",
+        "documentation": {}
+    },
+    {
+        "label": "ListUsersService",
+        "importPath": "app.services.admin.list_users",
+        "description": "app.services.admin.list_users",
+        "isExtraImport": true,
+        "detail": "app.services.admin.list_users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "ApprovalStatusService",
+        "importPath": "app.services.auth.approval_status",
+        "description": "app.services.auth.approval_status",
+        "isExtraImport": true,
+        "detail": "app.services.auth.approval_status",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
         "isExtraImport": true,
@@ -882,15 +2314,7 @@
         "documentation": {}
     },
     {
-        "label": "LoginRequest",
-        "importPath": "app.schemas.auth",
-        "description": "app.schemas.auth",
-        "isExtraImport": true,
-        "detail": "app.schemas.auth",
-        "documentation": {}
-    },
-    {
-        "label": "RegistrationRequest",
+        "label": "TokenResponse",
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
         "isExtraImport": true,
@@ -906,11 +2330,35 @@
         "documentation": {}
     },
     {
+        "label": "RegistrationRequest",
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "isExtraImport": true,
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
         "label": "OTPVerifyRequest",
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
         "isExtraImport": true,
         "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "LoginService",
+        "importPath": "app.services.auth.login",
+        "description": "app.services.auth.login",
+        "isExtraImport": true,
+        "detail": "app.services.auth.login",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutService",
+        "importPath": "app.services.auth.logout",
+        "description": "app.services.auth.logout",
+        "isExtraImport": true,
+        "detail": "app.services.auth.logout",
         "documentation": {}
     },
     {
@@ -938,7 +2386,7 @@
         "documentation": {}
     },
     {
-        "label": "UserOut",
+        "label": "UserDetailResponse",
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
         "isExtraImport": true,
@@ -946,15 +2394,7 @@
         "documentation": {}
     },
     {
-        "label": "UserOut",
-        "importPath": "app.schemas.user",
-        "description": "app.schemas.user",
-        "isExtraImport": true,
-        "detail": "app.schemas.user",
-        "documentation": {}
-    },
-    {
-        "label": "UserUpdate",
+        "label": "UserListOut",
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
         "isExtraImport": true,
@@ -978,35 +2418,131 @@
         "documentation": {}
     },
     {
-        "label": "AuthService",
-        "importPath": "app.services.auth_service",
-        "description": "app.services.auth_service",
+        "label": "UserListOut",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
         "isExtraImport": true,
-        "detail": "app.services.auth_service",
+        "detail": "app.schemas.user",
         "documentation": {}
     },
     {
-        "label": "api_response",
-        "importPath": "app.utils.response",
-        "description": "app.utils.response",
+        "label": "UserOut",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
         "isExtraImport": true,
-        "detail": "app.utils.response",
+        "detail": "app.schemas.user",
         "documentation": {}
     },
     {
-        "label": "api_response",
-        "importPath": "app.utils.response",
-        "description": "app.utils.response",
+        "label": "UserDetailResponse",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
         "isExtraImport": true,
-        "detail": "app.utils.response",
+        "detail": "app.schemas.user",
         "documentation": {}
     },
     {
-        "label": "UserService",
-        "importPath": "app.services.user_service",
-        "description": "app.services.user_service",
+        "label": "UserUpdate",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
         "isExtraImport": true,
-        "detail": "app.services.user_service",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserDetailResponse",
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "isExtraImport": true,
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshService",
+        "importPath": "app.services.auth.refresh",
+        "description": "app.services.auth.refresh",
+        "isExtraImport": true,
+        "detail": "app.services.auth.refresh",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationService",
+        "importPath": "app.services.auth.registration",
+        "description": "app.services.auth.registration",
+        "isExtraImport": true,
+        "detail": "app.services.auth.registration",
+        "documentation": {}
+    },
+    {
+        "label": "ResendOTPService",
+        "importPath": "app.services.auth.resend_otp",
+        "description": "app.services.auth.resend_otp",
+        "isExtraImport": true,
+        "detail": "app.services.auth.resend_otp",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPService",
+        "importPath": "app.services.auth.verify_otp",
+        "description": "app.services.auth.verify_otp",
+        "isExtraImport": true,
+        "detail": "app.services.auth.verify_otp",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.users.router",
+        "description": "app.api.v1.routes.users.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.users.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.users.router",
+        "description": "app.api.v1.routes.users.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.users.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.users.router",
+        "description": "app.api.v1.routes.users.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.users.router",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserService",
+        "importPath": "app.services.user.get_user",
+        "description": "app.services.user.get_user",
+        "isExtraImport": true,
+        "detail": "app.services.user.get_user",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserService",
+        "importPath": "app.services.user.get_user",
+        "description": "app.services.user.get_user",
+        "isExtraImport": true,
+        "detail": "app.services.user.get_user",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateProfileService",
+        "importPath": "app.services.user.update_profile",
+        "description": "app.services.user.update_profile",
+        "isExtraImport": true,
+        "detail": "app.services.user.update_profile",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteUserService",
+        "importPath": "app.services.user.delete_user",
+        "description": "app.services.user.delete_user",
+        "isExtraImport": true,
+        "detail": "app.services.user.delete_user",
         "documentation": {}
     },
     {
@@ -1027,14 +2563,6 @@
     },
     {
         "label": "decode_token",
-        "importPath": "app.core.security",
-        "description": "app.core.security",
-        "isExtraImport": true,
-        "detail": "app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "hash_password",
         "importPath": "app.core.security",
         "description": "app.core.security",
         "isExtraImport": true,
@@ -1066,6 +2594,22 @@
         "documentation": {}
     },
     {
+        "label": "create_access_token",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
         "label": "decode_token",
         "importPath": "app.core.security",
         "description": "app.core.security",
@@ -1074,19 +2618,11 @@
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "app.api.v1.routes.auth",
-        "description": "app.api.v1.routes.auth",
+        "label": "hash_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
         "isExtraImport": true,
-        "detail": "app.api.v1.routes.auth",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "importPath": "app.api.v1.routes.users",
-        "description": "app.api.v1.routes.users",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.users",
+        "detail": "app.core.security",
         "documentation": {}
     },
     {
@@ -1178,7 +2714,15 @@
         "documentation": {}
     },
     {
-        "label": "timedelta",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1203,22 +2747,6 @@
     },
     {
         "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1348,6 +2876,38 @@
         "documentation": {}
     },
     {
+        "label": "EmailService",
+        "importPath": "app.services.email_service",
+        "description": "app.services.email_service",
+        "isExtraImport": true,
+        "detail": "app.services.email_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmailService",
+        "importPath": "app.services.email_service",
+        "description": "app.services.email_service",
+        "isExtraImport": true,
+        "detail": "app.services.email_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmailService",
+        "importPath": "app.services.email_service",
+        "description": "app.services.email_service",
+        "isExtraImport": true,
+        "detail": "app.services.email_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmailService",
+        "importPath": "app.services.email_service",
+        "description": "app.services.email_service",
+        "isExtraImport": true,
+        "detail": "app.services.email_service",
+        "documentation": {}
+    },
+    {
         "label": "OTPService",
         "importPath": "app.services.otp_service",
         "description": "app.services.otp_service",
@@ -1356,19 +2916,19 @@
         "documentation": {}
     },
     {
-        "label": "EmailService",
-        "importPath": "app.services.email_service",
-        "description": "app.services.email_service",
+        "label": "OTPService",
+        "importPath": "app.services.otp_service",
+        "description": "app.services.otp_service",
         "isExtraImport": true,
-        "detail": "app.services.email_service",
+        "detail": "app.services.otp_service",
         "documentation": {}
     },
     {
-        "label": "EmailService",
-        "importPath": "app.services.email_service",
-        "description": "app.services.email_service",
+        "label": "OTPService",
+        "importPath": "app.services.otp_service",
+        "description": "app.services.otp_service",
         "isExtraImport": true,
-        "detail": "app.services.email_service",
+        "detail": "app.services.otp_service",
         "documentation": {}
     },
     {
@@ -1480,54 +3040,6 @@
         "documentation": {}
     },
     {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "ENUM",
-        "importPath": "sqlalchemy.dialects.postgresql",
-        "description": "sqlalchemy.dialects.postgresql",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects.postgresql",
-        "documentation": {}
-    },
-    {
         "label": "upgrade",
         "kind": 2,
         "importPath": "alembic.versions.7cf562f06416_add_address_field",
@@ -1602,19 +3114,28 @@
     {
         "label": "router",
         "kind": 5,
-        "importPath": "app.api.v1.routes.auth",
-        "description": "app.api.v1.routes.auth",
-        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])\n@router.post(\"/register\", status_code=status.HTTP_201_CREATED)\nasync def register(\n    data: RegistrationRequest,\n    db: AsyncSession = Depends(get_db),\n):\n    \"\"\"\n    Register a new user account.\n    User will receive an OTP via email for verification.\n    \"\"\"",
-        "detail": "app.api.v1.routes.auth",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/admin\", tags=[\"Admin\"])",
+        "detail": "app.api.v1.routes.admin.router",
         "documentation": {}
     },
     {
         "label": "router",
         "kind": 5,
-        "importPath": "app.api.v1.routes.users",
-        "description": "app.api.v1.routes.users",
-        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n@router.get(\"/profile/me\")\nasync def get_my_profile(\n    current_user: User = Depends(get_current_user),\n):\n    \"\"\"\n    Get current user's profile details.\n    \"\"\"\n    user_out = UserDetailResponse.model_validate(current_user)\n    return api_response(",
-        "detail": "app.api.v1.routes.users",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])",
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.v1.routes.users.router",
+        "description": "app.api.v1.routes.users.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])",
+        "detail": "app.api.v1.routes.users.router",
         "documentation": {}
     },
     {
@@ -1631,7 +3152,7 @@
         "kind": 5,
         "importPath": "app.api.v1.router",
         "description": "app.api.v1.router",
-        "peekOfCode": "api_router = APIRouter()\n# Include all routers\napi_router.include_router(auth_router)\napi_router.include_router(users_router)",
+        "peekOfCode": "api_router = APIRouter()\n# Include all routers\napi_router.include_router(auth_router)\napi_router.include_router(admin_router)\napi_router.include_router(users_router)",
         "detail": "app.api.v1.router",
         "documentation": {}
     },
@@ -1721,7 +3242,7 @@
         "kind": 2,
         "importPath": "app.core.security",
         "description": "app.core.security",
-        "peekOfCode": "def hash_password(password: str) -> str:\n    \"\"\"Hash a password.\"\"\"\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: timedelta | None = None) -> str:\n    \"\"\"Create a JWT access token.\"\"\"\n    to_encode = data.copy()\n    if expires_delta:",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: timedelta | None = None) -> str:\n    \"\"\"Create a JWT access token.\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:",
         "detail": "app.core.security",
         "documentation": {}
     },
@@ -1730,7 +3251,7 @@
         "kind": 2,
         "importPath": "app.core.security",
         "description": "app.core.security",
-        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: timedelta | None = None) -> str:\n    \"\"\"Create a JWT access token.\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: timedelta | None = None) -> str:\n    \"\"\"Create a JWT access token.\"\"\"\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(\n            minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES",
         "detail": "app.core.security",
         "documentation": {}
     },
@@ -1766,7 +3287,7 @@
         "kind": 5,
         "importPath": "app.core.security",
         "description": "app.core.security",
-        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef hash_password(password: str) -> str:\n    \"\"\"Hash a password.\"\"\"\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: timedelta | None = None) -> str:\n    \"\"\"Create a JWT access token.\"\"\"\n    to_encode = data.copy()",
+        "peekOfCode": "pwd_context = CryptContext(\n    schemes=[\"argon2\"],\n    deprecated=\"auto\"\n)\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: timedelta | None = None) -> str:\n    \"\"\"Create a JWT access token.\"\"\"",
         "detail": "app.core.security",
         "documentation": {}
     },
@@ -1784,7 +3305,7 @@
         "kind": 5,
         "importPath": "app.db.session",
         "description": "app.db.session",
-        "peekOfCode": "async_session_maker = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n    autocommit=False,\n    autoflush=False,\n)\n# Base class for models\nBase = declarative_base()\nasync def get_db() -> AsyncSession:",
+        "peekOfCode": "async_session_maker = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n    autocommit=False,\n    autoflush=False,\n)\n# Base class for models\nBase = declarative_base()\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:",
         "detail": "app.db.session",
         "documentation": {}
     },
@@ -1793,7 +3314,7 @@
         "kind": 5,
         "importPath": "app.db.session",
         "description": "app.db.session",
-        "peekOfCode": "Base = declarative_base()\nasync def get_db() -> AsyncSession:\n    \"\"\"Dependency to get database session.\"\"\"\n    async with async_session_maker() as session:\n        try:\n            yield session\n        finally:\n            await session.close()",
+        "peekOfCode": "Base = declarative_base()\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    \"\"\"Dependency to get database session.\"\"\"\n    async with async_session_maker() as session:\n        try:\n            yield session\n        finally:\n            await session.close()",
         "detail": "app.db.session",
         "documentation": {}
     },
@@ -1838,7 +3359,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1847,7 +3368,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)",
+        "peekOfCode": "class OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1856,7 +3377,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)",
+        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1865,7 +3386,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass ApprovalStatusResponse(BaseModel):",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass ApprovalStatusResponse(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1874,7 +3395,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6)\nclass ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
+        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -1951,21 +3472,255 @@
         "documentation": {}
     },
     {
-        "label": "AuthService",
+        "label": "AdminDashboardService",
         "kind": 6,
-        "importPath": "app.services.auth_service",
-        "description": "app.services.auth_service",
-        "peekOfCode": "class AuthService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"\n        Register a new user with OTP verification.\n        User will be created but not approved until email verified and admin approves.\n        \"\"\"\n        # Check if email already exists\n        stmt = select(User).where(User.email == data.email)",
-        "detail": "app.services.auth_service",
+        "importPath": "app.services.admin.admin_dashboard",
+        "description": "app.services.admin.admin_dashboard",
+        "peekOfCode": "class AdminDashboardService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_admin_dashboard_stats(self) -> dict:\n        stmt_total = select(func.count(User.id))\n        total = await self.db.scalar(stmt_total) or 0\n        stmt_approved = select(func.count(User.id)).where(User.status == UserStatus.APPROVED)\n        approved = await self.db.scalar(stmt_approved) or 0\n        stmt_rejected = select(func.count(User.id)).where(User.status == UserStatus.REJECTED)\n        rejected = await self.db.scalar(stmt_rejected) or 0",
+        "detail": "app.services.admin.admin_dashboard",
         "documentation": {}
     },
     {
         "label": "logger",
         "kind": 5,
-        "importPath": "app.services.auth_service",
-        "description": "app.services.auth_service",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AuthService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"\n        Register a new user with OTP verification.\n        User will be created but not approved until email verified and admin approves.\n        \"\"\"\n        # Check if email already exists",
-        "detail": "app.services.auth_service",
+        "importPath": "app.services.admin.admin_dashboard",
+        "description": "app.services.admin.admin_dashboard",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AdminDashboardService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_admin_dashboard_stats(self) -> dict:\n        stmt_total = select(func.count(User.id))\n        total = await self.db.scalar(stmt_total) or 0\n        stmt_approved = select(func.count(User.id)).where(User.status == UserStatus.APPROVED)\n        approved = await self.db.scalar(stmt_approved) or 0\n        stmt_rejected = select(func.count(User.id)).where(User.status == UserStatus.REJECTED)",
+        "detail": "app.services.admin.admin_dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "ApproveUserService",
+        "kind": 6,
+        "importPath": "app.services.admin.approve_user",
+        "description": "app.services.admin.approve_user",
+        "peekOfCode": "class ApproveUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def approve_user(\n        self, user_id: int, admin_id: int\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:",
+        "detail": "app.services.admin.approve_user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.approve_user",
+        "description": "app.services.admin.approve_user",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ApproveUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def approve_user(\n        self, user_id: int, admin_id: int\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()",
+        "detail": "app.services.admin.approve_user",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteUserService",
+        "kind": 6,
+        "importPath": "app.services.admin.delete_user",
+        "description": "app.services.admin.delete_user",
+        "peekOfCode": "class DeleteUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def delete_user(self, user_id: int) -> None:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.admin.delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.delete_user",
+        "description": "app.services.admin.delete_user",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DeleteUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def delete_user(self, user_id: int) -> None:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.admin.delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "ListUsersService",
+        "kind": 6,
+        "importPath": "app.services.admin.list_users",
+        "description": "app.services.admin.list_users",
+        "peekOfCode": "class ListUsersService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_all_users(\n        self, skip: int = 0, limit: int = 20\n    ) -> list[UserListOut]:\n        stmt = (\n            select(User)\n            .offset(skip)\n            .limit(limit)",
+        "detail": "app.services.admin.list_users",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.list_users",
+        "description": "app.services.admin.list_users",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ListUsersService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_all_users(\n        self, skip: int = 0, limit: int = 20\n    ) -> list[UserListOut]:\n        stmt = (\n            select(User)\n            .offset(skip)",
+        "detail": "app.services.admin.list_users",
+        "documentation": {}
+    },
+    {
+        "label": "PendingApprovalsService",
+        "kind": 6,
+        "importPath": "app.services.admin.pending_approvals",
+        "description": "app.services.admin.pending_approvals",
+        "peekOfCode": "class PendingApprovalsService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_pending_approvals(\n        self, skip: int = 0, limit: int = 20\n    ) -> list[UserListOut]:\n        stmt = (\n            select(User)\n            .where(User.status == UserStatus.PENDING)\n            .offset(skip)",
+        "detail": "app.services.admin.pending_approvals",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.pending_approvals",
+        "description": "app.services.admin.pending_approvals",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass PendingApprovalsService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_pending_approvals(\n        self, skip: int = 0, limit: int = 20\n    ) -> list[UserListOut]:\n        stmt = (\n            select(User)\n            .where(User.status == UserStatus.PENDING)",
+        "detail": "app.services.admin.pending_approvals",
+        "documentation": {}
+    },
+    {
+        "label": "RejectUserService",
+        "kind": 6,
+        "importPath": "app.services.admin.reject_user",
+        "description": "app.services.admin.reject_user",
+        "peekOfCode": "class RejectUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def reject_user(\n        self, user_id: int, rejection_reason: str\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:",
+        "detail": "app.services.admin.reject_user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.reject_user",
+        "description": "app.services.admin.reject_user",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass RejectUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def reject_user(\n        self, user_id: int, rejection_reason: str\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()",
+        "detail": "app.services.admin.reject_user",
+        "documentation": {}
+    },
+    {
+        "label": "SearchUserService",
+        "kind": 6,
+        "importPath": "app.services.admin.search_user",
+        "description": "app.services.admin.search_user",
+        "peekOfCode": "class SearchUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def search_users(\n        self, query: str, skip: int = 0, limit: int = 20\n    ) -> list[UserListOut]:\n        search_term = f\"%{query.lower()}%\"\n        stmt = (\n            select(User)\n            .where(",
+        "detail": "app.services.admin.search_user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.search_user",
+        "description": "app.services.admin.search_user",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass SearchUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def search_users(\n        self, query: str, skip: int = 0, limit: int = 20\n    ) -> list[UserListOut]:\n        search_term = f\"%{query.lower()}%\"\n        stmt = (\n            select(User)",
+        "detail": "app.services.admin.search_user",
+        "documentation": {}
+    },
+    {
+        "label": "ApprovalStatusService",
+        "kind": 6,
+        "importPath": "app.services.auth.approval_status",
+        "description": "app.services.auth.approval_status",
+        "peekOfCode": "class ApprovalStatusService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def check_approval_status(self, user_id: int) -> dict:\n        \"\"\"Check user approval status.\"\"\"\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.auth.approval_status",
+        "documentation": {}
+    },
+    {
+        "label": "LoginService",
+        "kind": 6,
+        "importPath": "app.services.auth.login",
+        "description": "app.services.auth.login",
+        "peekOfCode": "class LoginService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def login(self, email: str, password: str) -> TokenResponse:\n        \"\"\"Login user and return tokens.\"\"\"\n        stmt = select(User).where(User.email == email)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user or not verify_password(password, user.password):\n            raise HTTPException(",
+        "detail": "app.services.auth.login",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutService",
+        "kind": 6,
+        "importPath": "app.services.auth.logout",
+        "description": "app.services.auth.logout",
+        "peekOfCode": "class LogoutService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def logout(self, user: User) -> dict:\n        \"\"\"Logout user by clearing tokens.\"\"\"\n        user.refresh_token = None\n        user.access_token = None\n        await self.db.commit()\n        return {\n            \"message\": \"Logged out successfully\",",
+        "detail": "app.services.auth.logout",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshService",
+        "kind": 6,
+        "importPath": "app.services.auth.refresh",
+        "description": "app.services.auth.refresh",
+        "peekOfCode": "class RefreshService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def refresh(self, refresh_token: str) -> TokenResponse:\n        \"\"\"Refresh access token using refresh token.\"\"\"\n        try:\n            payload = decode_token(refresh_token)\n            user_id = int(payload.get(\"sub\"))\n        except Exception:\n            raise HTTPException(",
+        "detail": "app.services.auth.refresh",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationService",
+        "kind": 6,
+        "importPath": "app.services.auth.registration",
+        "description": "app.services.auth.registration",
+        "peekOfCode": "class RegistrationService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"Register a new user with OTP verification.\"\"\"\n        stmt = select(User).where(User.email == data.email)\n        existing_user = await self.db.execute(stmt)\n        if existing_user.scalar_one_or_none():\n            raise HTTPException(\n                status_code=status.HTTP_400_BAD_REQUEST,",
+        "detail": "app.services.auth.registration",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.auth.registration",
+        "description": "app.services.auth.registration",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass RegistrationService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def register(self, data: RegistrationRequest) -> UserOut:\n        \"\"\"Register a new user with OTP verification.\"\"\"\n        stmt = select(User).where(User.email == data.email)\n        existing_user = await self.db.execute(stmt)\n        if existing_user.scalar_one_or_none():\n            raise HTTPException(",
+        "detail": "app.services.auth.registration",
+        "documentation": {}
+    },
+    {
+        "label": "ResendOTPService",
+        "kind": 6,
+        "importPath": "app.services.auth.resend_otp",
+        "description": "app.services.auth.resend_otp",
+        "peekOfCode": "class ResendOTPService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def resend_otp(self, email: str) -> dict:\n        \"\"\"Resend OTP to user email.\"\"\"\n        stmt = select(User).where(User.email == email)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.auth.resend_otp",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPService",
+        "kind": 6,
+        "importPath": "app.services.auth.verify_otp",
+        "description": "app.services.auth.verify_otp",
+        "peekOfCode": "class VerifyOTPService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def verify_email_otp(self, data: OTPVerifyRequest) -> dict:\n        \"\"\"Verify email OTP and mark email as verified.\"\"\"\n        stmt = select(User).where(User.email == data.email)\n        user = await self.db.execute(stmt)\n        user = user.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.auth.verify_otp",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteUserService",
+        "kind": 6,
+        "importPath": "app.services.user.delete_user",
+        "description": "app.services.user.delete_user",
+        "peekOfCode": "class DeleteUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def delete_user(self, user_id: int) -> None:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.user.delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.delete_user",
+        "description": "app.services.user.delete_user",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DeleteUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def delete_user(self, user_id: int) -> None:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.user.delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserService",
+        "kind": 6,
+        "importPath": "app.services.user.get_user",
+        "description": "app.services.user.get_user",
+        "peekOfCode": "class GetUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_user_by_id(self, user_id: int) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.user.get_user",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.get_user",
+        "description": "app.services.user.get_user",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass GetUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_user_by_id(self, user_id: int) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.user.get_user",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateProfileService",
+        "kind": 6,
+        "importPath": "app.services.user.update_profile",
+        "description": "app.services.user.update_profile",
+        "peekOfCode": "class UpdateProfileService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def update_user_profile(\n        self, user_id: int, data: UserUpdate\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:",
+        "detail": "app.services.user.update_profile",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.update_profile",
+        "description": "app.services.user.update_profile",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass UpdateProfileService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def update_user_profile(\n        self, user_id: int, data: UserUpdate\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()",
+        "detail": "app.services.user.update_profile",
         "documentation": {}
     },
     {
@@ -1993,24 +3748,6 @@
         "description": "app.services.otp_service",
         "peekOfCode": "class OTPService:\n    \"\"\"Service for OTP generation and verification.\"\"\"\n    @staticmethod\n    def generate_otp() -> str:\n        \"\"\"Generate a random OTP code.\"\"\"\n        return ''.join(random.choices(string.digits, k=settings.OTP_LENGTH))\n    @staticmethod\n    def verify_otp(stored_otp: str | None, provided_otp: str, created_at: datetime | None) -> bool:\n        \"\"\"\n        Verify if the provided OTP matches the stored OTP and is not expired.",
         "detail": "app.services.otp_service",
-        "documentation": {}
-    },
-    {
-        "label": "UserService",
-        "kind": 6,
-        "importPath": "app.services.user_service",
-        "description": "app.services.user_service",
-        "peekOfCode": "class UserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_user_by_id(self, user_id: int) -> UserDetailResponse:\n        \"\"\"Get user by ID (authenticated users can view their own profile).\"\"\"\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
-        "detail": "app.services.user_service",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "app.services.user_service",
-        "description": "app.services.user_service",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass UserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_user_by_id(self, user_id: int) -> UserDetailResponse:\n        \"\"\"Get user by ID (authenticated users can view their own profile).\"\"\"\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:",
-        "detail": "app.services.user_service",
         "documentation": {}
     },
     {
@@ -2047,114 +3784,6 @@
         "description": "app.main",
         "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\n        \"app.main:app\",\n        host=\"0.0.0.0\",\n        port=8000,\n        reload=True,\n        log_level=\"info\",\n    )",
         "detail": "app.main",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "old_migrations.07f4b9129d8a_migration",
-        "description": "old_migrations.07f4b9129d8a_migration",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    userrole = ENUM(",
-        "detail": "old_migrations.07f4b9129d8a_migration",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "old_migrations.07f4b9129d8a_migration",
-        "description": "old_migrations.07f4b9129d8a_migration",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    userrole = ENUM(\n        'ADMIN',\n        'USER',\n        name='userrole',\n        create_type=False\n    )\n    userstatus = ENUM(\n        'PENDING',",
-        "detail": "old_migrations.07f4b9129d8a_migration",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "old_migrations.2a7b8bbf19a5_initial_migration",
-        "description": "old_migrations.2a7b8bbf19a5_initial_migration",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_table('users')\n    op.drop_index(op.f('ix_books_author'), table_name='books')\n    op.drop_index(op.f('ix_books_category'), table_name='books')\n    op.drop_index(op.f('ix_books_id'), table_name='books')",
-        "detail": "old_migrations.2a7b8bbf19a5_initial_migration",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "old_migrations.2a7b8bbf19a5_initial_migration",
-        "description": "old_migrations.2a7b8bbf19a5_initial_migration",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('books',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('title', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('author', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('isbn', sa.VARCHAR(length=20), autoincrement=False, nullable=False),\n    sa.Column('description', sa.TEXT(), autoincrement=False, nullable=True),\n    sa.Column('category', sa.VARCHAR(length=100), autoincrement=False, nullable=True),",
-        "detail": "old_migrations.2a7b8bbf19a5_initial_migration",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "old_migrations.6051d6cdb446_initial_migration",
-        "description": "old_migrations.6051d6cdb446_initial_migration",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_table('users')\n    op.drop_index(op.f('ix_books_author'), table_name='books')\n    op.drop_index(op.f('ix_books_category'), table_name='books')\n    op.drop_index(op.f('ix_books_id'), table_name='books')",
-        "detail": "old_migrations.6051d6cdb446_initial_migration",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "old_migrations.6051d6cdb446_initial_migration",
-        "description": "old_migrations.6051d6cdb446_initial_migration",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('books',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('title', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('author', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('isbn', sa.VARCHAR(length=20), autoincrement=False, nullable=False),\n    sa.Column('description', sa.TEXT(), autoincrement=False, nullable=True),\n    sa.Column('category', sa.VARCHAR(length=100), autoincrement=False, nullable=True),",
-        "detail": "old_migrations.6051d6cdb446_initial_migration",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "old_migrations.73478ff771ab_added_logo_coulmn",
-        "description": "old_migrations.73478ff771ab_added_logo_coulmn",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###",
-        "detail": "old_migrations.73478ff771ab_added_logo_coulmn",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "old_migrations.73478ff771ab_added_logo_coulmn",
-        "description": "old_migrations.73478ff771ab_added_logo_coulmn",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('first_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('last_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('email', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('phone', sa.VARCHAR(length=20), autoincrement=False, nullable=True),\n    sa.Column('password', sa.VARCHAR(length=255), autoincrement=False, nullable=False),",
-        "detail": "old_migrations.73478ff771ab_added_logo_coulmn",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "old_migrations.88cfe6cee905_added_logo_coulmn",
-        "description": "old_migrations.88cfe6cee905_added_logo_coulmn",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###",
-        "detail": "old_migrations.88cfe6cee905_added_logo_coulmn",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "old_migrations.88cfe6cee905_added_logo_coulmn",
-        "description": "old_migrations.88cfe6cee905_added_logo_coulmn",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.INTEGER(), autoincrement=True, nullable=False),\n    sa.Column('first_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('last_name', sa.VARCHAR(length=100), autoincrement=False, nullable=False),\n    sa.Column('email', sa.VARCHAR(length=255), autoincrement=False, nullable=False),\n    sa.Column('phone', sa.VARCHAR(length=20), autoincrement=False, nullable=True),\n    sa.Column('password', sa.VARCHAR(length=255), autoincrement=False, nullable=False),",
-        "detail": "old_migrations.88cfe6cee905_added_logo_coulmn",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "old_migrations.fe6e3988efb0_add_logo_column",
-        "description": "old_migrations.fe6e3988efb0_add_logo_column",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "old_migrations.fe6e3988efb0_add_logo_column",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "old_migrations.fe6e3988efb0_add_logo_column",
-        "description": "old_migrations.fe6e3988efb0_add_logo_column",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "old_migrations.fe6e3988efb0_add_logo_column",
         "documentation": {}
     },
     {

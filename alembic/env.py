@@ -54,6 +54,13 @@ def run_migrations_offline() -> None:
 
 
 
+def include_object(object, name, type_, reflected, compare_to):
+    """Prevent autogenerate from generating DROP statements."""
+    if reflected and compare_to is None:
+        # Object exists in DB but not in models — skip it (don't drop)
+        return False
+    return True
+
 def run_migrations_online():
     connectable = create_engine(
         settings.DATABASE_URL.replace("+asyncpg", ""),
@@ -64,12 +71,8 @@ def run_migrations_online():
         context.configure(
             connection=connection,
             target_metadata=target_metadata,
+            include_object=include_object,  # ✅ attach the filter
         )
 
         with context.begin_transaction():
             context.run_migrations()
-
-if context.is_offline_mode():
-    run_migrations_offline()
-else:
-    run_migrations_online()

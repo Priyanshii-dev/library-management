@@ -39,4 +39,5 @@ class VerifyOTPService:
             "message": "Email verified successfully. Your account is now pending admin approval.",
             "email_verified": True,
             "user_id": user.id,
+            "id": user.id,
         }

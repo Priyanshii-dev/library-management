@@ -49,4 +49,6 @@ class ResendOTPService:
         return {
             "message": "OTP sent to email",
             "email": email,
+            "user_id": user.id,
+            "id": user.id,
         }

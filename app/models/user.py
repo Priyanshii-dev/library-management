@@ -1,6 +1,6 @@
 import enum
 from datetime import datetime, timezone
-from sqlalchemy import Boolean, DateTime, Enum, Integer, String, Text, LargeBinary
+from sqlalchemy import Boolean, DateTime, Enum, Integer, String, LargeBinary
 from sqlalchemy.orm import Mapped, mapped_column
 from app.db.session import Base
 

@@ -15,6 +15,18 @@ from app.schemas.user import (
     UserDetailResponse,
     UserApprovalRequest,
 )
+from app.schemas.book import (
+    CategoryCreate,
+    CategoryUpdate,
+    CategoryOut,
+    BookCreate,
+    BookUpdate,
+    BookOut,
+    BookBorrowRequest,
+    BookActionRequest,
+    BookBorrowHistoryOut,
+    BookBorrowAdminOut,
+)
 
 __all__ = [
     "TokenResponse",
@@ -30,4 +42,14 @@ __all__ = [
     "UserListOut",
     "UserDetailResponse",
     "UserApprovalRequest",
+    "CategoryCreate",
+    "CategoryUpdate",
+    "CategoryOut",
+    "BookCreate",
+    "BookUpdate",
+    "BookOut",
+    "BookBorrowRequest",
+    "BookActionRequest",
+    "BookBorrowHistoryOut",
+    "BookBorrowAdminOut",
 ]

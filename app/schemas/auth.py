@@ -1,5 +1,4 @@
 from pydantic import BaseModel, EmailStr, Field
-from typing import Optional
 
 
 class TokenResponse(BaseModel):
@@ -8,6 +7,7 @@ class TokenResponse(BaseModel):
     token_type: str = "bearer"
     user_role: str  # "Admin" or "User"
     user_id: int
+    id: int
     email: str
 
 

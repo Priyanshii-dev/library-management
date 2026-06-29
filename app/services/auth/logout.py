@@ -16,6 +16,7 @@ class LogoutService:
         return {
             "message": "Logged out successfully",
             "user_id": user.id,
+            "id": user.id,
             "user_role": user.role.value,
             "email": user.email,
         }

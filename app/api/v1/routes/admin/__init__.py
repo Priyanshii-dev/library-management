@@ -8,6 +8,8 @@ from app.api.v1.routes.admin import (
     approve,
     reject,
     delete,
+    book,
+    category,
 )
 
 __all__ = [
@@ -19,4 +21,6 @@ __all__ = [
     "approve",
     "reject",
     "delete",
+    "book",
+    "category",
 ]

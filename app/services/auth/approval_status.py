@@ -23,6 +23,7 @@ class ApprovalStatusService:
 
         return {
             "user_id": user.id,
+            "id": user.id,
             "status": user.status.value,
             "email_verified": user.is_email_verified,
             "can_login": user.status == UserStatus.APPROVED and user.is_email_verified,

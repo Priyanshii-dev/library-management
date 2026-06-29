@@ -32,6 +32,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -77,6 +93,14 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -145,6 +169,118 @@
         "documentation": {}
     },
     {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Boolean",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -178,14 +314,6 @@
     },
     {
         "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -265,7 +393,55 @@
         "documentation": {}
     },
     {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -497,7 +673,23 @@
         "documentation": {}
     },
     {
-        "label": "Base",
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.db.session",
         "description": "app.db.session",
         "isExtraImport": true,
@@ -506,6 +698,30 @@
     },
     {
         "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
         "importPath": "app.db.session",
         "description": "app.db.session",
         "isExtraImport": true,
@@ -538,6 +754,38 @@
         "documentation": {}
     },
     {
+        "label": "category",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "book",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "book_borrow",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "app.core.config",
         "description": "app.core.config",
@@ -587,6 +835,70 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -859,6 +1171,30 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -955,6 +1291,126 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1178,30 +1634,6 @@
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "jsonable_encoder",
         "importPath": "fastapi.encoders",
         "description": "fastapi.encoders",
@@ -1287,6 +1719,54 @@
         "description": "fastapi.encoders",
         "isExtraImport": true,
         "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -1586,6 +2066,70 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
         "label": "get_current_admin",
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
@@ -1671,6 +2215,30 @@
         "description": "app.api.v1.dependencies",
         "isExtraImport": true,
         "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.admin.router",
+        "description": "app.api.v1.routes.admin.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin.router",
         "documentation": {}
     },
     {
@@ -2151,6 +2719,182 @@
         "description": "app.utils.response",
         "isExtraImport": true,
         "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryCreate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryUpdate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowRequest",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookActionRequest",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryCreate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryUpdate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowHistoryOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowHistoryOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowHistoryOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowHistoryOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "AdminBookService",
+        "importPath": "app.services.admin.book_service",
+        "description": "app.services.admin.book_service",
+        "isExtraImport": true,
+        "detail": "app.services.admin.book_service",
+        "documentation": {}
+    },
+    {
+        "label": "AdminBookService",
+        "importPath": "app.services.admin.book_service",
+        "description": "app.services.admin.book_service",
+        "isExtraImport": true,
+        "detail": "app.services.admin.book_service",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryService",
+        "importPath": "app.services.admin.category_service",
+        "description": "app.services.admin.category_service",
+        "isExtraImport": true,
+        "detail": "app.services.admin.category_service",
         "documentation": {}
     },
     {
@@ -2514,6 +3258,14 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "app.api.v1.routes.users.router",
+        "description": "app.api.v1.routes.users.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.users.router",
+        "documentation": {}
+    },
+    {
         "label": "GetUserService",
         "importPath": "app.services.user.get_user",
         "description": "app.services.user.get_user",
@@ -2650,6 +3402,63 @@
         "documentation": {}
     },
     {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -2698,7 +3507,143 @@
         "documentation": {}
     },
     {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -2802,6 +3747,54 @@
         "documentation": {}
     },
     {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "enum",
         "kind": 6,
         "isExtraImport": true,
@@ -2820,6 +3813,22 @@
     },
     {
         "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -2867,15 +3876,6 @@
         "documentation": {}
     },
     {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
         "label": "EmailService",
         "importPath": "app.services.email_service",
         "description": "app.services.email_service",
@@ -2905,6 +3905,142 @@
         "description": "app.services.email_service",
         "isExtraImport": true,
         "detail": "app.services.email_service",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "app.models.category",
+        "description": "app.models.category",
+        "isExtraImport": true,
+        "detail": "app.models.category",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "app.models.category",
+        "description": "app.models.category",
+        "isExtraImport": true,
+        "detail": "app.models.category",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
         "documentation": {}
     },
     {
@@ -2984,51 +4120,27 @@
         "documentation": {}
     },
     {
-        "label": "JSONResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
+        "label": "lifespan",
+        "importPath": "app.core.lifespan",
+        "description": "app.core.lifespan",
         "isExtraImport": true,
-        "detail": "fastapi.responses",
+        "detail": "app.core.lifespan",
         "documentation": {}
     },
     {
-        "label": "JSONResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
+        "label": "register_middleware",
+        "importPath": "app.core.middleware",
+        "description": "app.core.middleware",
         "isExtraImport": true,
-        "detail": "fastapi.responses",
+        "detail": "app.core.middleware",
         "documentation": {}
     },
     {
-        "label": "asynccontextmanager",
-        "importPath": "contextlib",
-        "description": "contextlib",
+        "label": "register_exception_handlers",
+        "importPath": "app.core.exception_handlers",
+        "description": "app.core.exception_handlers",
         "isExtraImport": true,
-        "detail": "contextlib",
-        "documentation": {}
-    },
-    {
-        "label": "CORSMiddleware",
-        "importPath": "fastapi.middleware.cors",
-        "description": "fastapi.middleware.cors",
-        "isExtraImport": true,
-        "detail": "fastapi.middleware.cors",
-        "documentation": {}
-    },
-    {
-        "label": "RequestValidationError",
-        "importPath": "fastapi.exceptions",
-        "description": "fastapi.exceptions",
-        "isExtraImport": true,
-        "detail": "fastapi.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemyError",
-        "importPath": "sqlalchemy.exc",
-        "description": "sqlalchemy.exc",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.exc",
+        "detail": "app.core.exception_handlers",
         "documentation": {}
     },
     {
@@ -3060,6 +4172,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "alembic.versions.9a174de4afbf_create_book_table",
+        "description": "alembic.versions.9a174de4afbf_create_book_table",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
+        "detail": "alembic.versions.9a174de4afbf_create_book_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.9a174de4afbf_create_book_table",
+        "description": "alembic.versions.9a174de4afbf_create_book_table",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
+        "detail": "alembic.versions.9a174de4afbf_create_book_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "alembic.versions.dc048a131005_initial_migration",
         "description": "alembic.versions.dc048a131005_initial_migration",
         "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('first_name', sa.String(length=100), nullable=False),\n    sa.Column('last_name', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=255), nullable=False),\n    sa.Column('phone', sa.String(length=20), nullable=True),\n    sa.Column('password', sa.String(length=255), nullable=False),",
@@ -3085,11 +4215,20 @@
         "documentation": {}
     },
     {
+        "label": "include_object",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def include_object(object, name, type_, reflected, compare_to):\n    \"\"\"Prevent autogenerate from generating DROP statements.\"\"\"\n    if reflected and compare_to is None:\n        # Object exists in DB but not in models — skip it (don't drop)\n        return False\n    return True\ndef run_migrations_online():\n    connectable = create_engine(\n        settings.DATABASE_URL.replace(\"+asyncpg\", \"\"),\n        poolclass=pool.NullPool,",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
         "label": "run_migrations_online",
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online():\n    connectable = create_engine(\n        settings.DATABASE_URL.replace(\"+asyncpg\", \"\"),\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection,\n            target_metadata=target_metadata,\n        )",
+        "peekOfCode": "def run_migrations_online():\n    connectable = create_engine(\n        settings.DATABASE_URL.replace(\"+asyncpg\", \"\"),\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection,\n            target_metadata=target_metadata,\n            include_object=include_object,  # ✅ attach the filter",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -3184,6 +4323,24 @@
         "documentation": {}
     },
     {
+        "label": "register_exception_handlers",
+        "kind": 2,
+        "importPath": "app.core.exception_handlers",
+        "description": "app.core.exception_handlers",
+        "peekOfCode": "def register_exception_handlers(app: FastAPI):\n    app.add_exception_handler(RequestValidationError, validation_error_handler)\n    app.add_exception_handler(HTTPException, http_exception_handler)\n    app.add_exception_handler(SQLAlchemyError, db_error_handler)\n    app.add_exception_handler(Exception, unhandled_error_handler)",
+        "detail": "app.core.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.core.exception_handlers",
+        "description": "app.core.exception_handlers",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def validation_error_handler(request: Request, exc: RequestValidationError):\n    errors = [\n        {\"field\": \".\".join(str(x) for x in e[\"loc\"]), \"message\": e[\"msg\"]}\n        for e in exc.errors()\n    ]\n    return JSONResponse(\n        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,\n        content={\n            \"error\": True,",
+        "detail": "app.core.exception_handlers",
+        "documentation": {}
+    },
+    {
         "label": "UserNotFound",
         "kind": 6,
         "importPath": "app.core.exceptions",
@@ -3235,6 +4392,24 @@
         "description": "app.core.exceptions",
         "peekOfCode": "class AccountDeactivated(HTTPException):\n    def __init__(self):\n        super().__init__(\n            status_code=status.HTTP_403_FORBIDDEN,\n            detail=\"Account has been deactivated\",\n        )",
         "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.core.lifespan",
+        "description": "app.core.lifespan",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app):\n    logger.info(\"Database tables ready.\")\n    yield\n    await engine.dispose()\n    logger.info(\"Database connections closed.\")",
+        "detail": "app.core.lifespan",
+        "documentation": {}
+    },
+    {
+        "label": "register_middleware",
+        "kind": 2,
+        "importPath": "app.core.middleware",
+        "description": "app.core.middleware",
+        "peekOfCode": "def register_middleware(app: FastAPI):\n    app.add_middleware(\n        CORSMiddleware,\n        allow_origins=settings.ALLOWED_ORIGINS,\n        allow_credentials=True,\n        allow_methods=[\"*\"],\n        allow_headers=[\"*\"],\n    )",
+        "detail": "app.core.middleware",
         "documentation": {}
     },
     {
@@ -3319,6 +4494,51 @@
         "documentation": {}
     },
     {
+        "label": "BookAvailability",
+        "kind": 6,
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "peekOfCode": "class BookAvailability(str, enum.Enum):\n    YES = \"Yes\"\n    NO = \"No\"\nclass Book(Base):\n    __tablename__ = \"books\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    title: Mapped[str] = mapped_column(String(255), nullable=False)\n    author: Mapped[str] = mapped_column(String(255), nullable=False)\n    price: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)\n    category_id: Mapped[int] = mapped_column(ForeignKey(\"categories.id\"), nullable=False)",
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "peekOfCode": "class Book(Base):\n    __tablename__ = \"books\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    title: Mapped[str] = mapped_column(String(255), nullable=False)\n    author: Mapped[str] = mapped_column(String(255), nullable=False)\n    price: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)\n    category_id: Mapped[int] = mapped_column(ForeignKey(\"categories.id\"), nullable=False)\n    publication_year: Mapped[int] = mapped_column(Integer, nullable=True)\n    total_quantity: Mapped[int] = mapped_column(Integer, nullable=False)\n    available_quantity: Mapped[int] = mapped_column(Integer, nullable=False)",
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "kind": 6,
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "peekOfCode": "class BorrowStatus(str, enum.Enum):\n    BORROWED = \"Borrowed\"\n    RETURNED = \"Returned\"\n    OVERDUE = \"Overdue\"\nclass BookBorrow(Base):\n    __tablename__ = \"book_borrow\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), nullable=False)\n    book_id: Mapped[int] = mapped_column(ForeignKey(\"books.id\"), nullable=False)\n    borrowed_at: Mapped[datetime] = mapped_column(",
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "kind": 6,
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "peekOfCode": "class BookBorrow(Base):\n    __tablename__ = \"book_borrow\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), nullable=False)\n    book_id: Mapped[int] = mapped_column(ForeignKey(\"books.id\"), nullable=False)\n    borrowed_at: Mapped[datetime] = mapped_column(\n        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)\n    )\n    due_date: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)\n    renewed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)",
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "app.models.category",
+        "description": "app.models.category",
+        "peekOfCode": "class Category(Base):\n    __tablename__ = \"categories\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    name: Mapped[str] = mapped_column(String(150), nullable=False, unique=True)\n    description: Mapped[str | None] = mapped_column(Text, nullable=True)\n    created_at: Mapped[datetime] = mapped_column(\n        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)\n    )\n    updated_at: Mapped[datetime] = mapped_column(\n        DateTime(timezone=True),",
+        "detail": "app.models.category",
+        "documentation": {}
+    },
+    {
         "label": "UserRole",
         "kind": 6,
         "importPath": "app.models.user",
@@ -3350,7 +4570,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -3406,6 +4626,96 @@
         "description": "app.schemas.auth",
         "peekOfCode": "class ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
         "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryCreate",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class CategoryCreate(BaseModel):\n    name: str = Field(..., min_length=1, max_length=150)\n    description: Optional[str] = None\nclass CategoryUpdate(BaseModel):\n    name: Optional[str] = Field(None, min_length=1, max_length=150)\n    description: Optional[str] = None\nclass CategoryOut(BaseModel):\n    id: int\n    name: str\n    description: Optional[str] = None",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryUpdate",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class CategoryUpdate(BaseModel):\n    name: Optional[str] = Field(None, min_length=1, max_length=150)\n    description: Optional[str] = None\nclass CategoryOut(BaseModel):\n    id: int\n    name: str\n    description: Optional[str] = None\n    created_at: datetime\n    updated_at: datetime\n    class Config:",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryOut",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class CategoryOut(BaseModel):\n    id: int\n    name: str\n    description: Optional[str] = None\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        from_attributes = True\nclass BookCreate(BaseModel):\n    title: str = Field(..., min_length=1, max_length=255)",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookCreate(BaseModel):\n    title: str = Field(..., min_length=1, max_length=255)\n    author: str = Field(..., min_length=1, max_length=255)\n    price: float = Field(..., gt=0)\n    category_id: int\n    publication_year: Optional[int] = None\n    total_quantity: int = Field(..., gt=0)\n    available_quantity: Optional[int] = Field(None, ge=0)\nclass BookUpdate(BaseModel):\n    title: Optional[str] = Field(None, min_length=1, max_length=255)",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookUpdate(BaseModel):\n    title: Optional[str] = Field(None, min_length=1, max_length=255)\n    author: Optional[str] = Field(None, min_length=1, max_length=255)\n    price: Optional[float] = Field(None, gt=0)\n    category_id: Optional[int] = None\n    publication_year: Optional[int] = None\n    total_quantity: Optional[int] = Field(None, gt=0)\n    available_quantity: Optional[int] = Field(None, ge=0)\n    availability: Optional[str] = None\nclass BookOut(BaseModel):",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookOut(BaseModel):\n    id: int\n    title: str\n    author: str\n    price: float\n    category_id: int\n    publication_year: Optional[int] = None\n    total_quantity: int\n    available_quantity: int\n    availability: str",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowRequest",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookBorrowRequest(BaseModel):\n    book_id: int\nclass BookActionRequest(BaseModel):\n    borrow_id: int\nclass BookBorrowHistoryOut(BaseModel):\n    id: int\n    user_id: int\n    book_id: int\n    status: str\n    borrowed_at: datetime",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookActionRequest",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookActionRequest(BaseModel):\n    borrow_id: int\nclass BookBorrowHistoryOut(BaseModel):\n    id: int\n    user_id: int\n    book_id: int\n    status: str\n    borrowed_at: datetime\n    due_date: datetime\n    renewed_at: Optional[datetime] = None",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowHistoryOut",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookBorrowHistoryOut(BaseModel):\n    id: int\n    user_id: int\n    book_id: int\n    status: str\n    borrowed_at: datetime\n    due_date: datetime\n    renewed_at: Optional[datetime] = None\n    returned_at: Optional[datetime] = None\n    class Config:",
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowAdminOut",
+        "kind": 6,
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "peekOfCode": "class BookBorrowAdminOut(BookBorrowHistoryOut):\n    book_title: str\n    user_email: str",
+        "detail": "app.schemas.book",
         "documentation": {}
     },
     {
@@ -3505,6 +4815,42 @@
         "description": "app.services.admin.approve_user",
         "peekOfCode": "logger = logging.getLogger(__name__)\nclass ApproveUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def approve_user(\n        self, user_id: int, admin_id: int\n    ) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()",
         "detail": "app.services.admin.approve_user",
+        "documentation": {}
+    },
+    {
+        "label": "AdminBookService",
+        "kind": 6,
+        "importPath": "app.services.admin.book_service",
+        "description": "app.services.admin.book_service",
+        "peekOfCode": "class AdminBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def create_book(self, data: BookCreate) -> BookOut:\n        stmt = select(Category).where(Category.id == data.category_id)\n        result = await self.db.execute(stmt)\n        category = result.scalar_one_or_none()\n        if not category:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.admin.book_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.book_service",
+        "description": "app.services.admin.book_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AdminBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def create_book(self, data: BookCreate) -> BookOut:\n        stmt = select(Category).where(Category.id == data.category_id)\n        result = await self.db.execute(stmt)\n        category = result.scalar_one_or_none()\n        if not category:\n            raise HTTPException(",
+        "detail": "app.services.admin.book_service",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryService",
+        "kind": 6,
+        "importPath": "app.services.admin.category_service",
+        "description": "app.services.admin.category_service",
+        "peekOfCode": "class CategoryService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_categories(self) -> list[CategoryOut]:\n        stmt = select(Category).order_by(Category.name)\n        result = await self.db.execute(stmt)\n        categories = result.scalars().all()\n        return [CategoryOut.model_validate(category) for category in categories]\n    async def create_category(self, data: CategoryCreate) -> CategoryOut:\n        stmt = select(Category).where(Category.name == data.name)",
+        "detail": "app.services.admin.category_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.admin.category_service",
+        "description": "app.services.admin.category_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass CategoryService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_categories(self) -> list[CategoryOut]:\n        stmt = select(Category).order_by(Category.name)\n        result = await self.db.execute(stmt)\n        categories = result.scalars().all()\n        return [CategoryOut.model_validate(category) for category in categories]\n    async def create_category(self, data: CategoryCreate) -> CategoryOut:",
+        "detail": "app.services.admin.category_service",
         "documentation": {}
     },
     {
@@ -3670,6 +5016,42 @@
         "documentation": {}
     },
     {
+        "label": "BorrowBookService",
+        "kind": 6,
+        "importPath": "app.services.user.borrow_book",
+        "description": "app.services.user.borrow_book",
+        "peekOfCode": "class BorrowBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def borrow_book(self, user_id: int, book_id: int) -> BookBorrowHistoryOut:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.user.borrow_book",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.borrow_book",
+        "description": "app.services.user.borrow_book",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass BorrowBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def borrow_book(self, user_id: int, book_id: int) -> BookBorrowHistoryOut:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(",
+        "detail": "app.services.user.borrow_book",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowHistoryService",
+        "kind": 6,
+        "importPath": "app.services.user.borrow_history",
+        "description": "app.services.user.borrow_history",
+        "peekOfCode": "class BorrowHistoryService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_borrow_history(self, user_id: int) -> list[BookBorrowHistoryOut]:\n        stmt = select(BookBorrow).where(BookBorrow.user_id == user_id).order_by(BookBorrow.borrowed_at.desc())\n        result = await self.db.execute(stmt)\n        records = result.scalars().all()\n        return [BookBorrowHistoryOut.model_validate(record) for record in records]",
+        "detail": "app.services.user.borrow_history",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.borrow_history",
+        "description": "app.services.user.borrow_history",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass BorrowHistoryService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_borrow_history(self, user_id: int) -> list[BookBorrowHistoryOut]:\n        stmt = select(BookBorrow).where(BookBorrow.user_id == user_id).order_by(BookBorrow.borrowed_at.desc())\n        result = await self.db.execute(stmt)\n        records = result.scalars().all()\n        return [BookBorrowHistoryOut.model_validate(record) for record in records]",
+        "detail": "app.services.user.borrow_history",
+        "documentation": {}
+    },
+    {
         "label": "DeleteUserService",
         "kind": 6,
         "importPath": "app.services.user.delete_user",
@@ -3703,6 +5085,42 @@
         "description": "app.services.user.get_user",
         "peekOfCode": "logger = logging.getLogger(__name__)\nclass GetUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_user_by_id(self, user_id: int) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
         "detail": "app.services.user.get_user",
+        "documentation": {}
+    },
+    {
+        "label": "RenewBookService",
+        "kind": 6,
+        "importPath": "app.services.user.renew_book",
+        "description": "app.services.user.renew_book",
+        "peekOfCode": "class RenewBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def renew_book(self, user_id: int, borrow_id: int) -> BookBorrowHistoryOut:\n        stmt = select(BookBorrow).where(BookBorrow.id == borrow_id, BookBorrow.user_id == user_id)\n        result = await self.db.execute(stmt)\n        borrow = result.scalar_one_or_none()\n        if not borrow:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.user.renew_book",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.renew_book",
+        "description": "app.services.user.renew_book",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass RenewBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def renew_book(self, user_id: int, borrow_id: int) -> BookBorrowHistoryOut:\n        stmt = select(BookBorrow).where(BookBorrow.id == borrow_id, BookBorrow.user_id == user_id)\n        result = await self.db.execute(stmt)\n        borrow = result.scalar_one_or_none()\n        if not borrow:\n            raise HTTPException(",
+        "detail": "app.services.user.renew_book",
+        "documentation": {}
+    },
+    {
+        "label": "ReturnBookService",
+        "kind": 6,
+        "importPath": "app.services.user.return_book",
+        "description": "app.services.user.return_book",
+        "peekOfCode": "class ReturnBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def return_book(self, user_id: int, borrow_id: int) -> BookBorrowHistoryOut:\n        stmt = select(BookBorrow).where(BookBorrow.id == borrow_id, BookBorrow.user_id == user_id)\n        result = await self.db.execute(stmt)\n        borrow = result.scalar_one_or_none()\n        if not borrow:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.user.return_book",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.user.return_book",
+        "description": "app.services.user.return_book",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ReturnBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def return_book(self, user_id: int, borrow_id: int) -> BookBorrowHistoryOut:\n        stmt = select(BookBorrow).where(BookBorrow.id == borrow_id, BookBorrow.user_id == user_id)\n        result = await self.db.execute(stmt)\n        borrow = result.scalar_one_or_none()\n        if not borrow:\n            raise HTTPException(",
+        "detail": "app.services.user.return_book",
         "documentation": {}
     },
     {
@@ -3769,20 +5187,11 @@
         "documentation": {}
     },
     {
-        "label": "logger",
-        "kind": 5,
-        "importPath": "app.main",
-        "description": "app.main",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n# Configure logging\nlogging.basicConfig(\n    level=logging.INFO,\n    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'\n)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    # async with engine.begin() as conn:\n    #     await conn.run_sync(Base.metadata.create_all)",
-        "detail": "app.main",
-        "documentation": {}
-    },
-    {
         "label": "app",
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\n        \"app.main:app\",\n        host=\"0.0.0.0\",\n        port=8000,\n        reload=True,\n        log_level=\"info\",\n    )",
+        "peekOfCode": "app = create_app()",
         "detail": "app.main",
         "documentation": {}
     },

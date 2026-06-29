@@ -28,10 +28,11 @@ async def create_book(
 async def list_books(
     skip: int = Query(0, ge=0),
     limit: int = Query(20, ge=1, le=100),
+    search: str | None = Query(None, min_length=1),
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    books = await AdminBookService(db).list_books(skip=skip, limit=limit)
+    books = await AdminBookService(db).list_books(skip=skip, limit=limit, search=search)
     return api_response(
         data=jsonable_encoder(books),
         message="Books retrieved successfully.",

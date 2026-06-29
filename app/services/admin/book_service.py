@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime, timezone
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select, or_
 from fastapi import HTTPException, status
 
 from app.models.book import Book, BookAvailability
@@ -114,14 +114,22 @@ class AdminBookService:
         await self.db.delete(book)
         await self.db.commit()
 
-    async def list_books(self, skip: int = 0, limit: int = 20) -> list[BookOut]:
-        stmt = select(Book).offset(skip).limit(limit).order_by(Book.added_at.desc())
+    async def list_books(self, skip: int = 0, limit: int = 20, search: str | None = None) -> list[BookOut]:
+        stmt = select(Book)
+        if search:
+            like = f"%{search}%"
+            stmt = stmt.where(or_(Book.title.ilike(like), Book.author.ilike(like)))
+        stmt = stmt.offset(skip).limit(limit).order_by(Book.added_at.desc())
         result = await self.db.execute(stmt)
         books = result.scalars().all()
         return [BookOut.model_validate(book) for book in books]
 
-    async def list_available_books(self, skip: int = 0, limit: int = 20) -> list[BookOut]:
-        stmt = select(Book).where(Book.available_quantity > 0).offset(skip).limit(limit).order_by(Book.added_at.desc())
+    async def list_available_books(self, skip: int = 0, limit: int = 20, search: str | None = None) -> list[BookOut]:
+        stmt = select(Book).where(Book.available_quantity > 0)
+        if search:
+            like = f"%{search}%"
+            stmt = stmt.where(or_(Book.title.ilike(like), Book.author.ilike(like)))
+        stmt = stmt.offset(skip).limit(limit).order_by(Book.added_at.desc())
         result = await self.db.execute(stmt)
         books = result.scalars().all()
         return [BookOut.model_validate(book) for book in books]

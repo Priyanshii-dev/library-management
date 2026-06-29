@@ -1,24 +1,32 @@
-from pydantic import BaseModel, EmailStr, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, constr
 from typing import Optional
 from datetime import datetime
 
 
+# Validation regexes (keep in sync with auth schema)
+EMAIL_REGEX = r"^[\w\.-]+@[\w\.-]+\.\w{2,}$"
+PASSWORD_REGEX = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,72}$"
+PHONE_REGEX = r"^\+?\d{7,15}$"
+NAME_REGEX = r"^[A-Za-z ,.'-]{1,100}$"
+
+
+
 class UserBase(BaseModel):
-    first_name: str
-    last_name: str
-    email: EmailStr
-    phone: str
+    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)
+    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)
+    email: constr(regex=EMAIL_REGEX)
+    phone: constr(regex=PHONE_REGEX)
 
 
 class UserCreate(UserBase):
-    password: str = Field(..., min_length=6)
+    password: constr(regex=PASSWORD_REGEX)
 
 
 class UserUpdate(BaseModel):
-    first_name: Optional[str] = None
-    last_name: Optional[str] = None
-    phone: Optional[str] = None
-    email: Optional[EmailStr] = None
+    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None
+    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None
+    phone: Optional[constr(regex=PHONE_REGEX)] = None
+    email: Optional[constr(regex=EMAIL_REGEX)] = None
     user_logo: Optional[str] = None  
 
 

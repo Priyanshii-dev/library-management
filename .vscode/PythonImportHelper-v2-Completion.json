@@ -48,6 +48,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -120,6 +136,14 @@
         "documentation": {}
     },
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
         "label": "context",
         "importPath": "alembic",
         "description": "alembic",
@@ -154,6 +178,14 @@
     },
     {
         "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -354,6 +386,14 @@
     },
     {
         "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -698,6 +738,14 @@
     },
     {
         "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "async_session_maker",
         "importPath": "app.db.session",
         "description": "app.db.session",
         "isExtraImport": true,
@@ -2378,6 +2426,30 @@
         "documentation": {}
     },
     {
+        "label": "UserRole",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "UserStatus",
         "importPath": "app.models.user",
         "description": "app.models.user",
@@ -3322,6 +3394,22 @@
         "documentation": {}
     },
     {
+        "label": "hash_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
         "label": "verify_password",
         "importPath": "app.core.security",
         "description": "app.core.security",
@@ -3812,7 +3900,7 @@
         "documentation": {}
     },
     {
-        "label": "EmailStr",
+        "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -3820,7 +3908,7 @@
         "documentation": {}
     },
     {
-        "label": "Field",
+        "label": "constr",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -3845,14 +3933,6 @@
     },
     {
         "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "EmailStr",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -3869,6 +3949,14 @@
     },
     {
         "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "constr",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -4154,6 +4242,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "alembic.versions.0441cd358134_create_book_table",
+        "description": "alembic.versions.0441cd358134_create_book_table",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
+        "detail": "alembic.versions.0441cd358134_create_book_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.0441cd358134_create_book_table",
+        "description": "alembic.versions.0441cd358134_create_book_table",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
+        "detail": "alembic.versions.0441cd358134_create_book_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "alembic.versions.7cf562f06416_add_address_field",
         "description": "alembic.versions.7cf562f06416_add_address_field",
         "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('address', sa.String(length=255), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'address')\n    # ### end Alembic commands ###",
@@ -4399,7 +4505,7 @@
         "kind": 5,
         "importPath": "app.core.lifespan",
         "description": "app.core.lifespan",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app):\n    logger.info(\"Database tables ready.\")\n    yield\n    await engine.dispose()\n    logger.info(\"Database connections closed.\")",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app):\n    logger.info(\"Database tables ready.\")\n    # Ensure default admin user exists with specified credentials\n    admin_email = \"admin@gmail.com\"\n    admin_password = \"admin@123\"\n    async with async_session_maker() as session:\n        try:\n            stmt = select(User).where(User.email == admin_email)",
         "detail": "app.core.lifespan",
         "documentation": {}
     },
@@ -4579,7 +4685,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4588,7 +4694,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPRequest(BaseModel):\n    email: EmailStr\nclass OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)",
+        "peekOfCode": "class OTPRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4597,7 +4703,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: EmailStr\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)",
+        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    phone: constr(regex=PHONE_REGEX)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4606,7 +4712,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass ApprovalStatusResponse(BaseModel):",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    phone: constr(regex=PHONE_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass ApprovalStatusResponse(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4615,7 +4721,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: str = Field(..., min_length=1, max_length=100)\n    last_name: str = Field(..., min_length=1, max_length=100)\n    phone: str = Field(..., min_length=1, max_length=20)\n    email: EmailStr\n    password: str = Field(..., min_length=6, max_length=72)\nclass ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
+        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    phone: constr(regex=PHONE_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4625,6 +4731,42 @@
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
         "peekOfCode": "class ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "EMAIL_REGEX = r\"^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$\"\nPASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "PASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "PHONE_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "PHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int\n    email: str",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "NAME_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int\n    email: str\nclass RefreshRequest(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4723,7 +4865,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserBase(BaseModel):\n    first_name: str\n    last_name: str\n    email: EmailStr\n    phone: str\nclass UserCreate(UserBase):\n    password: str = Field(..., min_length=6)\nclass UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None",
+        "peekOfCode": "class UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4732,7 +4874,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserCreate(UserBase):\n    password: str = Field(..., min_length=6)\nclass UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    phone: Optional[str] = None\n    email: Optional[EmailStr] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    phone: Optional[constr(regex=PHONE_REGEX)] = None\n    email: Optional[constr(regex=EMAIL_REGEX)] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4741,7 +4883,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserUpdate(BaseModel):\n    first_name: Optional[str] = None\n    last_name: Optional[str] = None\n    phone: Optional[str] = None\n    email: Optional[EmailStr] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    phone: Optional[constr(regex=PHONE_REGEX)] = None\n    email: Optional[constr(regex=EMAIL_REGEX)] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4778,6 +4920,42 @@
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
         "peekOfCode": "class UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    user_logo: Optional[str] = None \n    created_at: datetime",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "EMAIL_REGEX = r\"^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$\"\nPASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "PASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "PHONE_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "PHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "NAME_REGEX",
+        "kind": 5,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None",
         "detail": "app.schemas.user",
         "documentation": {}
     },

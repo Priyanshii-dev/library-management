@@ -3908,6 +3908,14 @@
         "documentation": {}
     },
     {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "constr",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -3961,6 +3969,15 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -4676,7 +4693,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str\n    user_id: int\n    id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4685,7 +4702,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4694,7 +4711,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)",
+        "peekOfCode": "class OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4703,7 +4720,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    phone: constr(regex=PHONE_REGEX)",
+        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4712,7 +4729,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    phone: constr(regex=PHONE_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass ApprovalStatusResponse(BaseModel):",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4721,7 +4738,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    phone: constr(regex=PHONE_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    password: constr(regex=PASSWORD_REGEX)\nclass ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
+        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    phone: constr(pattern=PHONE_REGEX)\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4730,7 +4747,16 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class ApprovalStatusResponse(BaseModel):\n    status: str  # \"Pending\", \"Approved\", \"Rejected\"\n    message: str",
+        "peekOfCode": "class ApprovalStatusResponse(BaseModel):\n    status: str\n    message: str",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password_complexity",
+        "kind": 2,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "def validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\nclass TokenResponse(BaseModel):\n    access_token: str",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4739,7 +4765,7 @@
         "kind": 5,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "EMAIL_REGEX = r\"^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$\"\nPASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int",
+        "peekOfCode": "EMAIL_REGEX = r\"^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$\"\nPASSWORD_REGEX = r\"^.{8,13}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4748,7 +4774,7 @@
         "kind": 5,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "PASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int",
+        "peekOfCode": "PASSWORD_REGEX = r\"^.{8,13}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4757,7 +4783,7 @@
         "kind": 5,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "PHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int\n    email: str",
+        "peekOfCode": "PHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4766,7 +4792,7 @@
         "kind": 5,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str  # \"Admin\" or \"User\"\n    user_id: int\n    id: int\n    email: str\nclass RefreshRequest(BaseModel):",
+        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\nclass TokenResponse(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -4865,7 +4891,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None",
+        "peekOfCode": "class UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    email: constr(pattern=EMAIL_REGEX)\n    phone: constr(pattern=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4874,7 +4900,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    phone: Optional[constr(regex=PHONE_REGEX)] = None\n    email: Optional[constr(regex=EMAIL_REGEX)] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)] = None\n    phone: Optional[constr(pattern=PHONE_REGEX)] = None",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4883,7 +4909,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None\n    phone: Optional[constr(regex=PHONE_REGEX)] = None\n    email: Optional[constr(regex=EMAIL_REGEX)] = None\n    user_logo: Optional[str] = None  \nclass UserOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)] = None\n    last_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)] = None\n    phone: Optional[constr(pattern=PHONE_REGEX)] = None\n    email: Optional[constr(pattern=EMAIL_REGEX)] = None\n    user_logo: Optional[str] = None\nclass UserOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4901,7 +4927,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserListOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    created_at: datetime\n    class Config:",
+        "peekOfCode": "class UserListOut(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    created_at: datetime\n    model_config = {\"from_attributes\": True}",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4910,7 +4936,7 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserApprovalRequest(BaseModel):\n    user_id: int\n    status: str  # \"Approved\" or \"Rejected\"\nclass UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str",
+        "peekOfCode": "class UserApprovalRequest(BaseModel):\n    user_id: int\n    status: str\nclass UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4919,7 +4945,16 @@
         "kind": 6,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "class UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    user_logo: Optional[str] = None \n    created_at: datetime",
+        "peekOfCode": "class UserDetailResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: str\n    phone: Optional[str] = None\n    role: str\n    status: str\n    user_logo: Optional[str] = None\n    created_at: datetime",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password_complexity",
+        "kind": 2,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "def validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4928,16 +4963,7 @@
         "kind": 5,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "EMAIL_REGEX = r\"^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$\"\nPASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):",
-        "detail": "app.schemas.user",
-        "documentation": {}
-    },
-    {
-        "label": "PASSWORD_REGEX",
-        "kind": 5,
-        "importPath": "app.schemas.user",
-        "description": "app.schemas.user",
-        "peekOfCode": "PASSWORD_REGEX = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,72}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)",
+        "peekOfCode": "EMAIL_REGEX = r\"^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$\"\nPHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4946,7 +4972,7 @@
         "kind": 5,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "PHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):",
+        "peekOfCode": "PHONE_REGEX = r\"^\\+?\\d{7,15}$\"\nNAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v",
         "detail": "app.schemas.user",
         "documentation": {}
     },
@@ -4955,7 +4981,7 @@
         "kind": 5,
         "importPath": "app.schemas.user",
         "description": "app.schemas.user",
-        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\nclass UserBase(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)\n    email: constr(regex=EMAIL_REGEX)\n    phone: constr(regex=PHONE_REGEX)\nclass UserCreate(UserBase):\n    password: constr(regex=PASSWORD_REGEX)\nclass UserUpdate(BaseModel):\n    first_name: Optional[constr(strip_whitespace=True, min_length=1, max_length=100, regex=NAME_REGEX)] = None",
+        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\nclass UserBase(BaseModel):",
         "detail": "app.schemas.user",
         "documentation": {}
     },

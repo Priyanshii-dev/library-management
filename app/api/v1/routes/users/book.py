@@ -6,18 +6,18 @@ from app.api.v1.dependencies import get_current_user
 from app.api.v1.routes.users.router import router
 from app.db.session import get_db
 from app.schemas.book import BookBorrowRequest, BookActionRequest
-from app.services.admin.book_service import AdminBookService
+from app.services.books.list_available_books import ListAvailableBooksService
 from app.utils.response import api_response
 
 
 @router.get("/books")
 async def list_available_books(
-    skip: int = Query(0, ge=0),
+    page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     search: str | None = Query(None, min_length=1),
     db: AsyncSession = Depends(get_db),
 ):
-    books = await AdminBookService(db).list_available_books(skip=skip, limit=limit, search=search)
+    books = await ListAvailableBooksService(db).list_available_books(page=page, limit=limit, search=search)
     return api_response(
         data=jsonable_encoder(books),
         message="Available books retrieved successfully.",

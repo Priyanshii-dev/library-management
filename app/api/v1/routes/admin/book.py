@@ -6,7 +6,13 @@ from app.api.v1.dependencies import get_current_admin
 from app.api.v1.routes.admin.router import router
 from app.db.session import get_db
 from app.schemas.book import BookCreate, BookUpdate
-from app.services.admin.book_service import AdminBookService
+from app.services.books.create_book import CreateBookService
+from app.services.books.update_book import UpdateBookService
+from app.services.books.delete_book import DeleteBookService
+from app.services.books.list_books import ListBooksService
+from app.services.books.list_borrowed_books import ListBorrowedBooksService
+from app.services.books.list_overdue_books import ListOverdueBooksService
+from app.services.books.list_returned_books import ListReturnedBooksService
 from app.utils.response import api_response
 
 
@@ -16,7 +22,7 @@ async def create_book(
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    book = await AdminBookService(db).create_book(data)
+    book = await CreateBookService(db).create_book(data)
     return api_response(
         data=jsonable_encoder(book),
         message="Book created successfully.",
@@ -26,13 +32,13 @@ async def create_book(
 
 @router.get("/books")
 async def list_books(
-    skip: int = Query(0, ge=0),
+    page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     search: str | None = Query(None, min_length=1),
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    books = await AdminBookService(db).list_books(skip=skip, limit=limit, search=search)
+    books = await ListBooksService(db).list_books(page=page, limit=limit, search=search)
     return api_response(
         data=jsonable_encoder(books),
         message="Books retrieved successfully.",
@@ -47,7 +53,7 @@ async def update_book(
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    book = await AdminBookService(db).update_book(book_id, data)
+    book = await UpdateBookService(db).update_book(book_id, data)
     return api_response(
         data=jsonable_encoder(book),
         message="Book updated successfully.",
@@ -61,7 +67,7 @@ async def delete_book(
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    await AdminBookService(db).delete_book(book_id)
+    await DeleteBookService(db).delete_book(book_id)
     return api_response(
         message="Book deleted successfully.",
         status_code=status.HTTP_200_OK,
@@ -70,12 +76,12 @@ async def delete_book(
 
 @router.get("/books/borrowed")
 async def list_borrowed_books(
-    skip: int = Query(0, ge=0),
+    page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    records = await AdminBookService(db).list_borrowed_books(skip=skip, limit=limit)
+    records = await ListBorrowedBooksService(db).list_borrowed_books(page=page, limit=limit)
     return api_response(
         data=jsonable_encoder(records),
         message="Borrowed books retrieved successfully.",
@@ -85,12 +91,12 @@ async def list_borrowed_books(
 
 @router.get("/books/overdue")
 async def list_overdue_books(
-    skip: int = Query(0, ge=0),
+    page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    records = await AdminBookService(db).list_overdue_books(skip=skip, limit=limit)
+    records = await ListOverdueBooksService(db).list_overdue_books(page=page, limit=limit)
     return api_response(
         data=jsonable_encoder(records),
         message="Overdue books retrieved successfully.",
@@ -100,12 +106,12 @@ async def list_overdue_books(
 
 @router.get("/books/returned")
 async def list_returned_books(
-    skip: int = Query(0, ge=0),
+    page: int = Query(1, ge=1),
     limit: int = Query(20, ge=1, le=100),
     db: AsyncSession = Depends(get_db),
     _=Depends(get_current_admin),
 ):
-    records = await AdminBookService(db).list_returned_books(skip=skip, limit=limit)
+    records = await ListReturnedBooksService(db).list_returned_books(page=page, limit=limit)
     return api_response(
         data=jsonable_encoder(records),
         message="Returned books retrieved successfully.",

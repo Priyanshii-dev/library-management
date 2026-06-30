@@ -393,6 +393,46 @@
         "documentation": {}
     },
     {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "or_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -449,6 +489,30 @@
         "documentation": {}
     },
     {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "or_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -465,7 +529,7 @@
         "documentation": {}
     },
     {
-        "label": "select",
+        "label": "or_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1674,6 +1738,38 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -1971,6 +2067,70 @@
     },
     {
         "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
@@ -2866,30 +3026,6 @@
         "documentation": {}
     },
     {
-        "label": "BookCreate",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookUpdate",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookOut",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
         "label": "CategoryCreate",
         "importPath": "app.schemas.book",
         "description": "app.schemas.book",
@@ -2914,7 +3050,55 @@
         "documentation": {}
     },
     {
-        "label": "BookBorrowHistoryOut",
+        "label": "BookCreate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowRecordResponse",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
         "importPath": "app.schemas.book",
         "description": "app.schemas.book",
         "isExtraImport": true,
@@ -2946,19 +3130,123 @@
         "documentation": {}
     },
     {
-        "label": "AdminBookService",
-        "importPath": "app.services.admin.book_service",
-        "description": "app.services.admin.book_service",
+        "label": "BookBorrowHistoryOut",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
         "isExtraImport": true,
-        "detail": "app.services.admin.book_service",
+        "detail": "app.schemas.book",
         "documentation": {}
     },
     {
-        "label": "AdminBookService",
-        "importPath": "app.services.admin.book_service",
-        "description": "app.services.admin.book_service",
+        "label": "CreateBookService",
+        "importPath": "app.services.books.create_book",
+        "description": "app.services.books.create_book",
         "isExtraImport": true,
-        "detail": "app.services.admin.book_service",
+        "detail": "app.services.books.create_book",
+        "documentation": {}
+    },
+    {
+        "label": "CreateBookService",
+        "importPath": "app.services.books.create_book",
+        "description": "app.services.books.create_book",
+        "isExtraImport": true,
+        "detail": "app.services.books.create_book",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateBookService",
+        "importPath": "app.services.books.update_book",
+        "description": "app.services.books.update_book",
+        "isExtraImport": true,
+        "detail": "app.services.books.update_book",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateBookService",
+        "importPath": "app.services.books.update_book",
+        "description": "app.services.books.update_book",
+        "isExtraImport": true,
+        "detail": "app.services.books.update_book",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteBookService",
+        "importPath": "app.services.books.delete_book",
+        "description": "app.services.books.delete_book",
+        "isExtraImport": true,
+        "detail": "app.services.books.delete_book",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteBookService",
+        "importPath": "app.services.books.delete_book",
+        "description": "app.services.books.delete_book",
+        "isExtraImport": true,
+        "detail": "app.services.books.delete_book",
+        "documentation": {}
+    },
+    {
+        "label": "ListBooksService",
+        "importPath": "app.services.books.list_books",
+        "description": "app.services.books.list_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListBooksService",
+        "importPath": "app.services.books.list_books",
+        "description": "app.services.books.list_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListBorrowedBooksService",
+        "importPath": "app.services.books.list_borrowed_books",
+        "description": "app.services.books.list_borrowed_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_borrowed_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListBorrowedBooksService",
+        "importPath": "app.services.books.list_borrowed_books",
+        "description": "app.services.books.list_borrowed_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_borrowed_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListOverdueBooksService",
+        "importPath": "app.services.books.list_overdue_books",
+        "description": "app.services.books.list_overdue_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_overdue_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListOverdueBooksService",
+        "importPath": "app.services.books.list_overdue_books",
+        "description": "app.services.books.list_overdue_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_overdue_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListReturnedBooksService",
+        "importPath": "app.services.books.list_returned_books",
+        "description": "app.services.books.list_returned_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_returned_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListReturnedBooksService",
+        "importPath": "app.services.books.list_returned_books",
+        "description": "app.services.books.list_returned_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_returned_books",
         "documentation": {}
     },
     {
@@ -3338,6 +3626,14 @@
         "documentation": {}
     },
     {
+        "label": "ListAvailableBooksService",
+        "importPath": "app.services.books.list_available_books",
+        "description": "app.services.books.list_available_books",
+        "isExtraImport": true,
+        "detail": "app.services.books.list_available_books",
+        "documentation": {}
+    },
+    {
         "label": "GetUserService",
         "importPath": "app.services.user.get_user",
         "description": "app.services.user.get_user",
@@ -3691,22 +3987,6 @@
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -4013,51 +4293,11 @@
         "documentation": {}
     },
     {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
+        "label": "Category",
+        "importPath": "app.models.category",
+        "description": "app.models.category",
         "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
+        "detail": "app.models.category",
         "documentation": {}
     },
     {
@@ -4077,78 +4317,6 @@
         "documentation": {}
     },
     {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
         "label": "OTPService",
         "importPath": "app.services.otp_service",
         "description": "app.services.otp_service",
@@ -4170,6 +4338,198 @@
         "description": "app.services.otp_service",
         "isExtraImport": true,
         "detail": "app.services.otp_service",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
         "documentation": {}
     },
     {
@@ -5026,7 +5386,7 @@
         "kind": 6,
         "importPath": "app.services.admin.book_service",
         "description": "app.services.admin.book_service",
-        "peekOfCode": "class AdminBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def create_book(self, data: BookCreate) -> BookOut:\n        stmt = select(Category).where(Category.id == data.category_id)\n        result = await self.db.execute(stmt)\n        category = result.scalar_one_or_none()\n        if not category:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "peekOfCode": "class AdminBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n        self.create_service = CreateBookService(db)\n        self.update_service = UpdateBookService(db)\n        self.delete_service = DeleteBookService(db)\n        self.list_service = ListBooksService(db)\n        self.borrowed_service = ListBorrowedBooksService(db)\n        self.overdue_service = ListOverdueBooksService(db)\n        self.returned_service = ListReturnedBooksService(db)",
         "detail": "app.services.admin.book_service",
         "documentation": {}
     },
@@ -5035,7 +5395,7 @@
         "kind": 5,
         "importPath": "app.services.admin.book_service",
         "description": "app.services.admin.book_service",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AdminBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def create_book(self, data: BookCreate) -> BookOut:\n        stmt = select(Category).where(Category.id == data.category_id)\n        result = await self.db.execute(stmt)\n        category = result.scalar_one_or_none()\n        if not category:\n            raise HTTPException(",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AdminBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n        self.create_service = CreateBookService(db)\n        self.update_service = UpdateBookService(db)\n        self.delete_service = DeleteBookService(db)\n        self.list_service = ListBooksService(db)\n        self.borrowed_service = ListBorrowedBooksService(db)\n        self.overdue_service = ListOverdueBooksService(db)",
         "detail": "app.services.admin.book_service",
         "documentation": {}
     },
@@ -5217,6 +5577,150 @@
         "description": "app.services.auth.verify_otp",
         "peekOfCode": "class VerifyOTPService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def verify_email_otp(self, data: OTPVerifyRequest) -> dict:\n        \"\"\"Verify email OTP and mark email as verified.\"\"\"\n        stmt = select(User).where(User.email == data.email)\n        user = await self.db.execute(stmt)\n        user = user.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
         "detail": "app.services.auth.verify_otp",
+        "documentation": {}
+    },
+    {
+        "label": "CreateBookService",
+        "kind": 6,
+        "importPath": "app.services.books.create_book",
+        "description": "app.services.books.create_book",
+        "peekOfCode": "class CreateBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def create_book(self, data: BookCreate) -> BookOut:\n        stmt = select(Category).where(Category.id == data.category_id)\n        result = await self.db.execute(stmt)\n        category = result.scalar_one_or_none()\n        if not category:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.books.create_book",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.create_book",
+        "description": "app.services.books.create_book",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass CreateBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def create_book(self, data: BookCreate) -> BookOut:\n        stmt = select(Category).where(Category.id == data.category_id)\n        result = await self.db.execute(stmt)\n        category = result.scalar_one_or_none()\n        if not category:\n            raise HTTPException(",
+        "detail": "app.services.books.create_book",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteBookService",
+        "kind": 6,
+        "importPath": "app.services.books.delete_book",
+        "description": "app.services.books.delete_book",
+        "peekOfCode": "class DeleteBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def delete_book(self, book_id: int) -> None:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.books.delete_book",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.delete_book",
+        "description": "app.services.books.delete_book",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DeleteBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def delete_book(self, book_id: int) -> None:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(",
+        "detail": "app.services.books.delete_book",
+        "documentation": {}
+    },
+    {
+        "label": "ListAvailableBooksService",
+        "kind": 6,
+        "importPath": "app.services.books.list_available_books",
+        "description": "app.services.books.list_available_books",
+        "peekOfCode": "class ListAvailableBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_available_books(\n        self,\n        page: int = 1,\n        limit: int = 20,\n        search: str | None = None,\n    ) -> list[BookOut]:\n        offset = (page - 1) * limit",
+        "detail": "app.services.books.list_available_books",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.list_available_books",
+        "description": "app.services.books.list_available_books",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ListAvailableBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_available_books(\n        self,\n        page: int = 1,\n        limit: int = 20,\n        search: str | None = None,\n    ) -> list[BookOut]:",
+        "detail": "app.services.books.list_available_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListBooksService",
+        "kind": 6,
+        "importPath": "app.services.books.list_books",
+        "description": "app.services.books.list_books",
+        "peekOfCode": "class ListBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_books(\n        self,\n        page: int = 1,\n        limit: int = 20,\n        search: str | None = None,\n    ) -> list[BookOut]:\n        offset = (page - 1) * limit",
+        "detail": "app.services.books.list_books",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.list_books",
+        "description": "app.services.books.list_books",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ListBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_books(\n        self,\n        page: int = 1,\n        limit: int = 20,\n        search: str | None = None,\n    ) -> list[BookOut]:",
+        "detail": "app.services.books.list_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListBorrowedBooksService",
+        "kind": 6,
+        "importPath": "app.services.books.list_borrowed_books",
+        "description": "app.services.books.list_borrowed_books",
+        "peekOfCode": "class ListBorrowedBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_borrowed_books(self, page: int = 1, limit: int = 20) -> list[dict]:\n        offset = (page - 1) * limit\n        stmt = select(BookBorrow).where(BookBorrow.status == BorrowStatus.BORROWED)\n        stmt = stmt.offset(offset).limit(limit).order_by(BookBorrow.borrowed_at.desc())\n        result = await self.db.execute(stmt)\n        borrows = result.scalars().all()\n        return [self._format_borrow_record(record) for record in borrows]",
+        "detail": "app.services.books.list_borrowed_books",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.list_borrowed_books",
+        "description": "app.services.books.list_borrowed_books",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ListBorrowedBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_borrowed_books(self, page: int = 1, limit: int = 20) -> list[dict]:\n        offset = (page - 1) * limit\n        stmt = select(BookBorrow).where(BookBorrow.status == BorrowStatus.BORROWED)\n        stmt = stmt.offset(offset).limit(limit).order_by(BookBorrow.borrowed_at.desc())\n        result = await self.db.execute(stmt)\n        borrows = result.scalars().all()",
+        "detail": "app.services.books.list_borrowed_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListOverdueBooksService",
+        "kind": 6,
+        "importPath": "app.services.books.list_overdue_books",
+        "description": "app.services.books.list_overdue_books",
+        "peekOfCode": "class ListOverdueBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_overdue_books(self, page: int = 1, limit: int = 20) -> list[dict]:\n        offset = (page - 1) * limit\n        stmt = select(BookBorrow).where(BookBorrow.status == BorrowStatus.OVERDUE)\n        stmt = stmt.offset(offset).limit(limit).order_by(BookBorrow.due_date.asc())\n        result = await self.db.execute(stmt)\n        borrows = result.scalars().all()\n        return [self._format_borrow_record(record) for record in borrows]",
+        "detail": "app.services.books.list_overdue_books",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.list_overdue_books",
+        "description": "app.services.books.list_overdue_books",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ListOverdueBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_overdue_books(self, page: int = 1, limit: int = 20) -> list[dict]:\n        offset = (page - 1) * limit\n        stmt = select(BookBorrow).where(BookBorrow.status == BorrowStatus.OVERDUE)\n        stmt = stmt.offset(offset).limit(limit).order_by(BookBorrow.due_date.asc())\n        result = await self.db.execute(stmt)\n        borrows = result.scalars().all()",
+        "detail": "app.services.books.list_overdue_books",
+        "documentation": {}
+    },
+    {
+        "label": "ListReturnedBooksService",
+        "kind": 6,
+        "importPath": "app.services.books.list_returned_books",
+        "description": "app.services.books.list_returned_books",
+        "peekOfCode": "class ListReturnedBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_returned_books(self, page: int = 1, limit: int = 20) -> list[dict]:\n        offset = (page - 1) * limit\n        stmt = select(BookBorrow).where(BookBorrow.status == BorrowStatus.RETURNED)\n        stmt = stmt.offset(offset).limit(limit).order_by(BookBorrow.returned_at.desc())\n        result = await self.db.execute(stmt)\n        borrows = result.scalars().all()\n        return [self._format_borrow_record(record) for record in borrows]",
+        "detail": "app.services.books.list_returned_books",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.list_returned_books",
+        "description": "app.services.books.list_returned_books",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ListReturnedBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def list_returned_books(self, page: int = 1, limit: int = 20) -> list[dict]:\n        offset = (page - 1) * limit\n        stmt = select(BookBorrow).where(BookBorrow.status == BorrowStatus.RETURNED)\n        stmt = stmt.offset(offset).limit(limit).order_by(BookBorrow.returned_at.desc())\n        result = await self.db.execute(stmt)\n        borrows = result.scalars().all()",
+        "detail": "app.services.books.list_returned_books",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateBookService",
+        "kind": 6,
+        "importPath": "app.services.books.update_book",
+        "description": "app.services.books.update_book",
+        "peekOfCode": "class UpdateBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def update_book(self, book_id: int, data: BookUpdate) -> BookOut:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "app.services.books.update_book",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.books.update_book",
+        "description": "app.services.books.update_book",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass UpdateBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def update_book(self, book_id: int, data: BookUpdate) -> BookOut:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(",
+        "detail": "app.services.books.update_book",
         "documentation": {}
     },
     {

@@ -5,7 +5,10 @@ from .search_user import SearchUserService
 from .list_users import ListUsersService
 from .pending_approvals import PendingApprovalsService
 from .admin_dashboard import AdminDashboardService
-from .book_service import AdminBookService
+from ..books.create_book import CreateBookService
+from ..books.update_book import UpdateBookService
+from ..books.delete_book import DeleteBookService
+from ..books.list_books import ListBooksService
 from .category_service import CategoryService
 
 __all__ = [
@@ -16,6 +19,9 @@ __all__ = [
     "ListUsersService",
     "PendingApprovalsService",
     "AdminDashboardService",
-    "AdminBookService",
+    "CreateBookService",
+    "UpdateBookService",
+    "DeleteBookService",
+    "ListBooksService",
     "CategoryService",
 ]

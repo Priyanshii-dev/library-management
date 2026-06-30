@@ -1,4 +1,5 @@
 from app.api.v1.routes.admin.router import router as admin_router
+from app.api.v1.routes.book import admin as book_admin
 
 from app.api.v1.routes.admin import (
     users,
@@ -8,7 +9,6 @@ from app.api.v1.routes.admin import (
     approve,
     reject,
     delete,
-    book,
     category,
 )
 
@@ -21,6 +21,6 @@ __all__ = [
     "approve",
     "reject",
     "delete",
-    "book",
     "category",
+    "book_admin",
 ]

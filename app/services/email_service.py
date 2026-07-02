@@ -66,6 +66,57 @@ class EmailService:
             return False
 
     @staticmethod
+    async def send_password_reset_email(email: str, otp_code: str, username: str) -> bool:
+        """Send a password reset OTP email to the user."""
+        try:
+            subject = "Library Management System - Password Reset"
+
+            html_body = f"""
+            <html>
+                <body style="font-family: Arial, sans-serif;">
+                    <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+                        <h2>Password Reset</h2>
+                        <p>Hi {username},</p>
+                        <p>Use the following one-time password to reset your password:</p>
+                        <div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; text-align: center; margin: 20px 0;">
+                            <h3 style="letter-spacing: 2px; color: #333;">{otp_code}</h3>
+                        </div>
+                        <p>This OTP will expire in {settings.OTP_EXPIRY_MINUTES} minutes.</p>
+                        <p>If you didn't request this change, please ignore this email.</p>
+                        <hr>
+                        <p style="color: #999; font-size: 12px;">
+                            Library Management System<br>
+                            This is an automated email, please do not reply.
+                        </p>
+                    </div>
+                </body>
+            </html>
+            """
+
+            text_body = f"""
+            Password Reset
+
+            Hi {username},
+
+            Use the following one-time password to reset your password:
+
+            {otp_code}
+
+            This OTP will expire in {settings.OTP_EXPIRY_MINUTES} minutes.
+
+            If you didn't request this change, please ignore this email.
+
+            Library Management System
+            """
+
+            logger.info(f"Sending password reset email to {email} (Code: {otp_code})")
+            return await EmailService._send_smtp(email, subject, text_body, html_body)
+
+        except Exception as e:
+            logger.error(f"Failed to send password reset email to {email}: {str(e)}")
+            return False
+
+    @staticmethod
     async def send_approval_email(email: str, username: str, is_approved: bool, 
                                   rejection_reason: str | None = None) -> bool:
        

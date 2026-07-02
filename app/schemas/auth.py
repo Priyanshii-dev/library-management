@@ -33,17 +33,48 @@ class RefreshRequest(BaseModel):
 
 
 class OTPRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX)
+    email: constr(pattern=EMAIL_REGEX) = Field(
+        ..., json_schema_extra={"example": "user@example.com"}
+    )
 
 
 class OTPVerifyRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX)
-    otp_code: str = Field(..., min_length=6, max_length=6)
+    email: constr(pattern=EMAIL_REGEX) = Field(
+        ..., json_schema_extra={"example": "user@example.com"}
+    )
+    otp_code: str = Field(
+        ..., min_length=6, max_length=6, json_schema_extra={"example": "123456"}
+    )
+
+
+class ForgotPasswordRequest(BaseModel):
+    email: constr(pattern=EMAIL_REGEX) = Field(
+        ..., json_schema_extra={"example": "user@example.com"}
+    )
+
+
+class PasswordResetRequest(BaseModel):
+    email: constr(pattern=EMAIL_REGEX) = Field(
+        ..., json_schema_extra={"example": "user@example.com"}
+    )
+    otp_code: str = Field(
+        ..., min_length=6, max_length=6, json_schema_extra={"example": "123456"}
+    )
+    new_password: str = Field(
+        ..., json_schema_extra={"example": "StrongPass@123"}
+    )
+
+    @field_validator("new_password")
+    @classmethod
+    def validate_password(cls, v):
+        return validate_password_complexity(v)
 
 
 class LoginRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX)
-    password: str
+    email: constr(pattern=EMAIL_REGEX) = Field(
+        ..., json_schema_extra={"example": "user@example.com"}
+    )
+    password: str = Field(..., json_schema_extra={"example": "StrongPass@123"})
 
     @field_validator("password")
     @classmethod
@@ -52,11 +83,19 @@ class LoginRequest(BaseModel):
 
 
 class RegistrationRequest(BaseModel):
-    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)
-    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)
-    phone: constr(pattern=PHONE_REGEX)
-    email: constr(pattern=EMAIL_REGEX)
-    password: str
+    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX) = Field(
+        ..., json_schema_extra={"example": "John"}
+    )
+    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX) = Field(
+        ..., json_schema_extra={"example": "Doe"}
+    )
+    phone: constr(pattern=PHONE_REGEX) = Field(
+        ..., json_schema_extra={"example": "+1234567890"}
+    )
+    email: constr(pattern=EMAIL_REGEX) = Field(
+        ..., json_schema_extra={"example": "user@example.com"}
+    )
+    password: str = Field(..., json_schema_extra={"example": "StrongPass@123"})
 
     @field_validator("password")
     @classmethod

@@ -537,6 +537,22 @@
         "documentation": {}
     },
     {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "or_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -658,6 +674,22 @@
     },
     {
         "label": "Base",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.db.session",
         "description": "app.db.session",
         "isExtraImport": true,
@@ -1219,6 +1251,38 @@
     },
     {
         "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2066,7 +2130,47 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2255,6 +2359,30 @@
         "description": "fastapi.encoders",
         "isExtraImport": true,
         "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -2770,6 +2898,22 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "get_current_admin",
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
@@ -3282,6 +3426,14 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "UserStatus",
         "importPath": "app.models.user",
         "description": "app.models.user",
@@ -3371,6 +3523,38 @@
     },
     {
         "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
         "importPath": "app.models.user",
         "description": "app.models.user",
         "isExtraImport": true,
@@ -3383,6 +3567,22 @@
         "description": "app.services.admin.approve_user",
         "isExtraImport": true,
         "detail": "app.services.admin.approve_user",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
         "documentation": {}
     },
     {
@@ -3738,14 +3938,6 @@
         "documentation": {}
     },
     {
-        "label": "BookBorrowRecordResponse",
-        "importPath": "app.schemas.book",
-        "description": "app.schemas.book",
-        "isExtraImport": true,
-        "detail": "app.schemas.book",
-        "documentation": {}
-    },
-    {
         "label": "BookUpdate",
         "importPath": "app.schemas.book",
         "description": "app.schemas.book",
@@ -3922,11 +4114,35 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.auth.router",
+        "description": "app.api.v1.routes.auth.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
         "label": "ApprovalStatusService",
         "importPath": "app.services.auth.approval_status",
         "description": "app.services.auth.approval_status",
         "isExtraImport": true,
         "detail": "app.services.auth.approval_status",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordRequest",
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "isExtraImport": true,
+        "detail": "app.schemas.auth",
         "documentation": {}
     },
     {
@@ -3954,6 +4170,14 @@
         "documentation": {}
     },
     {
+        "label": "PasswordResetRequest",
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "isExtraImport": true,
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
         "label": "OTPVerifyRequest",
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
@@ -3986,11 +4210,35 @@
         "documentation": {}
     },
     {
+        "label": "PasswordResetRequest",
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "isExtraImport": true,
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
         "label": "OTPVerifyRequest",
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
         "isExtraImport": true,
         "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordService",
+        "importPath": "app.services.auth.forgot_password",
+        "description": "app.services.auth.forgot_password",
+        "isExtraImport": true,
+        "detail": "app.services.auth.forgot_password",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordService",
+        "importPath": "app.services.auth.forgot_password",
+        "description": "app.services.auth.forgot_password",
+        "isExtraImport": true,
+        "detail": "app.services.auth.forgot_password",
         "documentation": {}
     },
     {
@@ -4127,6 +4375,22 @@
         "description": "app.services.auth.resend_otp",
         "isExtraImport": true,
         "detail": "app.services.auth.resend_otp",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordService",
+        "importPath": "app.services.auth.reset_password",
+        "description": "app.services.auth.reset_password",
+        "isExtraImport": true,
+        "detail": "app.services.auth.reset_password",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordService",
+        "importPath": "app.services.auth.reset_password",
+        "description": "app.services.auth.reset_password",
+        "isExtraImport": true,
+        "detail": "app.services.auth.reset_password",
         "documentation": {}
     },
     {
@@ -4450,6 +4714,14 @@
         "documentation": {}
     },
     {
+        "label": "hash_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -4675,6 +4947,38 @@
         "documentation": {}
     },
     {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -4748,6 +5052,22 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -4981,11 +5301,11 @@
         "documentation": {}
     },
     {
-        "label": "Category",
-        "importPath": "app.models.category",
-        "description": "app.models.category",
+        "label": "EmailService",
+        "importPath": "app.services.email_service",
+        "description": "app.services.email_service",
         "isExtraImport": true,
-        "detail": "app.models.category",
+        "detail": "app.services.email_service",
         "documentation": {}
     },
     {
@@ -5002,6 +5322,30 @@
         "description": "app.models.category",
         "isExtraImport": true,
         "detail": "app.models.category",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "app.models.category",
+        "description": "app.models.category",
+        "isExtraImport": true,
+        "detail": "app.models.category",
+        "documentation": {}
+    },
+    {
+        "label": "OTPService",
+        "importPath": "app.services.otp_service",
+        "description": "app.services.otp_service",
+        "isExtraImport": true,
+        "detail": "app.services.otp_service",
+        "documentation": {}
+    },
+    {
+        "label": "OTPService",
+        "importPath": "app.services.otp_service",
+        "description": "app.services.otp_service",
+        "isExtraImport": true,
+        "detail": "app.services.otp_service",
         "documentation": {}
     },
     {
@@ -5297,11 +5641,53 @@
         "documentation": {}
     },
     {
+        "label": "http_exception_handler",
+        "importPath": "app.core.exception_handlers",
+        "description": "app.core.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.core.exception_handlers",
+        "documentation": {}
+    },
+    {
         "label": "api_router",
         "importPath": "app.api.v1.router",
         "description": "app.api.v1.router",
         "isExtraImport": true,
         "detail": "app.api.v1.router",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
@@ -5768,7 +6154,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -5777,7 +6163,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod",
+        "peekOfCode": "class OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -5786,7 +6172,25 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    otp_code: str = Field(..., min_length=6, max_length=6)\nclass LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)",
+        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}\n    )\nclass ForgotPasswordRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordRequest",
+        "kind": 6,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "class ForgotPasswordRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\nclass PasswordResetRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetRequest",
+        "kind": 6,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "class PasswordResetRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}\n    )\n    new_password: str = Field(\n        ..., json_schema_extra={\"example\": \"StrongPass@123\"}\n    )",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -5795,7 +6199,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)\nclass RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    password: str = Field(..., json_schema_extra={\"example\": \"StrongPass@123\"})\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)\nclass RegistrationRequest(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -5804,7 +6208,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX)\n    phone: constr(pattern=PHONE_REGEX)\n    email: constr(pattern=EMAIL_REGEX)\n    password: str\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)",
+        "peekOfCode": "class RegistrationRequest(BaseModel):\n    first_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"John\"}\n    )\n    last_name: constr(strip_whitespace=True, min_length=1, max_length=100, pattern=NAME_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"Doe\"}\n    )\n    phone: constr(pattern=PHONE_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"+1234567890\"}\n    )",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -6223,6 +6627,15 @@
         "documentation": {}
     },
     {
+        "label": "ForgotPasswordService",
+        "kind": 6,
+        "importPath": "app.services.auth.forgot_password",
+        "description": "app.services.auth.forgot_password",
+        "peekOfCode": "class ForgotPasswordService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def send_reset_link(self, email: str) -> dict:\n        \"\"\"Generate an OTP for password reset and email it when the account exists.\"\"\"\n        stmt = select(User).where(User.email == email)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            return {",
+        "detail": "app.services.auth.forgot_password",
+        "documentation": {}
+    },
+    {
         "label": "LoginService",
         "kind": 6,
         "importPath": "app.services.auth.login",
@@ -6274,6 +6687,15 @@
         "description": "app.services.auth.resend_otp",
         "peekOfCode": "class ResendOTPService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def resend_otp(self, email: str) -> dict:\n        \"\"\"Resend OTP to user email.\"\"\"\n        stmt = select(User).where(User.email == email)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
         "detail": "app.services.auth.resend_otp",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordService",
+        "kind": 6,
+        "importPath": "app.services.auth.reset_password",
+        "description": "app.services.auth.reset_password",
+        "peekOfCode": "class ResetPasswordService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def reset_password(self, email: str, otp_code: str, new_password: str) -> dict:\n        \"\"\"Verify OTP and update the user's password.\"\"\"\n        stmt = select(User).where(User.email == email)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
+        "detail": "app.services.auth.reset_password",
         "documentation": {}
     },
     {
@@ -6607,6 +7029,33 @@
         "description": "app.main",
         "peekOfCode": "app = create_app()",
         "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "FakeResult",
+        "kind": 6,
+        "importPath": "tests.test_auth_password_reset",
+        "description": "tests.test_auth_password_reset",
+        "peekOfCode": "class FakeResult:\n    def __init__(self, value):\n        self._value = value\n    def scalar_one_or_none(self):\n        return self._value\nclass FakeDB:\n    def __init__(self, user):\n        self.user = user\n        self.commits = 0\n    async def execute(self, stmt):",
+        "detail": "tests.test_auth_password_reset",
+        "documentation": {}
+    },
+    {
+        "label": "FakeDB",
+        "kind": 6,
+        "importPath": "tests.test_auth_password_reset",
+        "description": "tests.test_auth_password_reset",
+        "peekOfCode": "class FakeDB:\n    def __init__(self, user):\n        self.user = user\n        self.commits = 0\n    async def execute(self, stmt):\n        return FakeResult(self.user)\n    async def commit(self):\n        self.commits += 1\nclass AuthPasswordResetTests(unittest.IsolatedAsyncioTestCase):\n    async def test_forgot_password_generates_otp_and_sends_email(self):",
+        "detail": "tests.test_auth_password_reset",
+        "documentation": {}
+    },
+    {
+        "label": "AuthPasswordResetTests",
+        "kind": 6,
+        "importPath": "tests.test_auth_password_reset",
+        "description": "tests.test_auth_password_reset",
+        "peekOfCode": "class AuthPasswordResetTests(unittest.IsolatedAsyncioTestCase):\n    async def test_forgot_password_generates_otp_and_sends_email(self):\n        user = User(\n            first_name=\"Jane\",\n            last_name=\"Doe\",\n            email=\"jane@example.com\",\n            phone=\"+1234567890\",\n            password=\"hashed-password\",\n            role=UserRole.USER,\n            status=UserStatus.APPROVED,",
+        "detail": "tests.test_auth_password_reset",
         "documentation": {}
     },
     {

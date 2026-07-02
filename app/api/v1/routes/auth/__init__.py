@@ -9,6 +9,8 @@ from app.api.v1.routes.auth import (
     verify_email,
     resend_otp,
     approval_status,
+    forgot_password,
+    reset_password,
 )
 
 __all__ = [
@@ -21,4 +23,6 @@ __all__ = [
     "verify_email",
     "resend_otp",
     "approval_status",
+    "forgot_password",
+    "reset_password",
 ]

@@ -3,7 +3,6 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.models.book_borrow import BookBorrow, BorrowStatus
-from app.schemas.book import BookBorrowRecordResponse
 
 logger = logging.getLogger(__name__)
 

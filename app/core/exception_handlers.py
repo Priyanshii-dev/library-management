@@ -18,7 +18,6 @@ async def validation_error_handler(request: Request, exc: RequestValidationError
             "error": True,
             "message": "Validation error.",
             "statusCode": 422,
-            "messageCode": "VALIDATION_ERROR",
             "data": errors,
         },
     )
@@ -26,14 +25,24 @@ async def validation_error_handler(request: Request, exc: RequestValidationError
 
 async def http_exception_handler(request: Request, exc: HTTPException):
     logger.warning(f"HTTP exception: {exc.detail}")
+
+    if isinstance(exc.detail, dict):
+        detail = exc.detail
+        message = detail.get("message") or "HTTP error."
+        status_code = detail.get("statusCode") or exc.status_code
+        data = detail.get("data") or []
+    else:
+        message = exc.detail if isinstance(exc.detail, str) else "HTTP error."
+        status_code = exc.status_code
+        data = []
+
     return JSONResponse(
-        status_code=exc.status_code,
+        status_code=status_code,
         content={
             "error": True,
-            "message": exc.detail if isinstance(exc.detail, str) else "HTTP error.",
-            "statusCode": exc.status_code,
-            "messageCode": "BAD_REQUEST" if exc.status_code == 400 else "HTTP_ERROR",
-            "data": [],
+            "message": message,
+            "statusCode": status_code,
+            "data": data,
         },
     )
 
@@ -46,7 +55,6 @@ async def db_error_handler(request: Request, exc: SQLAlchemyError):
             "error": True,
             "message": "A database error occurred.",
             "statusCode": 500,
-            "messageCode": "DB_ERROR",
             "data": [],
         },
     )
@@ -60,7 +68,6 @@ async def unhandled_error_handler(request: Request, exc: Exception):
             "error": True,
             "message": "An unexpected error occurred.",
             "statusCode": 500,
-            "messageCode": "INTERNAL_SERVER_ERROR",
             "data": [],
         },
     )

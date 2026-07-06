@@ -18,7 +18,7 @@ async def validation_error_handler(request: Request, exc: RequestValidationError
             "error": True,
             "message": "Validation error.",
             "statusCode": 422,
-            "data": errors,
+            "data": [],
         },
     )
 
@@ -42,7 +42,7 @@ async def http_exception_handler(request: Request, exc: HTTPException):
             "error": True,
             "message": message,
             "statusCode": status_code,
-            "data": data,
+            "data":[],
         },
     )
 

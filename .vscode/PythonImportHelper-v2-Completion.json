@@ -16,70 +16,6 @@
         "documentation": {}
     },
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -128,35 +64,11 @@
         "documentation": {}
     },
     {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -202,6 +114,54 @@
     },
     {
         "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -305,6 +265,14 @@
         "documentation": {}
     },
     {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "DateTime",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -330,6 +298,62 @@
     },
     {
         "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -570,6 +594,14 @@
     },
     {
         "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -937,6 +969,70 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
         "label": "engine",
         "importPath": "app.db.session",
         "description": "app.db.session",
@@ -946,6 +1042,14 @@
     },
     {
         "label": "async_session_maker",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
         "importPath": "app.db.session",
         "description": "app.db.session",
         "isExtraImport": true,
@@ -1026,6 +1130,14 @@
         "documentation": {}
     },
     {
+        "label": "membership",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "app.core.config",
         "description": "app.core.config",
@@ -1675,6 +1787,134 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1723,6 +1963,22 @@
     },
     {
         "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2178,11 +2434,11 @@
         "documentation": {}
     },
     {
-        "label": "jsonable_encoder",
-        "importPath": "fastapi.encoders",
-        "description": "fastapi.encoders",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "fastapi.encoders",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -2367,6 +2623,78 @@
         "description": "fastapi.encoders",
         "isExtraImport": true,
         "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -2914,6 +3242,14 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "get_current_admin",
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
@@ -3043,6 +3379,70 @@
     },
     {
         "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_admin",
+        "importPath": "app.api.v1.dependencies",
+        "description": "app.api.v1.dependencies",
+        "isExtraImport": true,
+        "detail": "app.api.v1.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
         "importPath": "app.api.v1.dependencies",
         "description": "app.api.v1.dependencies",
         "isExtraImport": true,
@@ -3531,6 +3931,38 @@
     },
     {
         "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
         "importPath": "app.models.user",
         "description": "app.models.user",
         "isExtraImport": true,
@@ -3567,6 +3999,70 @@
         "description": "app.services.admin.approve_user",
         "isExtraImport": true,
         "detail": "app.services.admin.approve_user",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_response",
+        "importPath": "app.utils.response",
+        "description": "app.utils.response",
+        "isExtraImport": true,
+        "detail": "app.utils.response",
         "documentation": {}
     },
     {
@@ -3875,6 +4371,14 @@
     },
     {
         "label": "BookActionRequest",
+        "importPath": "app.schemas.book",
+        "description": "app.schemas.book",
+        "isExtraImport": true,
+        "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrowHistoryOut",
         "importPath": "app.schemas.book",
         "description": "app.schemas.book",
         "isExtraImport": true,
@@ -4578,11 +5082,1011 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "app.api.v1.routes.users.router",
+        "description": "app.api.v1.routes.users.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.users.router",
+        "documentation": {}
+    },
+    {
         "label": "ListAvailableBooksService",
         "importPath": "app.services.books.list_available_books",
         "description": "app.services.books.list_available_books",
         "isExtraImport": true,
         "detail": "app.services.books.list_available_books",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlan",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlan",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlan",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentType",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlan",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentStatus",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentType",
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "isExtraImport": true,
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlanCreate",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlanOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPurchaseRequest",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentOut",
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "isExtraImport": true,
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.payments.router",
+        "description": "app.api.v1.routes.payments.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.payments.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.payments.router",
+        "description": "app.api.v1.routes.payments.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.payments.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.routes.payments.router",
+        "description": "app.api.v1.routes.payments.router",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.payments.router",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookAvailability",
+        "importPath": "app.models.book",
+        "description": "app.models.book",
+        "isExtraImport": true,
+        "detail": "app.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BookBorrow",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowStatus",
+        "importPath": "app.models.book_borrow",
+        "description": "app.models.book_borrow",
+        "isExtraImport": true,
+        "detail": "app.models.book_borrow",
         "documentation": {}
     },
     {
@@ -4803,278 +6307,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "CryptContext",
         "importPath": "passlib.context",
         "description": "passlib.context",
@@ -5171,6 +6403,30 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "enum",
         "kind": 6,
         "isExtraImport": true,
@@ -5205,6 +6461,22 @@
     },
     {
         "label": "constr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -5373,198 +6645,6 @@
         "documentation": {}
     },
     {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "Book",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookAvailability",
-        "importPath": "app.models.book",
-        "description": "app.models.book",
-        "isExtraImport": true,
-        "detail": "app.models.book",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
         "label": "smtplib",
         "kind": 6,
         "isExtraImport": true,
@@ -5691,93 +6771,29 @@
         "documentation": {}
     },
     {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.0441cd358134_create_book_table",
-        "description": "alembic.versions.0441cd358134_create_book_table",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "alembic.versions.0441cd358134_create_book_table",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.0441cd358134_create_book_table",
-        "description": "alembic.versions.0441cd358134_create_book_table",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "alembic.versions.0441cd358134_create_book_table",
+        "label": "BorrowBookService",
+        "importPath": "app.services.user.borrow_book",
+        "description": "app.services.user.borrow_book",
+        "isExtraImport": true,
+        "detail": "app.services.user.borrow_book",
         "documentation": {}
     },
     {
         "label": "upgrade",
         "kind": 2,
-        "importPath": "alembic.versions.7cf562f06416_add_address_field",
-        "description": "alembic.versions.7cf562f06416_add_address_field",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('address', sa.String(length=255), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'address')\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.7cf562f06416_add_address_field",
+        "importPath": "alembic.versions.8ea66db8547d_baseline",
+        "description": "alembic.versions.8ea66db8547d_baseline",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('membership_plans',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('price', sa.Numeric(precision=10, scale=2), nullable=False),\n    sa.Column('validity_days', sa.Integer(), nullable=False),\n    sa.Column('max_books', sa.Integer(), nullable=False),\n    sa.Column('created_at', sa.DateTime(timezone=True), nullable=False),",
+        "detail": "alembic.versions.8ea66db8547d_baseline",
         "documentation": {}
     },
     {
         "label": "downgrade",
         "kind": 2,
-        "importPath": "alembic.versions.7cf562f06416_add_address_field",
-        "description": "alembic.versions.7cf562f06416_add_address_field",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'address')\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.7cf562f06416_add_address_field",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.9a174de4afbf_create_book_table",
-        "description": "alembic.versions.9a174de4afbf_create_book_table",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "alembic.versions.9a174de4afbf_create_book_table",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.9a174de4afbf_create_book_table",
-        "description": "alembic.versions.9a174de4afbf_create_book_table",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "alembic.versions.9a174de4afbf_create_book_table",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.d7e74ab92191_create_book_table",
-        "description": "alembic.versions.d7e74ab92191_create_book_table",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    pass\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "alembic.versions.d7e74ab92191_create_book_table",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.d7e74ab92191_create_book_table",
-        "description": "alembic.versions.d7e74ab92191_create_book_table",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    pass",
-        "detail": "alembic.versions.d7e74ab92191_create_book_table",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.dc048a131005_initial_migration",
-        "description": "alembic.versions.dc048a131005_initial_migration",
-        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('first_name', sa.String(length=100), nullable=False),\n    sa.Column('last_name', sa.String(length=100), nullable=False),\n    sa.Column('email', sa.String(length=255), nullable=False),\n    sa.Column('phone', sa.String(length=20), nullable=True),\n    sa.Column('password', sa.String(length=255), nullable=False),",
-        "detail": "alembic.versions.dc048a131005_initial_migration",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.dc048a131005_initial_migration",
-        "description": "alembic.versions.dc048a131005_initial_migration",
-        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.dc048a131005_initial_migration",
+        "importPath": "alembic.versions.8ea66db8547d_baseline",
+        "description": "alembic.versions.8ea66db8547d_baseline",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('book_borrow', 'replacement_amount')\n    op.drop_column('book_borrow', 'lost_date')\n    op.drop_column('book_borrow', 'fine_amount')\n    op.drop_index(op.f('ix_memberships_id'), table_name='memberships')\n    op.drop_table('memberships')\n    op.drop_index(op.f('ix_payments_id'), table_name='payments')\n    op.drop_table('payments')",
+        "detail": "alembic.versions.8ea66db8547d_baseline",
         "documentation": {}
     },
     {
@@ -5803,7 +6819,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online():\n    connectable = create_engine(\n        settings.DATABASE_URL.replace(\"+asyncpg\", \"\"),\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection,\n            target_metadata=target_metadata,\n            include_object=include_object,  # ✅ attach the filter",
+        "peekOfCode": "def run_migrations_online():\n    connectable = create_engine(\n        settings.DATABASE_URL.replace(\"+asyncpg\", \"\"),\n        poolclass=pool.NullPool,\n    )\n    print(\">>> TABLES IN METADATA:\", sorted(target_metadata.tables.keys()))\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection,\n            target_metadata=target_metadata,",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -5841,6 +6857,24 @@
         "description": "app.api.v1.routes.auth.router",
         "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])",
         "detail": "app.api.v1.routes.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.v1.routes.membership.router",
+        "description": "app.api.v1.routes.membership.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/membership\", tags=[\"Membership\"])",
+        "detail": "app.api.v1.routes.membership.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.v1.routes.payments.router",
+        "description": "app.api.v1.routes.payments.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/payments\", tags=[\"Payments\"])",
+        "detail": "app.api.v1.routes.payments.router",
         "documentation": {}
     },
     {
@@ -6091,7 +7125,7 @@
         "kind": 6,
         "importPath": "app.models.book_borrow",
         "description": "app.models.book_borrow",
-        "peekOfCode": "class BorrowStatus(str, enum.Enum):\n    BORROWED = \"Borrowed\"\n    RETURNED = \"Returned\"\n    OVERDUE = \"Overdue\"\nclass BookBorrow(Base):\n    __tablename__ = \"book_borrow\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), nullable=False)\n    book_id: Mapped[int] = mapped_column(ForeignKey(\"books.id\"), nullable=False)\n    borrowed_at: Mapped[datetime] = mapped_column(",
+        "peekOfCode": "class BorrowStatus(str, enum.Enum):\n    BORROWED = \"Borrowed\"\n    RETURNED = \"Returned\"\n    OVERDUE = \"Overdue\"\n    LOST = \"Lost\"\nclass BookBorrow(Base):\n    __tablename__ = \"book_borrow\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), nullable=False)\n    book_id: Mapped[int] = mapped_column(ForeignKey(\"books.id\"), nullable=False)",
         "detail": "app.models.book_borrow",
         "documentation": {}
     },
@@ -6111,6 +7145,60 @@
         "description": "app.models.category",
         "peekOfCode": "class Category(Base):\n    __tablename__ = \"categories\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    name: Mapped[str] = mapped_column(String(150), nullable=False, unique=True)\n    description: Mapped[str | None] = mapped_column(Text, nullable=True)\n    created_at: Mapped[datetime] = mapped_column(\n        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)\n    )\n    updated_at: Mapped[datetime] = mapped_column(\n        DateTime(timezone=True),",
         "detail": "app.models.category",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipStatus",
+        "kind": 6,
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "peekOfCode": "class MembershipStatus(str, enum.Enum):\n    ACTIVE = \"Active\"\n    EXPIRED = \"Expired\"\nclass PaymentType(str, enum.Enum):\n    MEMBERSHIP = \"Membership\"\n    FINE = \"Fine\"\n    LOST_BOOK = \"LostBook\"\nclass PaymentStatus(str, enum.Enum):\n    PENDING = \"Pending\"\n    SUCCESS = \"Success\"",
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentType",
+        "kind": 6,
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "peekOfCode": "class PaymentType(str, enum.Enum):\n    MEMBERSHIP = \"Membership\"\n    FINE = \"Fine\"\n    LOST_BOOK = \"LostBook\"\nclass PaymentStatus(str, enum.Enum):\n    PENDING = \"Pending\"\n    SUCCESS = \"Success\"\n    FAILED = \"Failed\"\nclass MembershipPlan(Base):\n    __tablename__ = \"membership_plans\"",
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentStatus",
+        "kind": 6,
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "peekOfCode": "class PaymentStatus(str, enum.Enum):\n    PENDING = \"Pending\"\n    SUCCESS = \"Success\"\n    FAILED = \"Failed\"\nclass MembershipPlan(Base):\n    __tablename__ = \"membership_plans\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    name: Mapped[str] = mapped_column(String(100), nullable=False)\n    price: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)\n    validity_days: Mapped[int] = mapped_column(Integer, nullable=False)",
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlan",
+        "kind": 6,
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "peekOfCode": "class MembershipPlan(Base):\n    __tablename__ = \"membership_plans\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    name: Mapped[str] = mapped_column(String(100), nullable=False)\n    price: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)\n    validity_days: Mapped[int] = mapped_column(Integer, nullable=False)\n    max_books: Mapped[int] = mapped_column(Integer, nullable=False)\n    created_at: Mapped[datetime] = mapped_column(\n        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)\n    )",
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Membership",
+        "kind": 6,
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "peekOfCode": "class Membership(Base):\n    __tablename__ = \"memberships\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), nullable=False)\n    plan_id: Mapped[int] = mapped_column(ForeignKey(\"membership_plans.id\"), nullable=False)\n    start_date: Mapped[date] = mapped_column(Date, nullable=False)\n    expiry_date: Mapped[date] = mapped_column(Date, nullable=False)\n    status: Mapped[MembershipStatus] = mapped_column(\n        Enum(MembershipStatus), default=MembershipStatus.ACTIVE, nullable=False\n    )",
+        "detail": "app.models.membership",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "app.models.membership",
+        "description": "app.models.membership",
+        "peekOfCode": "class Payment(Base):\n    __tablename__ = \"payments\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), nullable=False)\n    borrow_id: Mapped[int | None] = mapped_column(ForeignKey(\"book_borrow.id\"), nullable=True)\n    amount: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)\n    payment_type: Mapped[PaymentType] = mapped_column(\n        Enum(PaymentType), default=PaymentType.MEMBERSHIP, nullable=False\n    )\n    payment_status: Mapped[PaymentStatus] = mapped_column(",
+        "detail": "app.models.membership",
         "documentation": {}
     },
     {
@@ -6354,6 +7442,51 @@
         "description": "app.schemas.book",
         "peekOfCode": "class BookBorrowAdminOut(BookBorrowHistoryOut):\n    book_title: str\n    user_email: str",
         "detail": "app.schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlanCreate",
+        "kind": 6,
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "peekOfCode": "class MembershipPlanCreate(BaseModel):\n    name: str = Field(..., min_length=1, max_length=100)\n    price: float = Field(..., gt=0)\n    validity_days: int = Field(..., gt=0)\n    max_books: int = Field(..., gt=0)\nclass MembershipPlanOut(BaseModel):\n    id: int\n    name: str\n    price: float\n    validity_days: int",
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPlanOut",
+        "kind": 6,
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "peekOfCode": "class MembershipPlanOut(BaseModel):\n    id: int\n    name: str\n    price: float\n    validity_days: int\n    max_books: int\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass MembershipPurchaseRequest(BaseModel):",
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipPurchaseRequest",
+        "kind": 6,
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "peekOfCode": "class MembershipPurchaseRequest(BaseModel):\n    plan_id: int\nclass MembershipOut(BaseModel):\n    id: int\n    user_id: int\n    plan_id: int\n    start_date: date\n    expiry_date: date\n    status: str\n    payment_id: Optional[int] = None",
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipOut",
+        "kind": 6,
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "peekOfCode": "class MembershipOut(BaseModel):\n    id: int\n    user_id: int\n    plan_id: int\n    start_date: date\n    expiry_date: date\n    status: str\n    payment_id: Optional[int] = None\n    created_at: datetime\n    updated_at: datetime",
+        "detail": "app.schemas.membership",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentOut",
+        "kind": 6,
+        "importPath": "app.schemas.membership",
+        "description": "app.schemas.membership",
+        "peekOfCode": "class PaymentOut(BaseModel):\n    id: int\n    user_id: int\n    borrow_id: Optional[int] = None\n    amount: float\n    payment_type: str\n    payment_status: str\n    transaction_id: Optional[str] = None\n    paid_at: Optional[datetime] = None\n    created_at: datetime",
+        "detail": "app.schemas.membership",
         "documentation": {}
     },
     {
@@ -6856,7 +7989,7 @@
         "kind": 6,
         "importPath": "app.services.user.borrow_book",
         "description": "app.services.user.borrow_book",
-        "peekOfCode": "class BorrowBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def borrow_book(self, user_id: int, book_id: int) -> BookBorrowHistoryOut:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "peekOfCode": "class BorrowBookService:\n    def __init__(self, db: AsyncSession | None):\n        self.db = db\n    def validate_borrow_request(self, user: User, book: Book, membership: Membership | None, active_borrows: list[BookBorrow], overdue_borrows: list[BookBorrow]) -> None:\n        if not user.is_email_verified:\n            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Email must be verified before borrowing books\")\n        if not membership or membership.status != MembershipStatus.ACTIVE:\n            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"An active membership is required to borrow books\")\n        today = datetime.now(timezone.utc).date()\n        if membership.expiry_date < today:",
         "detail": "app.services.user.borrow_book",
         "documentation": {}
     },
@@ -6865,7 +7998,7 @@
         "kind": 5,
         "importPath": "app.services.user.borrow_book",
         "description": "app.services.user.borrow_book",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass BorrowBookService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def borrow_book(self, user_id: int, book_id: int) -> BookBorrowHistoryOut:\n        stmt = select(Book).where(Book.id == book_id)\n        result = await self.db.execute(stmt)\n        book = result.scalar_one_or_none()\n        if not book:\n            raise HTTPException(",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass BorrowBookService:\n    def __init__(self, db: AsyncSession | None):\n        self.db = db\n    def validate_borrow_request(self, user: User, book: Book, membership: Membership | None, active_borrows: list[BookBorrow], overdue_borrows: list[BookBorrow]) -> None:\n        if not user.is_email_verified:\n            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Email must be verified before borrowing books\")\n        if not membership or membership.status != MembershipStatus.ACTIVE:\n            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"An active membership is required to borrow books\")\n        today = datetime.now(timezone.utc).date()",
         "detail": "app.services.user.borrow_book",
         "documentation": {}
     },
@@ -6921,6 +8054,15 @@
         "description": "app.services.user.get_user",
         "peekOfCode": "logger = logging.getLogger(__name__)\nclass GetUserService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def get_user_by_id(self, user_id: int) -> UserDetailResponse:\n        stmt = select(User).where(User.id == user_id)\n        result = await self.db.execute(stmt)\n        user = result.scalar_one_or_none()\n        if not user:\n            raise HTTPException(",
         "detail": "app.services.user.get_user",
+        "documentation": {}
+    },
+    {
+        "label": "MarkLostBooksService",
+        "kind": 6,
+        "importPath": "app.services.user.mark_lost_books",
+        "description": "app.services.user.mark_lost_books",
+        "peekOfCode": "class MarkLostBooksService:\n    def __init__(self, db: AsyncSession):\n        self.db = db\n    async def mark_lost_books(self, overdue_days: int = 30) -> int:\n        now = datetime.now(timezone.utc)\n        threshold = now - timedelta(days=overdue_days)\n        stmt = select(BookBorrow).where(\n            BookBorrow.status == BorrowStatus.OVERDUE,\n            BookBorrow.due_date <= threshold,\n        )",
+        "detail": "app.services.user.mark_lost_books",
         "documentation": {}
     },
     {
@@ -7056,6 +8198,15 @@
         "description": "tests.test_auth_password_reset",
         "peekOfCode": "class AuthPasswordResetTests(unittest.IsolatedAsyncioTestCase):\n    async def test_forgot_password_generates_otp_and_sends_email(self):\n        user = User(\n            first_name=\"Jane\",\n            last_name=\"Doe\",\n            email=\"jane@example.com\",\n            phone=\"+1234567890\",\n            password=\"hashed-password\",\n            role=UserRole.USER,\n            status=UserStatus.APPROVED,",
         "detail": "tests.test_auth_password_reset",
+        "documentation": {}
+    },
+    {
+        "label": "MembershipBorrowingTests",
+        "kind": 6,
+        "importPath": "tests.test_membership_borrowing",
+        "description": "tests.test_membership_borrowing",
+        "peekOfCode": "class MembershipBorrowingTests(unittest.TestCase):\n    def test_rejects_borrow_when_no_active_membership(self):\n        user = User(\n            first_name=\"Jane\",\n            last_name=\"Doe\",\n            email=\"jane@example.com\",\n            phone=\"+1234567890\",\n            password=\"hashed\",\n            role=UserRole.USER,\n            status=UserStatus.APPROVED,",
+        "detail": "tests.test_membership_borrowing",
         "documentation": {}
     },
     {

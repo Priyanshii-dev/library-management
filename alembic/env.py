@@ -66,6 +66,8 @@ def run_migrations_online():
         settings.DATABASE_URL.replace("+asyncpg", ""),
         poolclass=pool.NullPool,
     )
+    
+    print(">>> TABLES IN METADATA:", sorted(target_metadata.tables.keys()))
 
     with connectable.connect() as connection:
         context.configure(
@@ -76,3 +78,9 @@ def run_migrations_online():
 
         with context.begin_transaction():
             context.run_migrations()
+            
+            
+if context.is_offline_mode():
+    run_migrations_offline()
+else:
+    run_migrations_online()

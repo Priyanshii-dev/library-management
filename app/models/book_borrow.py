@@ -1,6 +1,6 @@
 import enum
 from datetime import datetime, timezone
-from sqlalchemy import DateTime, Enum, ForeignKey, Integer
+from sqlalchemy import DateTime, Enum, ForeignKey, Integer, Numeric
 from sqlalchemy.orm import Mapped, mapped_column
 from app.db.session import Base
 
@@ -9,6 +9,7 @@ class BorrowStatus(str, enum.Enum):
     BORROWED = "Borrowed"
     RETURNED = "Returned"
     OVERDUE = "Overdue"
+    LOST = "Lost"
 
 
 class BookBorrow(Base):
@@ -23,6 +24,9 @@ class BookBorrow(Base):
     due_date: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
     renewed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     returned_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    fine_amount: Mapped[float | None] = mapped_column(Numeric(10, 2), nullable=True)
+    lost_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    replacement_amount: Mapped[float | None] = mapped_column(Numeric(10, 2), nullable=True)
     status: Mapped[BorrowStatus] = mapped_column(
         Enum(BorrowStatus), default=BorrowStatus.BORROWED, nullable=False
     )

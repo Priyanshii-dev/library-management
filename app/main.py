@@ -5,7 +5,7 @@ from app.core.lifespan import lifespan
 from app.core.middleware import register_middleware
 from app.core.exception_handlers import register_exception_handlers
 from app.api.v1.router import api_router
-from app.models import user, category, book, book_borrow  # noqa: F401
+from app.models import user, category, book, book_borrow, membership  # noqa: F401
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 

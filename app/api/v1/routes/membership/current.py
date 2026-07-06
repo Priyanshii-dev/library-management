@@ -1,0 +1,30 @@
+from datetime import date, timedelta
+from fastapi import Depends, status
+from sqlalchemy import select
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from app.api.v1.dependencies import get_current_user
+from app.api.v1.routes.membership.router import router
+from app.db.session import get_db
+from app.models.membership import Membership, MembershipStatus
+from app.schemas.membership import MembershipOut
+from app.utils.response import api_response
+
+
+@router.get("/current")
+async def current_membership(
+    current_user=Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    stmt = select(Membership).where(Membership.user_id == current_user.id).order_by(Membership.created_at.desc())
+    result = await db.execute(stmt)
+    membership = result.scalar_one_or_none()
+
+    if not membership:
+        return api_response(data={}, message="No membership found.", status_code=status.HTTP_404_NOT_FOUND)
+
+    return api_response(
+        data=MembershipOut.model_validate(membership),
+        message="Current membership retrieved successfully.",
+        status_code=status.HTTP_200_OK,
+    )

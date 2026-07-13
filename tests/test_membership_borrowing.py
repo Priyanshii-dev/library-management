@@ -4,7 +4,7 @@ from datetime import date
 from fastapi import HTTPException
 
 from app.models.book import Book, BookAvailability
-from app.models.book_borrow import BookBorrow, BorrowStatus
+# from app.models.book_borrow import BookBorrow, BorrowStatus
 from app.models.membership import Membership, MembershipPlan, MembershipStatus, Payment, PaymentStatus, PaymentType
 from app.models.user import User, UserRole, UserStatus
 from app.services.user.borrow_book import BorrowBookService

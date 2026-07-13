@@ -8,17 +8,45 @@ logger = logging.getLogger(__name__)
 
 
 async def validation_error_handler(request: Request, exc: RequestValidationError):
-    errors = [
-        {"field": ".".join(str(x) for x in e["loc"]), "message": e["msg"]}
-        for e in exc.errors()
-    ]
+    raw_errors = exc.errors()
+    errors = []
+    for e in raw_errors:
+        msg = e.get("msg", "")
+        if isinstance(msg, str) and msg.startswith("Value error, "):
+            msg = msg[len("Value error, "):]
+        errors.append({"field": ".".join(str(x) for x in e["loc"]), "message": msg})
+
+
+    if len(errors) == 1:
+        return JSONResponse(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            content={
+                "error": True,
+                "message": errors[0]["message"],
+                "statusCode": 422,
+                "data": [],
+            },
+        )
+
+    has_email_err = any("email" in err["field"].lower() for err in errors)
+    has_password_err = any("password" in err["field"].lower() for err in errors)
+    if has_email_err and has_password_err:
+        return JSONResponse(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            content={
+                "error": True,
+                "message": "Invalid email and password",
+                "statusCode": 422,
+                "data": [],
+            },
+        )
     return JSONResponse(
         status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
         content={
             "error": True,
             "message": "Validation error.",
             "statusCode": 422,
-            "data": [],
+            "data": errors,
         },
     )
 
@@ -36,13 +64,16 @@ async def http_exception_handler(request: Request, exc: HTTPException):
         status_code = exc.status_code
         data = []
 
+    if status_code == status.HTTP_422_UNPROCESSABLE_ENTITY:
+        message = "Validation error."
+
     return JSONResponse(
         status_code=status_code,
         content={
             "error": True,
             "message": message,
             "statusCode": status_code,
-            "data":[],
+            "data": data,
         },
     )
 

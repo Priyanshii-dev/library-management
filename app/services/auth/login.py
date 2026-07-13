@@ -24,7 +24,11 @@ class LoginService:
         if not user or not verify_password(password, user.password):
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
-                detail="Invalid email or password",
+                detail={
+                    "message": "Invalid email and password",
+                    "statusCode": status.HTTP_401_UNAUTHORIZED,
+                    "data": [],
+                },
             )
 
         if not user.is_email_verified:

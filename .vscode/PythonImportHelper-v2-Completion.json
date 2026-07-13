@@ -6074,22 +6074,6 @@
         "documentation": {}
     },
     {
-        "label": "BookBorrow",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
-        "label": "BorrowStatus",
-        "importPath": "app.models.book_borrow",
-        "description": "app.models.book_borrow",
-        "isExtraImport": true,
-        "detail": "app.models.book_borrow",
-        "documentation": {}
-    },
-    {
         "label": "GetUserService",
         "importPath": "app.services.user.get_user",
         "description": "app.services.user.get_user",
@@ -6433,6 +6417,38 @@
         "importPath": "enum",
         "description": "enum",
         "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "constr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -6945,7 +6961,7 @@
         "kind": 5,
         "importPath": "app.core.exception_handlers",
         "description": "app.core.exception_handlers",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def validation_error_handler(request: Request, exc: RequestValidationError):\n    errors = [\n        {\"field\": \".\".join(str(x) for x in e[\"loc\"]), \"message\": e[\"msg\"]}\n        for e in exc.errors()\n    ]\n    return JSONResponse(\n        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,\n        content={\n            \"error\": True,",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def validation_error_handler(request: Request, exc: RequestValidationError):\n    raw_errors = exc.errors()\n    errors = []\n    for e in raw_errors:\n        msg = e.get(\"msg\", \"\")\n        if isinstance(msg, str) and msg.startswith(\"Value error, \"):\n            msg = msg[len(\"Value error, \"):]\n        errors.append({\"field\": \".\".join(str(x) for x in e[\"loc\"]), \"message\": msg})\n    if len(errors) == 1:",
         "detail": "app.core.exception_handlers",
         "documentation": {}
     },
@@ -7242,7 +7258,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )",
+        "peekOfCode": "class RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    @field_validator(\"email\")\n    @classmethod\n    def validate_email(cls, v):\n        return validate_emails(v)\nclass OTPVerifyRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7251,7 +7267,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\nclass OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}",
+        "peekOfCode": "class OTPRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    @field_validator(\"email\")\n    @classmethod\n    def validate_email(cls, v):\n        return validate_emails(v)\nclass OTPVerifyRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7260,7 +7276,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}\n    )\nclass ForgotPasswordRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}",
+        "peekOfCode": "class OTPVerifyRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}\n    )\n    @field_validator(\"email\")\n    @classmethod\n    def validate_email(cls, v):\n        return validate_emails(v)\nclass ForgotPasswordRequest(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7269,7 +7285,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class ForgotPasswordRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\nclass PasswordResetRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}",
+        "peekOfCode": "class ForgotPasswordRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    @field_validator(\"email\")\n    @classmethod\n    def validate_email(cls, v):\n        return validate_emails(v)\nclass PasswordResetRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7278,7 +7294,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class PasswordResetRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}\n    )\n    new_password: str = Field(\n        ..., json_schema_extra={\"example\": \"StrongPass@123\"}\n    )",
+        "peekOfCode": "class PasswordResetRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    otp_code: str = Field(\n        ..., min_length=6, max_length=6, json_schema_extra={\"example\": \"123456\"}\n    )\n    new_password: str = Field(\n        ..., json_schema_extra={\"example\": \"StrongPass@123\"}\n    )\n    @field_validator(\"new_password\")\n    @classmethod",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7287,7 +7303,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: constr(pattern=EMAIL_REGEX) = Field(\n        ..., json_schema_extra={\"example\": \"user@example.com\"}\n    )\n    password: str = Field(..., json_schema_extra={\"example\": \"StrongPass@123\"})\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)\nclass RegistrationRequest(BaseModel):",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: str = Field(..., json_schema_extra={\"example\": \"user@example.com\"})\n    password: str = Field(..., json_schema_extra={\"example\": \"StrongPass@123\"})\n    @field_validator(\"password\")\n    @classmethod\n    def validate_password(cls, v):\n        return validate_password_complexity(v)\n    @field_validator(\"email\")\n    @classmethod\n    def validate_email(cls, v):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7314,7 +7330,16 @@
         "kind": 2,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "def validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\nclass TokenResponse(BaseModel):\n    access_token: str",
+        "peekOfCode": "def validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\ndef validate_emails(v: str) -> str:\n    if not re.match(EMAIL_REGEX, v):",
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
+        "label": "validate_emails",
+        "kind": 2,
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "peekOfCode": "def validate_emails(v: str) -> str:\n    if not re.match(EMAIL_REGEX, v):\n        raise ValueError(\"Please provide a valid email address.\")\n    return v\nclass TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str\n    user_id: int",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -7350,7 +7375,7 @@
         "kind": 5,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\nclass TokenResponse(BaseModel):",
+        "peekOfCode": "NAME_REGEX = r\"^[A-Za-z ,.'-]{1,100}$\"\ndef validate_password_complexity(v: str) -> str:\n    pattern = r\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,13}$\"\n    if not re.match(pattern, v):\n        raise ValueError(\n            \"Password must be 8-13 characters and include at least one \"\n            \"uppercase letter, lowercase letter, digit, and special character.\"\n        )\n    return v\ndef validate_emails(v: str) -> str:",
         "detail": "app.schemas.auth",
         "documentation": {}
     },

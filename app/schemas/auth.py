@@ -18,6 +18,12 @@ def validate_password_complexity(v: str) -> str:
     return v
 
 
+def validate_emails(v: str) -> str:
+    if not re.match(EMAIL_REGEX, v):
+        raise ValueError("Please provide a valid email address.")
+    return v
+
+
 class TokenResponse(BaseModel):
     access_token: str
     refresh_token: str
@@ -33,30 +39,37 @@ class RefreshRequest(BaseModel):
 
 
 class OTPRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX) = Field(
-        ..., json_schema_extra={"example": "user@example.com"}
-    )
+    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
+
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, v):
+        return validate_emails(v)
 
 
 class OTPVerifyRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX) = Field(
-        ..., json_schema_extra={"example": "user@example.com"}
-    )
+    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
     otp_code: str = Field(
         ..., min_length=6, max_length=6, json_schema_extra={"example": "123456"}
     )
 
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, v):
+        return validate_emails(v)
+
 
 class ForgotPasswordRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX) = Field(
-        ..., json_schema_extra={"example": "user@example.com"}
-    )
+    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
+
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, v):
+        return validate_emails(v)
 
 
 class PasswordResetRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX) = Field(
-        ..., json_schema_extra={"example": "user@example.com"}
-    )
+    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
     otp_code: str = Field(
         ..., min_length=6, max_length=6, json_schema_extra={"example": "123456"}
     )
@@ -69,17 +82,25 @@ class PasswordResetRequest(BaseModel):
     def validate_password(cls, v):
         return validate_password_complexity(v)
 
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, v):
+        return validate_emails(v)
+
 
 class LoginRequest(BaseModel):
-    email: constr(pattern=EMAIL_REGEX) = Field(
-        ..., json_schema_extra={"example": "user@example.com"}
-    )
+    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
     password: str = Field(..., json_schema_extra={"example": "StrongPass@123"})
 
     @field_validator("password")
     @classmethod
     def validate_password(cls, v):
         return validate_password_complexity(v)
+
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, v):
+        return validate_emails(v)
 
 
 class RegistrationRequest(BaseModel):
@@ -92,15 +113,18 @@ class RegistrationRequest(BaseModel):
     phone: constr(pattern=PHONE_REGEX) = Field(
         ..., json_schema_extra={"example": "+1234567890"}
     )
-    email: constr(pattern=EMAIL_REGEX) = Field(
-        ..., json_schema_extra={"example": "user@example.com"}
-    )
+    email: str = Field(..., json_schema_extra={"example": "user@example.com"})
     password: str = Field(..., json_schema_extra={"example": "StrongPass@123"})
 
     @field_validator("password")
     @classmethod
     def validate_password(cls, v):
         return validate_password_complexity(v)
+
+    @field_validator("email")
+    @classmethod
+    def validate_email(cls, v):
+        return validate_emails(v)
 
 
 class ApprovalStatusResponse(BaseModel):

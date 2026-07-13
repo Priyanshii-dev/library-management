@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from sqlalchemy import Boolean, DateTime, Enum, Integer, String, LargeBinary
 from sqlalchemy.orm import Mapped, mapped_column
 from app.db.session import Base
-
+from pydantic import BaseModel, Field, field_validator, constr
 
 class UserRole(str, enum.Enum):
     ADMIN = "Admin"

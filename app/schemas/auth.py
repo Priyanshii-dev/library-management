@@ -30,7 +30,6 @@ class TokenResponse(BaseModel):
     token_type: str = "bearer"
     user_role: str
     user_id: int
-    id: int
     email: str
 
 

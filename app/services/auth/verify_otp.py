@@ -36,8 +36,6 @@ class VerifyOTPService:
         await self.db.commit()
 
         return {
-            "message": "Email verified successfully. Your account is now pending admin approval.",
             "email_verified": True,
             "user_id": user.id,
-            "id": user.id,
         }

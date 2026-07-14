@@ -61,6 +61,5 @@ class LoginService:
             refresh_token=refresh_token,
             user_role=user.role.value,
             user_id=user.id,
-            id=user.id,
             email=user.email,
         )

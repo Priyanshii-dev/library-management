@@ -3978,6 +3978,38 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatus",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "UserRole",
         "importPath": "app.models.user",
         "description": "app.models.user",
@@ -4730,6 +4762,14 @@
         "documentation": {}
     },
     {
+        "label": "OTPVerifyRequest",
+        "importPath": "app.schemas.auth",
+        "description": "app.schemas.auth",
+        "isExtraImport": true,
+        "detail": "app.schemas.auth",
+        "documentation": {}
+    },
+    {
         "label": "ForgotPasswordService",
         "importPath": "app.services.auth.forgot_password",
         "description": "app.services.auth.forgot_password",
@@ -4895,6 +4935,14 @@
         "description": "app.services.auth.reset_password",
         "isExtraImport": true,
         "detail": "app.services.auth.reset_password",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPService",
+        "importPath": "app.services.auth.verify_otp",
+        "description": "app.services.auth.verify_otp",
+        "isExtraImport": true,
+        "detail": "app.services.auth.verify_otp",
         "documentation": {}
     },
     {
@@ -5483,6 +5531,22 @@
     },
     {
         "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -6210,6 +6274,14 @@
         "documentation": {}
     },
     {
+        "label": "verify_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -6721,6 +6793,14 @@
         "documentation": {}
     },
     {
+        "label": "lifespan",
+        "importPath": "app.core.lifespan",
+        "description": "app.core.lifespan",
+        "isExtraImport": true,
+        "detail": "app.core.lifespan",
+        "documentation": {}
+    },
+    {
         "label": "register_middleware",
         "importPath": "app.core.middleware",
         "description": "app.core.middleware",
@@ -6772,6 +6852,38 @@
     },
     {
         "label": "AsyncMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "MagicMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
         "importPath": "unittest.mock",
         "description": "unittest.mock",
         "isExtraImport": true,
@@ -7024,7 +7136,7 @@
         "kind": 5,
         "importPath": "app.core.lifespan",
         "description": "app.core.lifespan",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app):\n    logger.info(\"Database tables ready.\")\n    # Ensure default admin user exists with specified credentials\n    admin_email = \"admin@gmail.com\"\n    admin_password = \"admin@123\"\n    async with async_session_maker() as session:\n        try:\n            stmt = select(User).where(User.email == admin_email)",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app):\n    logger.info(\"Database tables ready.\")\n    # Ensure default admin user exists with specified credentials\n    admin_email = \"admin@gmail.com\"\n    admin_password = \"Admin@123\"\n    async with async_session_maker() as session:\n        try:\n            stmt = select(User).where(User.email == admin_email)",
         "detail": "app.core.lifespan",
         "documentation": {}
     },
@@ -7249,7 +7361,7 @@
         "kind": 6,
         "importPath": "app.schemas.auth",
         "description": "app.schemas.auth",
-        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str\n    user_id: int\n    id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    access_token: str\n    refresh_token: str\n    token_type: str = \"bearer\"\n    user_role: str\n    user_id: int\n    email: str\nclass RefreshRequest(BaseModel):\n    refresh_token: str\nclass OTPRequest(BaseModel):",
         "detail": "app.schemas.auth",
         "documentation": {}
     },
@@ -8226,12 +8338,48 @@
         "documentation": {}
     },
     {
+        "label": "DefaultAdminBootstrapTests",
+        "kind": 6,
+        "importPath": "tests.test_default_admin_credentials",
+        "description": "tests.test_default_admin_credentials",
+        "peekOfCode": "class DefaultAdminBootstrapTests(unittest.IsolatedAsyncioTestCase):\n    async def test_lifespan_creates_admin_with_complex_password(self):\n        session = AsyncMock()\n        result = MagicMock()\n        result.scalar_one_or_none.return_value = None\n        session.execute.return_value = result\n        session.add = MagicMock()\n        session.commit = AsyncMock()\n        mock_engine = MagicMock()\n        mock_engine.dispose = AsyncMock()",
+        "detail": "tests.test_default_admin_credentials",
+        "documentation": {}
+    },
+    {
         "label": "MembershipBorrowingTests",
         "kind": 6,
         "importPath": "tests.test_membership_borrowing",
         "description": "tests.test_membership_borrowing",
         "peekOfCode": "class MembershipBorrowingTests(unittest.TestCase):\n    def test_rejects_borrow_when_no_active_membership(self):\n        user = User(\n            first_name=\"Jane\",\n            last_name=\"Doe\",\n            email=\"jane@example.com\",\n            phone=\"+1234567890\",\n            password=\"hashed\",\n            role=UserRole.USER,\n            status=UserStatus.APPROVED,",
         "detail": "tests.test_membership_borrowing",
+        "documentation": {}
+    },
+    {
+        "label": "FakeResult",
+        "kind": 6,
+        "importPath": "tests.test_verify_email_response",
+        "description": "tests.test_verify_email_response",
+        "peekOfCode": "class FakeResult:\n    def __init__(self, value):\n        self._value = value\n    def scalar_one_or_none(self):\n        return self._value\nclass FakeDB:\n    def __init__(self, user):\n        self.user = user\n        self.commits = 0\n    async def execute(self, stmt):",
+        "detail": "tests.test_verify_email_response",
+        "documentation": {}
+    },
+    {
+        "label": "FakeDB",
+        "kind": 6,
+        "importPath": "tests.test_verify_email_response",
+        "description": "tests.test_verify_email_response",
+        "peekOfCode": "class FakeDB:\n    def __init__(self, user):\n        self.user = user\n        self.commits = 0\n    async def execute(self, stmt):\n        return FakeResult(self.user)\n    async def commit(self):\n        self.commits += 1\nclass VerifyEmailResponseTests(unittest.IsolatedAsyncioTestCase):\n    async def test_verify_email_returns_clean_payload(self):",
+        "detail": "tests.test_verify_email_response",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyEmailResponseTests",
+        "kind": 6,
+        "importPath": "tests.test_verify_email_response",
+        "description": "tests.test_verify_email_response",
+        "peekOfCode": "class VerifyEmailResponseTests(unittest.IsolatedAsyncioTestCase):\n    async def test_verify_email_returns_clean_payload(self):\n        user = User(\n            first_name=\"Jane\",\n            last_name=\"Doe\",\n            email=\"jane@example.com\",\n            phone=\"+1234567890\",\n            password=\"hashed-password\",\n            role=UserRole.USER,\n            status=UserStatus.PENDING,",
+        "detail": "tests.test_verify_email_response",
         "documentation": {}
     },
     {

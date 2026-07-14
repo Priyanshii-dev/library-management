@@ -15,7 +15,7 @@ async def lifespan(app):
 
     # Ensure default admin user exists with specified credentials
     admin_email = "admin@gmail.com"
-    admin_password = "admin@123"
+    admin_password = "Admin@123"
 
     async with async_session_maker() as session:
         try:
@@ -31,6 +31,7 @@ async def lifespan(app):
                     password=hash_password(admin_password),
                     role=UserRole.ADMIN,
                     status=UserStatus.APPROVED,
+                    is_email_verified=True,
                 )
                 session.add(admin)
                 await session.commit()
@@ -42,6 +43,9 @@ async def lifespan(app):
                     changed = True
                 if admin.status != UserStatus.APPROVED:
                     admin.status = UserStatus.APPROVED
+                    changed = True
+                if not admin.is_email_verified:
+                    admin.is_email_verified = True
                     changed = True
                 if not verify_password(admin_password, admin.password):
                     admin.password = hash_password(admin_password)

@@ -1,5 +1,6 @@
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from typing import List
+from typing import Any, List
 from pathlib import Path
 
 
@@ -47,6 +48,21 @@ class Settings(BaseSettings):
     ]
 
     REQUIRE_ADMIN_APPROVAL: bool = True
+
+    @field_validator("DEBUG", mode="before")
+    @classmethod
+    def parse_debug(cls, value: Any) -> bool:
+        if isinstance(value, bool):
+            return value
+        if value is None:
+            return False
+        if isinstance(value, str):
+            normalized = value.strip().lower()
+            if normalized in {"1", "true", "yes", "y", "on", "debug", "development", "dev"}:
+                return True
+            if normalized in {"0", "false", "no", "n", "off", "release", "production", "prod"}:
+                return False
+        return value
 
     @property
     def DATABASE_URL(self) -> str:

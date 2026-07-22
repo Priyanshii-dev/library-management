@@ -60,6 +60,14 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -3662,14 +3670,6 @@
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "app.api.v1.routes.admin.router",
-        "description": "app.api.v1.routes.admin.router",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.admin.router",
-        "documentation": {}
-    },
-    {
         "label": "User",
         "importPath": "app.models.user",
         "description": "app.models.user",
@@ -4702,14 +4702,6 @@
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "app.api.v1.routes.auth.router",
-        "description": "app.api.v1.routes.auth.router",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.auth.router",
-        "documentation": {}
-    },
-    {
         "label": "ApprovalStatusService",
         "importPath": "app.services.auth.approval_status",
         "description": "app.services.auth.approval_status",
@@ -5107,14 +5099,6 @@
         "description": "app.services.books.update_book",
         "isExtraImport": true,
         "detail": "app.services.books.update_book",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "importPath": "app.api.v1.routes.users.router",
-        "description": "app.api.v1.routes.users.router",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.users.router",
         "documentation": {}
     },
     {
@@ -5638,14 +5622,6 @@
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "app.api.v1.routes.membership.router",
-        "description": "app.api.v1.routes.membership.router",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.membership.router",
-        "documentation": {}
-    },
-    {
         "label": "Membership",
         "importPath": "app.models.membership",
         "description": "app.models.membership",
@@ -5891,14 +5867,6 @@
         "description": "app.schemas.membership",
         "isExtraImport": true,
         "detail": "app.schemas.membership",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "importPath": "app.api.v1.routes.payments.router",
-        "description": "app.api.v1.routes.payments.router",
-        "isExtraImport": true,
-        "detail": "app.api.v1.routes.payments.router",
         "documentation": {}
     },
     {
@@ -6326,6 +6294,182 @@
         "documentation": {}
     },
     {
+        "label": "auth_router",
+        "importPath": "app.api.v1.routes.auth",
+        "description": "app.api.v1.routes.auth",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "admin_router",
+        "importPath": "app.api.v1.routes.admin",
+        "description": "app.api.v1.routes.admin",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "users_router",
+        "importPath": "app.api.v1.routes.users",
+        "description": "app.api.v1.routes.users",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "membership_router",
+        "importPath": "app.api.v1.routes.membership",
+        "description": "app.api.v1.routes.membership",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.membership",
+        "documentation": {}
+    },
+    {
+        "label": "payments_router",
+        "importPath": "app.api.v1.routes.payments",
+        "description": "app.api.v1.routes.payments",
+        "isExtraImport": true,
+        "detail": "app.api.v1.routes.payments",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "constr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "constr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "constr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -6388,6 +6532,15 @@
         "description": "sqlalchemy.exc",
         "isExtraImport": true,
         "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -6536,134 +6689,6 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "field_validator",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "constr",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "field_validator",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "constr",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "field_validator",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "constr",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -6783,15 +6808,6 @@
         "importPath": "smtplib",
         "description": "smtplib",
         "detail": "smtplib",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -7153,7 +7169,7 @@
         "kind": 5,
         "importPath": "backend.app.api.v1.router",
         "description": "backend.app.api.v1.router",
-        "peekOfCode": "api_router = APIRouter()\n# Include all routers\napi_router.include_router(auth_router)\napi_router.include_router(admin_router)\napi_router.include_router(users_router)",
+        "peekOfCode": "api_router = APIRouter()\n# Include all routers\napi_router.include_router(auth_router)\napi_router.include_router(admin_router)\napi_router.include_router(users_router)\napi_router.include_router(membership_router)\napi_router.include_router(payments_router)",
         "detail": "backend.app.api.v1.router",
         "documentation": {}
     },
@@ -7261,7 +7277,7 @@
         "kind": 5,
         "importPath": "backend.app.core.lifespan",
         "description": "backend.app.core.lifespan",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app):\n    logger.info(\"Database tables ready.\")\n    # Ensure default admin user exists with specified credentials\n    admin_email = \"admin@gmail.com\"\n    admin_password = \"Admin@123\"\n    async with async_session_maker() as session:\n        try:\n            stmt = select(User).where(User.email == admin_email)",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def ensure_default_admin() -> None:\n    # Keep startup bounded even when the configured database is unavailable.\n    admin_email = \"admin@gmail.com\"\n    admin_password = \"Admin@123\"\n    async with async_session_maker() as session:\n        stmt = select(User).where(User.email == admin_email)\n        result = await session.execute(stmt)\n        admin = result.scalar_one_or_none()\n        if not admin:",
         "detail": "backend.app.core.lifespan",
         "documentation": {}
     },
@@ -7333,7 +7349,7 @@
         "kind": 5,
         "importPath": "backend.app.db.session",
         "description": "backend.app.db.session",
-        "peekOfCode": "engine = create_async_engine(\n    settings.DATABASE_URL,\n    echo=settings.DEBUG,\n    future=True,\n    pool_size=10,\n    max_overflow=20,\n)\n# Session factory\nasync_session_maker = async_sessionmaker(\n    engine,",
+        "peekOfCode": "engine = create_async_engine(\n    settings.DATABASE_URL,\n    echo=settings.DEBUG,\n    future=True,\n    pool_size=10,\n    max_overflow=20,\n    pool_pre_ping=True,\n    connect_args={\"timeout\": 5},\n)\n# Session factory",
         "detail": "backend.app.db.session",
         "documentation": {}
     },

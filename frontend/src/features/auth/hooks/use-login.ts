@@ -22,7 +22,15 @@ export function useLogin() {
     try {
       const message = await login(values);
       toast({ type: 'success', message });
-      router.push('/dashboard');
+      
+      const { useAuthStore } = await import('@/store/auth-store');
+      const userRole = useAuthStore.getState().userRole;
+      
+      if (userRole === 'Admin') {
+        router.push('/admin/dashboard');
+      } else {
+        router.push('/dashboard');
+      }
     } catch (err: unknown) {
       const message = err && typeof err === 'object' && 'message' in err ? String((err as { message?: string }).message) : 'Unable to sign in';
       setError(message);

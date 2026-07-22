@@ -9,7 +9,15 @@ import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
-export function LoginForm() {
+interface LoginFormProps {
+  title?: string;
+  description?: string;
+}
+
+export function LoginForm({ 
+  title = "Welcome back", 
+  description = "Sign in to your library account" 
+}: LoginFormProps = {}) {
   const { form: { register, formState: { errors } }, error, isSubmitting, onSubmit } = useLogin();
 
   return (
@@ -20,8 +28,8 @@ export function LoginForm() {
             <BookOpen size={20} className="text-primary" />
           </div>
           <div>
-            <CardTitle className="text-xl">Welcome back</CardTitle>
-            <CardDescription>Sign in to your library account</CardDescription>
+            <CardTitle className="text-xl">{title}</CardTitle>
+            <CardDescription>{description}</CardDescription>
           </div>
         </div>
       </CardHeader>

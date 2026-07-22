@@ -49,5 +49,9 @@ export function useBooks({ enabled = true }: UseBooksOptions = {}) {
     };
   }, [enabled]);
 
-  return { books, isLoading, error };
+  const borrowBook = async (bookId: number) => {
+    return await bookActions.borrowBook(bookId);
+  };
+
+  return { books, setBooks, isLoading, error, borrowBook };
 }

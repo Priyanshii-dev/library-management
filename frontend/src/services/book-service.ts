@@ -18,4 +18,20 @@ export const bookService = {
       data: normalizeBooks(response.data),
     };
   },
+  
+  async borrowBook(bookId: number) {
+    return apiClient.post<{ message: string; borrow_id: number }>('/users/book/borrow', {
+      book_id: bookId
+    });
+  },
+
+  async getBorrowHistory() {
+    return apiClient.get<any[]>('/users/book/history');
+  },
+
+  async returnBook(borrowId: number) {
+    return apiClient.post<{ message: string }>('/users/book/return', {
+      borrow_id: borrowId
+    });
+  }
 };

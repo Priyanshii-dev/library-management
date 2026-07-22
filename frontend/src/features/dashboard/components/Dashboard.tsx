@@ -1,7 +1,8 @@
 'use client';
 
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { BookOpen, LogOut, UserCircle2, BookOpenText } from 'lucide-react';
+import { BookOpen, BookOpenText, Loader2 } from 'lucide-react';
 import { useAuthGuard } from '@/hooks/use-auth-guard';
 import { useBooks } from '@/hooks/use-books';
 import { Button } from '@/components/ui/button';
@@ -9,6 +10,15 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { toast } from '@/lib/toast';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
 import {
   Table,
   TableBody,
@@ -17,11 +27,39 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import { BookHistory } from '@/features/dashboard/components/BookHistory';
 
 export function Dashboard() {
   const router = useRouter();
-  const { isAuthenticated, isCheckingAuth, userProfile, logout } = useAuthGuard();
-  const { books, isLoading: areBooksLoading, error: booksError } = useBooks({ enabled: isAuthenticated });
+  const { isAuthenticated, isCheckingAuth, userProfile } = useAuthGuard();
+  const { books, isLoading: areBooksLoading, error: booksError, borrowBook, setBooks } = useBooks({ enabled: isAuthenticated });
+  
+  const [borrowingId, setBorrowingId] = useState<number | null>(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [selectedBook, setSelectedBook] = useState<any | null>(null);
+
+  const handleBorrow = async () => {
+    if (!selectedBook) return;
+    
+    try {
+      setBorrowingId(selectedBook.id);
+      const res = await borrowBook(selectedBook.id);
+      toast({ type: 'success', message: res.message || 'Book borrowed successfully' });
+      
+      // Update local state to reduce quantity
+      setBooks(prev => prev.map(b => 
+        b.id === selectedBook.id 
+          ? { ...b, available_quantity: b.available_quantity - 1 } 
+          : b
+      ));
+      setIsDialogOpen(false);
+    } catch (err: unknown) {
+      const message = err && typeof err === 'object' && 'message' in err ? String((err as { message?: string }).message) : 'Failed to borrow book';
+      toast({ type: 'error', message });
+    } finally {
+      setBorrowingId(null);
+    }
+  };
 
   if (isCheckingAuth) {
     return (
@@ -35,30 +73,14 @@ export function Dashboard() {
   }
 
   return (
-    <main className="min-h-screen bg-background p-4 md:p-8">
+    <div className="p-4 md:p-8">
       <div className="max-w-6xl mx-auto space-y-6">
 
-        {/* Header */}
-        <Card className="border-white/10 bg-card/80 backdrop-blur-xl shadow-xl">
-          <CardContent className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pt-6">
-            <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-primary mb-1">LibraryHub dashboard</p>
-              <h1 className="text-2xl md:text-3xl font-bold">Welcome back, {userProfile?.first_name ?? 'reader'}.</h1>
-            </div>
-            <div className="flex gap-2">
-              <Button variant="secondary" size="sm" onClick={() => router.push('/profile')}>
-                <UserCircle2 size={16} /> Profile
-              </Button>
-              <Button
-                variant="destructive"
-                size="sm"
-                onClick={() => void logout().then(() => router.push('/login'))}
-              >
-                <LogOut size={16} /> Logout
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
+        {/* Greeting */}
+        <div className="flex flex-col gap-1">
+          <h1 className="text-2xl md:text-3xl font-bold">Welcome back, {userProfile?.first_name ?? 'reader'} 👋</h1>
+          <p className="text-muted-foreground text-sm">Browse the catalog below and borrow your next read.</p>
+        </div>
 
         {/* Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -111,17 +133,18 @@ export function Dashboard() {
                     <TableHead className="text-muted-foreground">Author</TableHead>
                     <TableHead className="text-muted-foreground">Price</TableHead>
                     <TableHead className="text-muted-foreground">Available</TableHead>
+                    <TableHead className="text-muted-foreground text-right">Actions</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   {books.length === 0 ? (
                     <TableRow>
-                      <TableCell colSpan={4} className="text-center text-muted-foreground py-12">
+                      <TableCell colSpan={5} className="text-center text-muted-foreground py-12">
                         No books available right now.
                       </TableCell>
                     </TableRow>
                   ) : books.map((book) => (
-                    <TableRow key={book.id} className="border-white/5 hover:bg-white/5 cursor-pointer">
+                    <TableRow key={book.id} className="border-white/5 hover:bg-white/5">
                       <TableCell className="font-medium">
                         <div className="flex items-center gap-2">
                           <BookOpen size={15} className="text-primary shrink-0" />
@@ -141,6 +164,19 @@ export function Dashboard() {
                           {book.available_quantity} left
                         </Badge>
                       </TableCell>
+                      <TableCell className="text-right">
+                        <Button 
+                          size="sm" 
+                          variant="secondary"
+                          disabled={book.available_quantity <= 0}
+                          onClick={() => {
+                            setSelectedBook(book);
+                            setIsDialogOpen(true);
+                          }}
+                        >
+                          Borrow
+                        </Button>
+                      </TableCell>
                     </TableRow>
                   ))}
                 </TableBody>
@@ -149,7 +185,33 @@ export function Dashboard() {
           </CardContent>
         </Card>
 
+        <BookHistory />
       </div>
-    </main>
+
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle>Borrow Book</DialogTitle>
+            <DialogDescription>
+              Are you sure you want to borrow "{selectedBook?.title}" by {selectedBook?.author}?
+            </DialogDescription>
+          </DialogHeader>
+          <div className="py-4">
+            <p className="text-sm text-muted-foreground">
+              You will have 14 days to return this book. Standard library policies apply.
+            </p>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setIsDialogOpen(false)} disabled={borrowingId !== null}>
+              Cancel
+            </Button>
+            <Button onClick={handleBorrow} disabled={borrowingId !== null}>
+              {borrowingId !== null && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              Confirm Borrow
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+    </div>
   );
 }
